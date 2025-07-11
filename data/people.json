@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Dr. Salimur Choudhury",
+    "position": "Director & Founder",
+    "role": "Director",
+    "photo": "salimur.png",
+    "researchInterests": ["Quantum Computing", "Healthcare Optimization", "Machine Learning"],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "Director of GOAL Lab and professor in the School of Computing, Queen’s University.",
+    "publications": []
+  },
+
+  {
+    "name": "Naveed Ejaz",
+    "position": "Postdoctoral Fellow",
+    "role": "Alumni",
+    "photo": "naveed.jpg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Brandon Mossop",
+    "position": "PhD Student",
+    "role": "PhD Student",
+    "photo": "brandon.png",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Mahzabeen Emu",
+    "position": "PhD Student",
+    "role": "Alumni",
+    "photo": "mahzabeen.png",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Peash Saha",
+    "position": "PhD Student",
+    "role": "PhD Student",
+    "photo": "peash.jpg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Tasnim Ahmed",
+    "position": "PhD Student",
+    "role": "PhD Student",
+    "photo": "tasnim.jpg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Safaa Waleed Al-Mhameed",
+    "position": "MSc Student",
+    "role": "Alumni",
+    "photo": "safaa.jpg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Spencer Keene",
+    "position": "MSc Student",
+    "role": "Alumni",
+    "photo": "spencer.jpeg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  },
+
+  {
+    "name": "Matthew Sharpe",
+    "position": "Undergraduate Student",
+    "role": "Alumni",
+    "photo": "matthew.jpeg",
+    "researchInterests": [],
+    "website": "#",
+    "linkedin": "#",
+    "github": "#",
+    "scholar": "#",
+    "bio": "",
+    "publications": []
+  }
+]

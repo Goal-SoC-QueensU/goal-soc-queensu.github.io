@@ -1,13 +1,22 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { FadeInSection } from "@/components/fade-in-section"
-import { Search, ExternalLink, Copy } from "lucide-react"
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
+import { useMemo, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { FadeInSection } from "@/components/fade-in-section";
+import { Search, ExternalLink, Copy } from "lucide-react";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
 import {
   Dialog,
   DialogContent,
@@ -15,103 +24,83 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
+} from "@/components/ui/dialog";
 
-// This would normally come from data/publications.json
-const publicationsData = [
-  {
-    title: "Quantum-Enhanced Optimization for Healthcare Resource Allocation",
-    authors: ["Dr. Jane Smith", "John Doe", "Alice Johnson"],
-    date: "2024-01-15",
-    venue: "Nature Quantum Information",
-    link: "#",
-    abstract:
-      "We present a novel quantum-enhanced optimization framework for healthcare resource allocation that demonstrates significant improvements over classical methods. Our approach leverages quantum annealing to solve complex scheduling and resource distribution problems in hospital settings.",
-    thumbnail: "/placeholder.svg?height=100&width=150",
-    tags: ["Quantum Computing", "Healthcare", "Optimization"],
-    year: 2024,
-  },
-  {
-    title: "Federated Learning with Differential Privacy for Autonomous Vehicles",
-    authors: ["Dr. Bob Wilson", "Carol Davis", "Dr. Jane Smith"],
-    date: "2024-01-10",
-    venue: "NeurIPS 2024",
-    link: "#",
-    abstract:
-      "This paper introduces a federated learning framework that enables autonomous vehicles to collaboratively learn while preserving privacy through differential privacy mechanisms. We demonstrate improved performance in object detection and path planning tasks.",
-    thumbnail: "/placeholder.svg?height=100&width=150",
-    tags: ["Federated Learning", "Privacy", "Autonomous Vehicles"],
-    year: 2024,
-  },
-  {
-    title: "Multi-Objective Optimization in Smart Grid Management",
-    authors: ["Dr. Eve Brown", "Frank Miller", "Dr. Jane Smith"],
-    date: "2023-12-05",
-    venue: "IEEE Transactions on Smart Grid",
-    link: "#",
-    abstract:
-      "We propose a multi-objective optimization approach for smart grid management that balances energy efficiency, cost minimization, and reliability. Our method uses evolutionary algorithms combined with machine learning for real-time decision making.",
-    thumbnail: "/placeholder.svg?height=100&width=150",
-    tags: ["Smart Grid", "Multi-Objective", "Optimization"],
-    year: 2023,
-  },
-  {
-    title: "Deep Reinforcement Learning for Supply Chain Optimization",
-    authors: ["Dr. Grace Lee", "Henry Taylor", "Dr. Bob Wilson"],
-    date: "2023-11-20",
-    venue: "Operations Research",
-    link: "#",
-    abstract:
-      "This work presents a deep reinforcement learning approach for supply chain optimization under uncertainty. We demonstrate superior performance compared to traditional methods in handling demand variability and supply disruptions.",
-    thumbnail: "/placeholder.svg?height=100&width=150",
-    tags: ["Reinforcement Learning", "Supply Chain", "Optimization"],
-    year: 2023,
-  },
-]
+export interface Publication {
+  title: string;
+  authors: string[];
+  date: string;          // ISO string
+  venue: string;
+  link: string;
+  abstract: string;
+  thumbnail?: string;    // (not displayed here, but kept for completeness)
+  tags: string[];
+  year: number;
+}
 
-const allTags = Array.from(new Set(publicationsData.flatMap((pub) => pub.tags)))
-const years = Array.from(new Set(publicationsData.map((pub) => pub.year))).sort((a, b) => b - a)
+export default function PublicationsList({ publications }: { publications: Publication[] }) {
 
-export function PublicationsList() {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
-  const [selectedPublication, setSelectedPublication] = useState<(typeof publicationsData)[0] | null>(null)
+  /* ------------------------------- state ------------------------------ */
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
-  const filteredPublications = publicationsData.filter((pub) => {
+  /* ---------------------------- derived data -------------------------- */
+  const allTags = useMemo(
+    () => Array.from(new Set(publications.flatMap((p) => p.tags))),
+    [publications],
+  );
+
+  const years = useMemo(
+    () =>
+      Array.from(new Set(publications.map((p) => p.year))).sort(
+        (a, b) => b - a,
+      ),
+    [publications],
+  );
+
+  const filteredPublications = publications.filter((pub) => {
+    const q = searchTerm.toLowerCase();
     const matchesSearch =
-      pub.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      pub.authors.some((author) => author.toLowerCase().includes(searchTerm.toLowerCase())) ||
-      pub.venue.toLowerCase().includes(searchTerm.toLowerCase())
+      pub.title.toLowerCase().includes(q) ||
+      pub.authors.some((a) => a.toLowerCase().includes(q)) ||
+      pub.venue.toLowerCase().includes(q);
 
-    const matchesTags = selectedTags.length === 0 || selectedTags.some((tag) => pub.tags.includes(tag))
+    const matchesTags =
+      selectedTags.length === 0 ||
+      selectedTags.some((tag) => pub.tags.includes(tag));
 
-    return matchesSearch && matchesTags
-  })
+    return matchesSearch && matchesTags;
+  });
 
   const publicationsByYear = years
     .map((year) => ({
       year,
-      publications: filteredPublications.filter((pub) => pub.year === year),
+      publications: filteredPublications.filter((p) => p.year === year),
     }))
-    .filter((group) => group.publications.length > 0)
+    .filter((g) => g.publications.length > 0);
 
-  const toggleTag = (tag: string) => {
-    setSelectedTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]))
-  }
+  /* ----------------------------- helpers ----------------------------- */
+  const toggleTag = (tag: string) =>
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
+    );
 
-  const copyBibTeX = (publication: (typeof publicationsData)[0]) => {
-    const bibtex = `@article{${publication.title.toLowerCase().replace(/\s+/g, "_")}_${publication.year},
-  title={${publication.title}},
-  author={${publication.authors.join(" and ")}},
-  journal={${publication.venue}},
-  year={${publication.year}},
-  url={${publication.link}}
-}`
-    navigator.clipboard.writeText(bibtex)
-  }
+  const copyBibTeX = (pub: Publication) => {
+    const id = pub.title.toLowerCase().replace(/\\s+/g, "_");
+    const bib = `@article{${id}_${pub.year},
+  title={${pub.title}},
+  author={${pub.authors.join(" and ")}},
+  journal={${pub.venue}},
+  year={${pub.year}},
+  url={${pub.link}}
+}`;
+    navigator.clipboard.writeText(bib);
+  };
 
+  /* ------------------------------ render ------------------------------ */
   return (
     <div>
+      {/* search + tag filter (unchanged) */}
       <FadeInSection>
         <div className="mb-8 space-y-4">
           <div className="relative">
@@ -142,6 +131,7 @@ export function PublicationsList() {
         </div>
       </FadeInSection>
 
+      {/* list grouped by year (unchanged) */}
       <div className="space-y-8">
         {publicationsByYear.map((yearGroup, yearIndex) => (
           <FadeInSection key={yearGroup.year} delay={yearIndex * 0.1}>
@@ -154,67 +144,102 @@ export function PublicationsList() {
                   {yearGroup.year} ({yearGroup.publications.length})
                 </Button>
               </CollapsibleTrigger>
+
               <CollapsibleContent className="space-y-4 mt-4">
                 {yearGroup.publications.map((publication, pubIndex) => (
-                  <Card key={pubIndex} className="hover:shadow-md transition-shadow">
+                  <Card
+                    key={pubIndex}
+                    className="hover:shadow-md transition-shadow"
+                  >
                     <CardHeader>
                       <div className="flex justify-between items-start gap-4">
+                        {/* meta block (unchanged) */}
                         <div className="flex-1">
-                          <CardTitle className="text-lg mb-2">{publication.title}</CardTitle>
+                          <CardTitle className="text-lg mb-2">
+                            {publication.title}
+                          </CardTitle>
                           <CardDescription className="text-base">
-                            by <span className="font-medium">{publication.authors.join(", ")}</span>
+                            by{" "}
+                            <span className="font-medium">
+                              {publication.authors.join(", ")}
+                            </span>
                             <br />
                             <span className="text-sm">
-                              {new Date(publication.date).toLocaleDateString()} in <em>{publication.venue}</em>
+                              {new Date(
+                                publication.date,
+                              ).toLocaleDateString()}{" "}
+                              in <em>{publication.venue}</em>
                             </span>
                           </CardDescription>
                         </div>
+
+                        {/* buttons + modal (unchanged) */}
                         <div className="flex gap-2">
                           <Button variant="outline" size="sm" asChild>
-                            <a href={publication.link} target="_blank" rel="noopener noreferrer">
+                            <a
+                              href={publication.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               <ExternalLink className="w-4 h-4 mr-1" />
                               PDF
                             </a>
                           </Button>
+
                           <Dialog>
                             <DialogTrigger asChild>
-                              <Button variant="outline" size="sm" onClick={() => setSelectedPublication(publication)}>
+                              <Button variant="outline" size="sm">
                                 Details
                               </Button>
                             </DialogTrigger>
                             <DialogContent className="max-w-2xl">
                               <DialogHeader>
                                 <DialogTitle>{publication.title}</DialogTitle>
-                                <DialogDescription className="text-base">{publication.abstract}</DialogDescription>
+                                <DialogDescription className="text-base">
+                                  {publication.abstract}
+                                </DialogDescription>
                               </DialogHeader>
+
                               <div className="space-y-4">
-                                <div>
-                                  <h4 className="font-semibold mb-2">Authors:</h4>
-                                  <p>{publication.authors.join(", ")}</p>
-                                </div>
-                                <div>
-                                  <h4 className="font-semibold mb-2">Published in:</h4>
-                                  <p>
-                                    {publication.venue} ({publication.year})
-                                  </p>
-                                </div>
-                                <div>
-                                  <h4 className="font-semibold mb-2">Topics:</h4>
-                                  <div className="flex flex-wrap gap-2">
-                                    {publication.tags.map((tag) => (
-                                      <Badge key={tag} variant="secondary">
-                                        {tag}
-                                      </Badge>
-                                    ))}
-                                  </div>
-                                </div>
+                                <Meta
+                                  label="Authors"
+                                  value={publication.authors.join(", ")}
+                                />
+                                <Meta
+                                  label="Published in"
+                                  value={`${publication.venue} (${publication.year})`}
+                                />
+                                <Meta
+                                  label="Topics"
+                                  value={
+                                    <div className="flex flex-wrap gap-2">
+                                      {publication.tags.map((tag) => (
+                                        <Badge
+                                          key={tag}
+                                          variant="secondary"
+                                        >
+                                          {tag}
+                                        </Badge>
+                                      ))}
+                                    </div>
+                                  }
+                                />
+
                                 <div className="flex gap-2">
-                                  <Button variant="outline" size="sm" onClick={() => copyBibTeX(publication)}>
+                                  <Button
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() => copyBibTeX(publication)}
+                                  >
                                     <Copy className="w-4 h-4 mr-1" />
                                     Copy BibTeX
                                   </Button>
                                   <Button variant="outline" size="sm" asChild>
-                                    <a href={publication.link} target="_blank" rel="noopener noreferrer">
+                                    <a
+                                      href={publication.link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                    >
                                       <ExternalLink className="w-4 h-4 mr-1" />
                                       View Paper
                                     </a>
@@ -225,9 +250,15 @@ export function PublicationsList() {
                           </Dialog>
                         </div>
                       </div>
+
+                      {/* tag pills under the card (unchanged) */}
                       <div className="flex flex-wrap gap-2 mt-2">
                         {publication.tags.map((tag) => (
-                          <Badge key={tag} variant="secondary" className="text-xs">
+                          <Badge
+                            key={tag}
+                            variant="secondary"
+                            className="text-xs"
+                          >
                             {tag}
                           </Badge>
                         ))}
@@ -241,5 +272,15 @@ export function PublicationsList() {
         ))}
       </div>
     </div>
-  )
+  );
+}
+
+/* helper used in modal – unchanged design */
+function Meta({ label, value }: { label: string; value: React.ReactNode }) {
+  return (
+    <div>
+      <h4 className="font-semibold mb-2">{label}:</h4>
+      <div>{value}</div>
+    </div>
+  );
 }

@@ -1,130 +1,94 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { FadeInSection } from "@/components/fade-in-section"
-import { Github, Linkedin, ExternalLink, GraduationCap } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { useMemo, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { FadeInSection } from "@/components/fade-in-section";
+import {
+  Github,
+  Linkedin,
+  ExternalLink,
+  GraduationCap,
+} from "lucide-react";
 
-// This would normally come from data/people.json
-const peopleData = [
-  {
-    name: "Dr. Jane Smith",
-    position: "Director & Founder",
-    role: "Director",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["Quantum Computing", "Healthcare Optimization", "Machine Learning"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "Dr. Jane Smith is the founder and director of GOAL Lab. She received her PhD in Computer Science from MIT and has over 15 years of experience in optimization and machine learning research. Her work focuses on quantum-enhanced algorithms for healthcare applications.",
-    publications: ["quantum-healthcare-2024", "optimization-algorithms-2023"],
-  },
-  {
-    name: "Dr. Bob Wilson",
-    position: "Senior Research Scientist",
-    role: "Researcher",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["Autonomous Vehicles", "Federated Learning", "Privacy"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "Dr. Bob Wilson specializes in autonomous systems and privacy-preserving machine learning. He leads several industry collaborations and has published extensively in top-tier conferences.",
-    publications: ["federated-privacy-2024", "av-fleet-2024"],
-  },
-  {
-    name: "Alice Johnson",
-    position: "PhD Student",
-    role: "PhD Student",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["Quantum Algorithms", "Optimization", "Healthcare"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "Alice is a third-year PhD student working on quantum optimization algorithms for healthcare applications. She holds an MSc in Mathematics from University of Toronto.",
-    publications: ["quantum-healthcare-2024"],
-  },
-  {
-    name: "John Doe",
-    position: "MSc Student",
-    role: "MSc Student",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["Machine Learning", "Supply Chain", "Operations Research"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "John is pursuing his MSc in Computer Science with a focus on machine learning applications in supply chain optimization. He previously worked in industry for 3 years.",
-    publications: ["supply-chain-2024"],
-  },
-  {
-    name: "Carol Davis",
-    position: "Undergraduate Researcher",
-    role: "Undergraduate",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["AI", "Computer Vision", "Robotics"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "Carol is a fourth-year Computer Science undergraduate student working on computer vision applications for autonomous vehicles. She plans to pursue graduate studies in AI.",
-    publications: ["federated-privacy-2024"],
-  },
-  {
-    name: "Dr. Michael Brown",
-    position: "Former Postdoc (2020-2023)",
-    role: "Alumni",
-    photo: "/placeholder.svg?height=150&width=150",
-    researchInterests: ["Optimization", "Smart Grids", "Energy Systems"],
-    website: "#",
-    linkedin: "#",
-    github: "#",
-    scholar: "#",
-    bio: "Dr. Michael Brown completed his postdoc at GOAL Lab and is now an Assistant Professor at University of Waterloo. His research focuses on optimization in energy systems.",
-    publications: ["smart-grid-2023"],
-  },
-]
+export interface Person {
+  name: string;
+  position: string;
+  role: string;
+  photo?: string; // file name in /public/images/
+  researchInterests: string[];
+  website?: string;
+  linkedin?: string;
+  github?: string;
+  scholar?: string;
+  bio: string;
+  publications: string[];
+}
 
-const roles = ["All", "Director", "Researcher", "PhD Student", "MSc Student", "Undergraduate", "Alumni"]
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
-export function PeopleGrid() {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [selectedRole, setSelectedRole] = useState("All")
-  const [selectedPerson, setSelectedPerson] = useState<(typeof peopleData)[0] | null>(null)
+export default function PeopleGrid({ people }: { people: Person[] }) {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedRole, setSelectedRole] = useState("All");
+  const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
 
-  const filteredPeople = peopleData.filter((person) => {
+  /* ----------  derive role list once ---------- */
+  const roles = useMemo(() => {
+    const set = new Set(people.map((p) => p.role));
+    return ["All", ...Array.from(set)];
+  }, [people]);
+
+  /* ----------  search + role filtering ---------- */
+  const filtered = people.filter((p) => {
+    const q = searchTerm.toLowerCase();
     const matchesSearch =
-      person.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      person.position.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      person.researchInterests.some((interest) => interest.toLowerCase().includes(searchTerm.toLowerCase()))
+      p.name.toLowerCase().includes(q) ||
+      p.position.toLowerCase().includes(q) ||
+      p.researchInterests.some((i) => i.toLowerCase().includes(q));
 
-    const matchesRole = selectedRole === "All" || person.role === selectedRole
+    const matchesRole = selectedRole === "All" || p.role === selectedRole;
+    return matchesSearch && matchesRole;
+  });
 
-    return matchesSearch && matchesRole
-  })
-
-  const groupedPeople = {
-    "Director & Founder": filteredPeople.filter((p) => p.role === "Director"),
+  /* ----------  group for display ---------- */
+  const grouped = {
+    "Director & Founder": filtered.filter((p) => p.role === "Director"),
     "Current Members": {
-      Researchers: filteredPeople.filter((p) => p.role === "Researcher"),
-      "PhD Students": filteredPeople.filter((p) => p.role === "PhD Student"),
-      "MSc Students": filteredPeople.filter((p) => p.role === "MSc Student"),
-      Undergraduates: filteredPeople.filter((p) => p.role === "Undergraduate"),
+      Researchers: filtered.filter((p) => p.role === "Researcher"),
+      "PhD Students": filtered.filter((p) => p.role === "PhD Student"),
+      "MSc Students": filtered.filter((p) => p.role === "MSc Student"),
+      Undergraduates: filtered.filter((p) => p.role === "Undergraduate"),
     },
-    Alumni: filteredPeople.filter((p) => p.role === "Alumni"),
-  }
+    Alumni: filtered.filter((p) => p.role === "Alumni"),
+  };
 
   return (
     <div>
+      {/* ----------  search + role UI ---------- */}
       <FadeInSection>
         <div className="mb-8 space-y-4">
           <div className="flex flex-col sm:flex-row gap-4">
@@ -150,59 +114,44 @@ export function PeopleGrid() {
         </div>
       </FadeInSection>
 
-      <div className="space-y-12">
-        {/* Director & Founder */}
-        {groupedPeople["Director & Founder"].length > 0 && (
-          <FadeInSection>
-            <div>
-              <h2 className="text-2xl font-bold mb-6">Director & Founder</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {groupedPeople["Director & Founder"].map((person, index) => (
-                  <PersonCard key={index} person={person} setSelectedPerson={setSelectedPerson} />
-                ))}
-              </div>
-            </div>
-          </FadeInSection>
-        )}
+      {/* ----------  Director ---------- */}
+      {grouped["Director & Founder"].length > 0 && (
+        <Section title="Director & Founder">
+          {grouped["Director & Founder"].map((p, i) => (
+            <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
+          ))}
+        </Section>
+      )}
 
-        {/* Current Members */}
-        <FadeInSection>
-          <div>
-            <h2 className="text-2xl font-bold mb-6">Current Members</h2>
-            <div className="space-y-8">
-              {Object.entries(groupedPeople["Current Members"]).map(
-                ([category, people]) =>
-                  people.length > 0 && (
-                    <div key={category}>
-                      <h3 className="text-xl font-semibold mb-4">{category}</h3>
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {people.map((person, index) => (
-                          <PersonCard key={index} person={person} setSelectedPerson={setSelectedPerson} />
-                        ))}
-                      </div>
-                    </div>
-                  ),
-              )}
-            </div>
+      {/* ----------  Current Members ---------- */}
+      <FadeInSection>
+        <div>
+          <h2 className="text-2xl font-bold mb-6">Current Members</h2>
+          <div className="space-y-8">
+            {Object.entries(grouped["Current Members"]).map(
+              ([category, list]) =>
+                list.length > 0 && (
+                  <Section key={category} title={category}>
+                    {list.map((p, i) => (
+                      <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
+                    ))}
+                  </Section>
+                )
+            )}
           </div>
-        </FadeInSection>
+        </div>
+      </FadeInSection>
 
-        {/* Alumni */}
-        {groupedPeople["Alumni"].length > 0 && (
-          <FadeInSection>
-            <div>
-              <h2 className="text-2xl font-bold mb-6">Alumni</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {groupedPeople["Alumni"].map((person, index) => (
-                  <PersonCard key={index} person={person} setSelectedPerson={setSelectedPerson} />
-                ))}
-              </div>
-            </div>
-          </FadeInSection>
-        )}
-      </div>
+      {/* ----------  Alumni ---------- */}
+      {grouped["Alumni"].length > 0 && (
+        <Section title="Alumni">
+          {grouped["Alumni"].map((p, i) => (
+            <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
+          ))}
+        </Section>
+      )}
 
-      {/* Person Details Modal */}
+      {/* ----------  Modal ---------- */}
       <Dialog open={!!selectedPerson} onOpenChange={() => setSelectedPerson(null)}>
         <DialogContent className="max-w-2xl">
           {selectedPerson && (
@@ -210,65 +159,46 @@ export function PeopleGrid() {
               <DialogHeader>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={selectedPerson.photo || "/placeholder.svg"}
+                    src={`${prefix}/images/${selectedPerson.photo ?? "placeholder.svg"}`}  // ← use prefix + selectedPerson
                     alt={selectedPerson.name}
                     width={80}
                     height={80}
-                    className="rounded-full"
+                    className="rounded-full aspect-square object-cover mx-auto"
                   />
                   <div>
                     <DialogTitle className="text-xl">{selectedPerson.name}</DialogTitle>
-                    <DialogDescription className="text-base">{selectedPerson.position}</DialogDescription>
+                    <DialogDescription className="text-base">
+                      {selectedPerson.position}
+                    </DialogDescription>
                   </div>
                 </div>
               </DialogHeader>
+
               <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-2">Biography</h4>
-                  <p className="text-sm text-muted-foreground">{selectedPerson.bio}</p>
+                <SectionTitle>Biography</SectionTitle>
+                <p className="text-sm text-muted-foreground">{selectedPerson.bio}</p>
+
+                <SectionTitle>Research Interests</SectionTitle>
+                <div className="flex flex-wrap gap-2">
+                  {selectedPerson.researchInterests.map((i) => (
+                    <Badge key={i} variant="secondary">
+                      {i}
+                    </Badge>
+                  ))}
                 </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Research Interests</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {selectedPerson.researchInterests.map((interest) => (
-                      <Badge key={interest} variant="secondary">
-                        {interest}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
+
                 <div className="flex gap-2">
                   {selectedPerson.website && (
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={selectedPerson.website}>
-                        <ExternalLink className="w-4 h-4 mr-1" />
-                        Website
-                      </Link>
-                    </Button>
+                    <LinkButton href={selectedPerson.website} icon={<ExternalLink />} label="Website" />
                   )}
                   {selectedPerson.scholar && (
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={selectedPerson.scholar}>
-                        <GraduationCap className="w-4 h-4 mr-1" />
-                        Scholar
-                      </Link>
-                    </Button>
+                    <LinkButton href={selectedPerson.scholar} icon={<GraduationCap />} label="Scholar" />
                   )}
                   {selectedPerson.github && (
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={selectedPerson.github}>
-                        <Github className="w-4 h-4 mr-1" />
-                        GitHub
-                      </Link>
-                    </Button>
+                    <LinkButton href={selectedPerson.github} icon={<Github />} label="GitHub" />
                   )}
                   {selectedPerson.linkedin && (
-                    <Button variant="outline" size="sm" asChild>
-                      <Link href={selectedPerson.linkedin}>
-                        <Linkedin className="w-4 h-4 mr-1" />
-                        LinkedIn
-                      </Link>
-                    </Button>
+                    <LinkButton href={selectedPerson.linkedin} icon={<Linkedin />} label="LinkedIn" />
                   )}
                 </div>
               </div>
@@ -277,29 +207,59 @@ export function PeopleGrid() {
         </DialogContent>
       </Dialog>
     </div>
-  )
+  );
+}
+
+/* ----------  helper components ---------- */
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <FadeInSection>
+      <div>
+        <h3 className="text-xl font-semibold mb-4">{title}</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {children}
+        </div>
+      </div>
+    </FadeInSection>
+  );
+}
+
+function SectionTitle({ children }: { children: React.ReactNode }) {
+  return <h4 className="font-semibold mb-2">{children}</h4>;
+}
+
+function LinkButton({ href, icon, label }: { href: string; icon: React.ReactNode; label: string }) {
+  return (
+    <Button variant="outline" size="sm" asChild>
+      <Link href={href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+        {icon}
+        {label}
+      </Link>
+    </Button>
+  );
 }
 
 function PersonCard({
   person,
-  setSelectedPerson,
+  onSelect,
 }: {
-  person: (typeof peopleData)[0]
-  setSelectedPerson: (person: (typeof peopleData)[0]) => void
+  person: Person;
+  onSelect: (p: Person) => void;
 }) {
   return (
     <Card
+      onClick={() => onSelect(person)}
       className="hover:shadow-lg transition-shadow duration-300 cursor-pointer"
-      onClick={() => setSelectedPerson(person)}
     >
       <CardHeader className="text-center">
         <div className="mx-auto mb-4">
           <Image
-            src={person.photo || "/placeholder.svg"}
+            src={`${prefix}/images/${person.photo ?? "placeholder.svg"}`}  // ← add prefix
             alt={person.name}
             width={150}
             height={150}
-            className="rounded-full mx-auto"
+            className="rounded-full aspect-square object-cover mx-auto"
           />
         </div>
         <CardTitle className="text-lg">{person.name}</CardTitle>
@@ -307,13 +267,13 @@ function PersonCard({
       </CardHeader>
       <CardContent>
         <div className="flex flex-wrap gap-1 justify-center">
-          {person.researchInterests.slice(0, 3).map((interest) => (
-            <Badge key={interest} variant="secondary" className="text-xs">
-              {interest}
+          {person.researchInterests.slice(0, 3).map((i) => (
+            <Badge key={i} variant="secondary" className="text-xs">
+              {i}
             </Badge>
           ))}
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

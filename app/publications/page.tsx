@@ -1,5 +1,6 @@
-import { PublicationsList } from "@/components/publications/publications-list"
-import { FadeInSection } from "@/components/fade-in-section"
+import publications from "@/data/publications.json";           // ← static JSON import
+import PublicationsList from "@/components/publications/publications-list";
+import { FadeInSection } from "@/components/fade-in-section";
 
 export default function PublicationsPage() {
   return (
@@ -12,7 +13,9 @@ export default function PublicationsPage() {
           </p>
         </div>
       </FadeInSection>
-      <PublicationsList />
+
+      {/* pass the imported data to the list component */}
+      <PublicationsList publications={publications} />
     </div>
-  )
+  );
 }

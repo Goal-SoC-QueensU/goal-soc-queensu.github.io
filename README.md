@@ -48,6 +48,7 @@ Your site will be available at: `[https://YOUR_USERNAME.github.io/goal-lab/](htt
 
 ## Project Structure
 
+
 \`\`\`
 ├── app/                    # Next.js app directory
 │   ├── layout.tsx         # Root layout

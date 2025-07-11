@@ -43,7 +43,7 @@ export default function NewsGrid({ news }: { news: NewsItem[] }) {
                         <CardHeader>
                             <div className="flex items-center text-sm text-muted-foreground mb-2">
                                 <Calendar className="w-4 h-4 mr-2" />
-                                {new Date(item.date).toLocaleDateString()}
+                                {new Date(item.date).toLocaleDateString("en-CA")}
                             </div>
                             <CardTitle className="text-lg">{item.title}</CardTitle>
                         </CardHeader>

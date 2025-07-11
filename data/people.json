@@ -4,15 +4,20 @@
     "position": "Director & Founder",
     "role": "Director",
     "photo": "salimur.png",
-    "researchInterests": ["Quantum Computing", "Healthcare Optimization", "Machine Learning"],
+    "researchInterests": [
+      "Optimization",
+      "Machine Intelligence",
+      "AI for Optimization",
+      "Quantum Computing"
+    ],
     "website": "#",
     "linkedin": "#",
     "github": "#",
     "scholar": "#",
     "bio": "Director of GOAL Lab and professor in the School of Computing, Queen’s University.",
-    "publications": []
+    "publications": [],
+    "currentAffiliation": "Associate Professor, School of Computing, Queen's University"
   },
-
   {
     "name": "Naveed Ejaz",
     "position": "Postdoctoral Fellow",
@@ -24,9 +29,11 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentPosition": "",
+    "currentAffiliation": "",
+    "pastAffiliation": "GOAL Lab – Postdoctoral Fellow, School of Computing, Queen's University"
   },
-
   {
     "name": "Brandon Mossop",
     "position": "PhD Student",
@@ -38,9 +45,9 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentAffiliation": "School of Computing, Queen's University"
   },
-
   {
     "name": "Mahzabeen Emu",
     "position": "PhD Student",
@@ -52,9 +59,11 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentPosition": "Assistant Professor",
+    "currentAffiliation": "Department of Electrical & Computer Engineering, Memorial University of Newfoundland",
+    "pastAffiliation": "GOAL Lab – PhD Student, School of Computing, Queen's University"
   },
-
   {
     "name": "Peash Saha",
     "position": "PhD Student",
@@ -66,9 +75,9 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentAffiliation": "School of Computing, Queen's University"
   },
-
   {
     "name": "Tasnim Ahmed",
     "position": "PhD Student",
@@ -80,9 +89,9 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentAffiliation": "School of Computing, Queen's University"
   },
-
   {
     "name": "Safaa Waleed Al-Mhameed",
     "position": "MSc Student",
@@ -94,9 +103,11 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentPosition": "",
+    "currentAffiliation": "",
+    "pastAffiliation": "GOAL Lab – MSc Student, School of Computing, Queen's University"
   },
-
   {
     "name": "Spencer Keene",
     "position": "MSc Student",
@@ -108,9 +119,11 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentPosition": "",
+    "currentAffiliation": "",
+    "pastAffiliation": "GOAL Lab – MSc Student, School of Computing, Queen's University"
   },
-
   {
     "name": "Matthew Sharpe",
     "position": "Undergraduate Student",
@@ -122,6 +135,9 @@
     "github": "#",
     "scholar": "#",
     "bio": "",
-    "publications": []
+    "publications": [],
+    "currentPosition": "",
+    "currentAffiliation": "",
+    "pastAffiliation": "GOAL Lab – Undergraduate Researcher, School of Computing, Queen's University"
   }
 ]

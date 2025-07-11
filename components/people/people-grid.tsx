@@ -28,18 +28,22 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { FadeInSection } from "@/components/fade-in-section";
-import {
-  Github,
-  Linkedin,
-  ExternalLink,
-  GraduationCap,
-} from "lucide-react";
+import { Github, Linkedin, ExternalLink, GraduationCap } from "lucide-react";
 
+/* ------------------------------------------------------------------ */
+/*                               TYPES                                */
+/* ------------------------------------------------------------------ */
 export interface Person {
   name: string;
-  position: string;
-  role: string;
-  photo?: string; // file name in /public/images/
+  position: string;          // role inside GOAL Lab (“PhD Student”, ...)
+  role: string;              // grouping key
+  photo?: string;
+
+  /* NEW ↓ */
+  currentAffiliation: string;
+  currentPosition?: string;      // alumni only
+  pastAffiliation?: string;      // alumni only
+
   researchInterests: string[];
   website?: string;
   linkedin?: string;
@@ -49,32 +53,36 @@ export interface Person {
   publications: string[];
 }
 
+/* ------------------------------------------------------------------ */
+
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+/* ------------------------------------------------------------------ */
 
 export default function PeopleGrid({ people }: { people: Person[] }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedRole, setSelectedRole] = useState("All");
   const [selectedPerson, setSelectedPerson] = useState<Person | null>(null);
 
-  /* ----------  derive role list once ---------- */
+  /* roles for dropdown */
   const roles = useMemo(() => {
     const set = new Set(people.map((p) => p.role));
     return ["All", ...Array.from(set)];
   }, [people]);
 
-  /* ----------  search + role filtering ---------- */
+  /* search / filter */
   const filtered = people.filter((p) => {
     const q = searchTerm.toLowerCase();
-    const matchesSearch =
+    const match =
       p.name.toLowerCase().includes(q) ||
       p.position.toLowerCase().includes(q) ||
       p.researchInterests.some((i) => i.toLowerCase().includes(q));
 
-    const matchesRole = selectedRole === "All" || p.role === selectedRole;
-    return matchesSearch && matchesRole;
+    const matchRole = selectedRole === "All" || p.role === selectedRole;
+    return match && matchRole;
   });
 
-  /* ----------  group for display ---------- */
+  /* group */
   const grouped = {
     "Director & Founder": filtered.filter((p) => p.role === "Director"),
     "Current Members": {
@@ -88,7 +96,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
   return (
     <div>
-      {/* ----------  search + role UI ---------- */}
+      {/* search & filter UI */}
       <FadeInSection>
         <div className="mb-8 space-y-4">
           <div className="flex flex-col sm:flex-row gap-4">
@@ -114,7 +122,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
         </div>
       </FadeInSection>
 
-      {/* ----------  Director ---------- */}
+      {/* Director */}
       {grouped["Director & Founder"].length > 0 && (
         <Section title="Director & Founder">
           {grouped["Director & Founder"].map((p, i) => (
@@ -123,7 +131,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
         </Section>
       )}
 
-      {/* ----------  Current Members ---------- */}
+      {/* Current members */}
       <FadeInSection>
         <div>
           <h2 className="text-2xl font-bold mb-6">Current Members</h2>
@@ -136,13 +144,13 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
                       <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
                     ))}
                   </Section>
-                )
+                ),
             )}
           </div>
         </div>
       </FadeInSection>
 
-      {/* ----------  Alumni ---------- */}
+      {/* Alumni */}
       {grouped["Alumni"].length > 0 && (
         <Section title="Alumni">
           {grouped["Alumni"].map((p, i) => (
@@ -151,7 +159,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
         </Section>
       )}
 
-      {/* ----------  Modal ---------- */}
+      {/* modal */}
       <Dialog open={!!selectedPerson} onOpenChange={() => setSelectedPerson(null)}>
         <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
           {selectedPerson && (
@@ -159,7 +167,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
               <DialogHeader>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={`${prefix}/images/${selectedPerson.photo ?? "placeholder.svg"}`}  // ← use prefix + selectedPerson
+                    src={`${prefix}/images/${selectedPerson.photo ?? "placeholder.svg"}`}
                     alt={selectedPerson.name}
                     width={80}
                     height={80}
@@ -167,40 +175,63 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
                   />
                   <div>
                     <DialogTitle className="text-xl">{selectedPerson.name}</DialogTitle>
-                    <DialogDescription className="text-base">
-                      {selectedPerson.position}
-                    </DialogDescription>
+                    <DialogDescription className="text-base">{selectedPerson.position}</DialogDescription>
                   </div>
                 </div>
               </DialogHeader>
 
-              <div className="space-y-4">
-                <SectionTitle>Biography</SectionTitle>
-                <p className="text-sm text-muted-foreground">{selectedPerson.bio}</p>
+              {/* Bio */}
+              <SectionTitle>Biography</SectionTitle>
+              <p className="text-sm text-muted-foreground whitespace-pre-line">{selectedPerson.bio}</p>
 
-                <SectionTitle>Research Interests</SectionTitle>
-                <div className="flex flex-wrap gap-2">
-                  {selectedPerson.researchInterests.map((i) => (
-                    <Badge key={i} variant="secondary">
-                      {i}
-                    </Badge>
-                  ))}
-                </div>
+              {/* Affiliations */}
+              <SectionTitle>Affiliations</SectionTitle>
+              <ul className="space-y-1 text-sm">
+                {/* current */}
+                <li>
+                  <span className="font-semibold">Current • </span>
+                  {selectedPerson.currentPosition
+                    ? `${selectedPerson.currentPosition}, ${selectedPerson.currentAffiliation}`
+                    : selectedPerson.currentAffiliation}
+                </li>
 
-                <div className="flex gap-2">
-                  {selectedPerson.website && (
-                    <LinkButton href={selectedPerson.website} icon={<ExternalLink />} label="Website" />
-                  )}
-                  {selectedPerson.scholar && (
-                    <LinkButton href={selectedPerson.scholar} icon={<GraduationCap />} label="Scholar" />
-                  )}
-                  {selectedPerson.github && (
-                    <LinkButton href={selectedPerson.github} icon={<Github />} label="GitHub" />
-                  )}
-                  {selectedPerson.linkedin && (
-                    <LinkButton href={selectedPerson.linkedin} icon={<Linkedin />} label="LinkedIn" />
-                  )}
-                </div>
+                {/* past (alumni only) */}
+                {selectedPerson.pastAffiliation && (
+                  <li>
+                    <span className="font-semibold">Past • </span>
+                    {selectedPerson.pastAffiliation}
+                  </li>
+                )}
+              </ul>
+
+              {/* Research interests */}
+              {selectedPerson.researchInterests.length > 0 && (
+                <>
+                  <SectionTitle>Research Interests</SectionTitle>
+                  <div className="flex flex-wrap gap-2">
+                    {selectedPerson.researchInterests.map((i) => (
+                      <Badge key={i} variant="secondary">
+                        {i}
+                      </Badge>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              {/* links */}
+              <div className="flex gap-2">
+                {selectedPerson.website && (
+                  <LinkButton href={selectedPerson.website} icon={<ExternalLink />} label="Website" />
+                )}
+                {selectedPerson.scholar && (
+                  <LinkButton href={selectedPerson.scholar} icon={<GraduationCap />} label="Scholar" />
+                )}
+                {selectedPerson.github && (
+                  <LinkButton href={selectedPerson.github} icon={<Github />} label="GitHub" />
+                )}
+                {selectedPerson.linkedin && (
+                  <LinkButton href={selectedPerson.linkedin} icon={<Linkedin />} label="LinkedIn" />
+                )}
               </div>
             </>
           )}
@@ -210,16 +241,15 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
   );
 }
 
-/* ----------  helper components ---------- */
-
+/* ------------------------------------------------------------------ */
+/*                        Helper components                           */
+/* ------------------------------------------------------------------ */
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <FadeInSection>
       <div>
         <h3 className="text-xl font-semibold mb-4">{title}</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {children}
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">{children}</div>
       </div>
     </FadeInSection>
   );
@@ -247,24 +277,41 @@ function PersonCard({
   person: Person;
   onSelect: (p: Person) => void;
 }) {
+  const isAlumni = person.role === "Alumni";
+
   return (
     <Card
       onClick={() => onSelect(person)}
-      className="hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+      className={`hover:shadow-lg transition-shadow duration-300 cursor-pointer
+        ${isAlumni ? "border-rose-400/40" : ""}`}
     >
       <CardHeader className="text-center">
+        {/* photo */}
         <div className="mx-auto mb-4">
           <Image
-            src={`${prefix}/images/${person.photo ?? "placeholder.svg"}`}  // ← add prefix
+            src={`${prefix}/images/${person.photo ?? "placeholder.svg"}`}
             alt={person.name}
             width={150}
             height={150}
             className="rounded-full aspect-square object-cover mx-auto"
           />
         </div>
+
+        {/* name & GOAL role */}
         <CardTitle className="text-lg">{person.name}</CardTitle>
         <CardDescription>{person.position}</CardDescription>
+
+        {/* divider */}
+        <div className="h-px w-8 mx-auto my-2 bg-gradient-to-r from-transparent via-border to-transparent" />
+
+        {/* current affiliation */}
+        <p className="text-sm italic text-muted-foreground">
+          {person.currentPosition
+            ? `${person.currentPosition}, ${person.currentAffiliation}`
+            : person.currentAffiliation}
+        </p>
       </CardHeader>
+
       <CardContent>
         <div className="flex flex-wrap gap-1 justify-center">
           {person.researchInterests.slice(0, 3).map((i) => (

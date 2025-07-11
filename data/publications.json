@@ -1,7 +1,10 @@
 [
   {
     "title": "LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems",
-    "authors": ["Tasnim Ahmed", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
     "venue": "INFOR: Information Systems and Operational Research",
     "link": "https://doi.org/10.1080/03155986.2024.2388452",
     "abstract": "In the fast-paced domain of natural language processing, converting linguistic descriptions into mathematical optimization problems is a complex task, requiring profound comprehension and processing skills from Large Language Models (LLMs). In this study, various LLMs were evaluated, including GPT-3.5, GPT-4, and smaller variants with seven billion parameters: Llama-2, Falcon, Mistral, and Zephyr. This research investigated their performance in both zero-shot and one-shot settings for this task, revealing that GPT-4 outperformed others, particularly in the one-shot scenario. A core contribution of this study is the development of LM4OPT, a progressive fine-tuning framework specifically designed for smaller LLMs. This framework leverages noisy embeddings and specialized datasets to enhance the performance of the models. Regardless of the inherent limitations of smaller models in processing complex and lengthy input contexts, our experimental results indicate a significant reduction in the performance disparity between smaller and larger models when the former are fine-tuned using LM4OPT. Our empirical study, utilizing the NL4Opt dataset, unveils that GPT-4 surpasses the baseline performance established by previous research, achieving an accuracy of 63.30%, solely based on the problem description in natural language, and without relying on any additional named entity information. GPT-3.5 follows closely, both outperforming the progressively fine-tuned smaller models.",
@@ -11,7 +14,11 @@
   },
   {
     "title": "Redefining Real-time Road Quality Analysis with Vision Transformers on Edge Devices",
-    "authors": ["Tasnim Ahmed", "Naveed Ejaz", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Naveed Ejaz",
+      "Salimur Choudhury"
+    ],
     "venue": "IEEE Transactions on Artificial Intelligence",
     "link": "https://doi.org/10.1109/TAI.2024.3394797",
     "abstract": "Road infrastructure is essential for transportation safety and efficiency. However, the current methods for assessing road conditions, crucial for effective planning and maintenance, suffer from high costs, time-intensive procedures, infrequent data collection, and limited real-time capabilities. This article presents an efficient lightweight system to analyze road quality from video feeds in real time. The backbone of the system is EdgeFusionViT, a novel vision transformer (ViT)-based architecture that uses an attention-based late fusion mechanism. The proposed architecture outperforms lightweight convolutional neural network (CNN)-based and ViT-based models. Its practicality is demonstrated by its deployment on an edge device, the Nvidia Jetson Orin Nano, enabling real-time road analysis at 12 frames per second. EdgeFusionViT outperforms existing benchmarks, achieving an impressive accuracy of 89.76% on the road surface condition dataset (RSCD). Notably, the model maintains a commendable accuracy of 76.89% even when trained with only 2% of the dataset, demonstrating its robustness and efficiency. These findings highlight the system's potential in road infrastructure management. It aids in creating safer, more efficient transport systems through timely, accurate road condition assessments. The study sets a new benchmark and opens up possibilities for advanced machine learning in infrastructure management.",
@@ -21,17 +28,23 @@
   },
   {
     "title": "CHORUS: Zero-shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code",
-    "authors": ["Tasnim Ahmed", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
     "venue": "Learning and Intelligent Optimization Conference (LION 19)",
     "link": "",
     "abstract": "",
-    "thumbnail": "",
+    "thumbnail": "chorus.png",
     "tags": [],
     "year": 2025
   },
   {
     "title": "An Integrated Approach to AI-Generated Content in e-health",
-    "authors": ["Tasnim Ahmed", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
     "venue": "IEEE International Conference on Communications (ICC 2025)",
     "link": "",
     "abstract": "",
@@ -41,7 +54,11 @@
   },
   {
     "title": "Automated Scheduling for Thematic Coherence in Conferences",
-    "authors": ["Mahzabeen Emu", "Tasnim Ahmed", "Salimur Choudhury"],
+    "authors": [
+      "Mahzabeen Emu",
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
     "venue": "ACM International Conference on AI-Powered Software (AIware 2024)",
     "link": "https://doi.org/10.1145/3664646.3665085",
     "abstract": "",
@@ -51,7 +68,12 @@
   },
   {
     "title": "Linguistic Intelligence in Large Language Models for Telecommunications",
-    "authors": ["Tasnim Ahmed", "Nicola Piovesan", "Antonio De Domenico", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Nicola Piovesan",
+      "Antonio De Domenico",
+      "Salimur Choudhury"
+    ],
     "venue": "IEEE International Conference on Communications Workshops (ICC Workshops 2024)",
     "link": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615609",
     "abstract": "",
@@ -61,7 +83,10 @@
   },
   {
     "title": "OPT2CODE: A Retrieval-Augmented Framework for Solving Linear Programming Problems",
-    "authors": ["Tasnim Ahmed", "Salimur Choudhury"],
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
     "venue": "Artificial Intelligence and Machine Learning in Operations Management Research (AIMOR) Workshop 2025",
     "link": "",
     "abstract": "",

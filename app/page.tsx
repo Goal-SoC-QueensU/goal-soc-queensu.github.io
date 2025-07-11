@@ -12,7 +12,7 @@ export default function HomePage() {
       <HeroSection />
 
       {/* recent news */}
-      <RecentNewsSection news={news} />
+      <RecentNewsSection news={news.filter((n) => n.featured !== false)} />
 
       {/* <FeaturedResearchSection /> */}
 

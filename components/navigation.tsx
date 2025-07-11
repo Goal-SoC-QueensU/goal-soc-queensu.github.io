@@ -2,16 +2,20 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { cn } from "@/lib/utils"
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
+
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Research", href: "/research" },
   { name: "Publications", href: "/publications" },
+  { name: "News", href: "/news" },
   { name: "People", href: "/people" },
   { name: "About Us", href: "/about" },
 ]
@@ -24,7 +28,6 @@ export function Navigation() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10)
     }
-
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
@@ -33,33 +36,58 @@ export function Navigation() {
     <header
       className={cn(
         "sticky top-0 z-50 w-full border-b transition-all duration-300",
-        isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-transparent",
+        isScrolled
+          ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+          : "bg-transparent"
       )}
     >
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="font-bold text-xl">GOAL Lab</div>
-          </Link>
+          {/* left: logo + brand */}
+          <div className="flex items-center space-x-2">
+            <Image
+              src={`${prefix}/images/goal_logo_black.png`}
+              alt="GOAL Lab Logo"
+              width={100}
+              height={100}
+              className="h-8 w-auto"
+            />
+            <Link href="/" className="font-bold text-xl">
+              GOAL Lab
+            </Link>
+          </div>
 
-          {/* Desktop Navigation */}
+          {/* desktop nav */}
           <nav className="hidden md:flex items-center space-x-8 text-lg md:text-xl">
-  {navigation.map((item) => (
-    <Link
-      key={item.name}
-      href={item.href}
-      className={cn(
-        "font-medium transition-colors hover:text-primary",
-        pathname === item.href ? "text-primary" : "text-muted-foreground",
-      )}
-    >
-      {item.name}
-    </Link>
-  ))}
-</nav>
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={cn(
+                  "font-medium transition-colors hover:text-primary",
+                  pathname === item.href
+                    ? "text-primary"
+                    : "text-muted-foreground"
+                )}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
 
+          {/* right: Queen’s Computing logo */}
+          <div className="hidden md:flex items-center">
+            <Image
+              src={`${prefix}/images/QSC-logo-lockup.png`}
+              alt="Queen’s Computing"
+              width={100}
+              height={100}
+              className="h-12 w-auto"
+            />
+          </div>
+
+          {/* mobile sheet trigger */}
           <div className="flex items-center space-x-4">
-            {/* Mobile Navigation */}
             <Sheet>
               <SheetTrigger asChild className="md:hidden">
                 <Button variant="ghost" size="icon">
@@ -75,7 +103,9 @@ export function Navigation() {
                       href={item.href}
                       className={cn(
                         "text-sm font-medium transition-colors hover:text-primary",
-                        pathname === item.href ? "text-primary" : "text-muted-foreground",
+                        pathname === item.href
+                          ? "text-primary"
+                          : "text-muted-foreground"
                       )}
                     >
                       {item.name}

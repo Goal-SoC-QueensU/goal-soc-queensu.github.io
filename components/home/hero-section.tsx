@@ -105,10 +105,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="
-            text-lg sm:text-3xl md:text-6xl
-            font-bold font-serif mb-6
-            md:whitespace-nowrap
-          "
+    text-lg sm:text-3xl lg:text-6xl font-bold font-serif mb-6 lg:whitespace-nowrap"
         >
           Global Optimization, Analytics, and Learning Lab
         </motion.h1>

@@ -44,7 +44,7 @@ This website is configured for automatic deployment to GitHub Pages using GitHub
 3. Set Source to "GitHub Actions"
 4. The workflow will automatically deploy your site
 
-Your site will be available at: `https://YOUR_USERNAME.github.io/goal-lab/`
+Your site will be available at: `[https://YOUR_USERNAME.github.io/goal-lab/](https://goal-soc-queensu.github.io/goal-lab/)`
 
 ## Project Structure
 

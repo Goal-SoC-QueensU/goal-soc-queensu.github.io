@@ -111,7 +111,7 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
                     </Button>
                   </DialogTrigger>
 
-                  <DialogContent className="max-w-2xl">
+                  <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
                     <div className="relative w-full aspect-video rounded-md overflow-hidden mb-4">
                       <Image
                         src={img(project.image)}

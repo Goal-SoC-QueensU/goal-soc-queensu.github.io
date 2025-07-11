@@ -153,7 +153,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
       {/* ----------  Modal ---------- */}
       <Dialog open={!!selectedPerson} onOpenChange={() => setSelectedPerson(null)}>
-        <DialogContent className="max-w-2xl">
+        <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
           {selectedPerson && (
             <>
               <DialogHeader>

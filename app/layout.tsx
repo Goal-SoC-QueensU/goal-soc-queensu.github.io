@@ -40,6 +40,10 @@ export const metadata: Metadata = {
     description: "Global Optimization, Analytics, and Learning Lab at Queen's University",
   },
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 /* -------------------  layout  ---------------------- */

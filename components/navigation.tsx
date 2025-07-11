@@ -45,13 +45,15 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* left: logo + brand */}
           <div className="flex items-center space-x-2">
-            <Image
-              src={`${prefix}/images/goal_logo_black.png`}
-              alt="GOAL Lab Logo"
-              width={100}
-              height={100}
-              className="h-8 w-auto"
-            />
+            <Link href="/">
+              <Image
+                src={`${prefix}/images/goal_logo_black.png`}
+                alt="GOAL Lab Logo"
+                width={100}
+                height={100}
+                className="h-8 w-auto"
+              />
+            </Link>
             <Link href="/" className="font-bold text-xl">
               GOAL Lab
             </Link>
@@ -77,13 +79,15 @@ export function Navigation() {
 
           {/* right: Queen’s Computing logo */}
           <div className="hidden md:flex items-center">
-            <Image
-              src={`${prefix}/images/QSC-logo-lockup.png`}
-              alt="Queen’s Computing"
-              width={100}
-              height={100}
-              className="h-12 w-auto"
-            />
+            <Link href="https://www.cs.queensu.ca/">
+              <Image
+                src={`${prefix}/images/QSC-logo-lockup.png`}
+                alt="Queen’s Computing"
+                width={100}
+                height={100}
+                className="h-12 w-auto"
+              />
+            </Link>
           </div>
 
           {/* mobile sheet trigger */}

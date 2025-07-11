@@ -42,7 +42,7 @@ function AnimatedBackground() {
         transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
       />
 
-      {/* floating particles */}
+      {/* particles / shapes (unchanged) */}
       {particles.map((p) => (
         <motion.div
           key={p.id}
@@ -58,7 +58,6 @@ function AnimatedBackground() {
         />
       ))}
 
-      {/* decor shapes */}
       <motion.div
         className="absolute top-1/4 left-1/4 w-32 h-32 border border-blue-400/30 rounded-full"
         animate={{ rotate: 360, scale: [1, 1.2, 1] }}
@@ -76,18 +75,6 @@ function AnimatedBackground() {
         animate={{ y: [0, -50, 0], x: [0, 30, 0] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       />
-
-      {/* grid overlay */}
-      <div className="absolute inset-0 opacity-10">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)",
-            backgroundSize: "50px 50px",
-          }}
-        />
-      </div>
     </div>
   );
 }
@@ -98,14 +85,18 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <AnimatedBackground />
 
-      <div className="relative z-10 text-center text-white px-4 max-w-none mx-auto">
+      {/* max-w limits width on desktop; px-4 keeps padding on mobile */}
+      <div className="relative z-10 text-center text-white px-4 max-w-screen-lg mx-auto">
         {/* headline */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="
-    text-lg sm:text-3xl lg:text-6xl font-bold font-serif mb-6 lg:whitespace-nowrap"
+            text-lg sm:text-3xl lg:text-6xl
+            leading-tight text-balance
+            font-bold font-serif mb-6
+          "
         >
           Global Optimization, Analytics, and Learning Lab
         </motion.h1>

@@ -171,8 +171,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please contact: goal.cs.queensu@gmail.com
 ```
-
-```text file="LICENSE"
 MIT License
 
 Copyright (c) 2024 GOAL Lab, Queen's University
@@ -186,6 +184,7 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+```
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

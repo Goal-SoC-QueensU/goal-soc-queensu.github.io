@@ -15,20 +15,20 @@ A modern, responsive website for the Global Optimization, Analytics, and Learnin
 ## Quick Start
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/YOUR_USERNAME/goal-lab.git
    cd goal-lab
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Run development server**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
@@ -48,8 +48,7 @@ Your site will be available at: `[https://YOUR_USERNAME.github.io/goal-lab/](htt
 
 ## Project Structure
 
-
-\`\`\`
+```
 ├── app/                    # Next.js app directory
 │   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Home page
@@ -67,14 +66,14 @@ Your site will be available at: `[https://YOUR_USERNAME.github.io/goal-lab/](htt
 ├── lib/                 # Utility functions
 ├── public/              # Static assets
 └── data/               # Content data files
-\`\`\`
+```
 
 ## Adding Content
 
 ### Adding News
 Edit the `newsData` array in `components/home/recent-news-section.tsx`:
 
-\`\`\`typescript
+```typescript
 const newsData = [
   {
     title: "Your news title",
@@ -83,12 +82,12 @@ const newsData = [
     link: "#"
   }
 ]
-\`\`\`
+```
 
 ### Adding Research Projects
 Edit the `projectsData` array in `components/research/research-grid.tsx`:
 
-\`\`\`typescript
+```typescript
 const projectsData = [
   {
     title: "Project Title",
@@ -99,12 +98,12 @@ const projectsData = [
     featured: true
   }
 ]
-\`\`\`
+```
 
 ### Adding Publications
 Edit the `publicationsData` array in `components/publications/publications-list.tsx`:
 
-\`\`\`typescript
+```typescript
 const publicationsData = [
   {
     title: "Paper Title",
@@ -117,12 +116,12 @@ const publicationsData = [
     year: 2024
   }
 ]
-\`\`\`
+```
 
 ### Adding Team Members
 Edit the `peopleData` array in `components/people/people-grid.tsx`:
 
-\`\`\`typescript
+```typescript
 const peopleData = [
   {
     name: "Dr. Name",
@@ -134,7 +133,7 @@ const peopleData = [
     bio: "Biography text"
   }
 ]
-\`\`\`
+```
 
 ## Customization
 
@@ -171,7 +170,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For questions or support, please contact: goal.cs.queensu@gmail.com
-\`\`\`
+```
 
 ```text file="LICENSE"
 MIT License

@@ -1,4 +1,4 @@
-# GOAL Lab Website
+# GOAL Lab Website by Tasnim Ahmed
 
 A modern, responsive website for the Global Optimization, Analytics, and Learning (GOAL) Lab at Queen's University.
 

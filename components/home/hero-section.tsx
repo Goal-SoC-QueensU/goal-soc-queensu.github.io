@@ -131,15 +131,15 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <AnimatedBackground />
 
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold mb-6 font-serif"
-        >
-          Global Optimization, Analytics, and Learning Lab
-        </motion.h1>
+      <div className="relative z-10 text-center text-white px-4 max-w-none mx-auto">
+  <motion.h1
+    initial={{ opacity: 0, y: 30 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    className="whitespace-nowrap text-xl md:text-6xl font-bold mb-6 font-serif"
+  >
+    Global Optimization, Analytics, and Learning Lab
+  </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -147,7 +147,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl mb-8 font-light italic"
         >
-          Shaping the future in resource allocation, healthcare, autonomous vehicles, and quantum algorithms.
+          Shaping the future in optimization, resource allocation, healthcare, and machine intelligence.
         </motion.p>
 
         <motion.div
@@ -157,7 +157,7 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button asChild size="lg" className="text-lg px-8">
-            <Link href="mailto:goal.lab@queensu.ca">Join Us</Link>
+            <Link href="mailto:goal.cs.queensu@gmail.com">Join Us</Link>
           </Button>
           <Button
             asChild

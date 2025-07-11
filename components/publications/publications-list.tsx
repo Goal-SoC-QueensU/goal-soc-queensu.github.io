@@ -29,13 +29,13 @@ import {
 export interface Publication {
   title: string;
   authors: string[];
-  date: string;          // ISO string
   venue: string;
   link: string;
   abstract: string;
   thumbnail?: string;    // (not displayed here, but kept for completeness)
   tags: string[];
   year: number;
+  bibtex?: string;
 }
 
 export default function PublicationsList({ publications }: { publications: Publication[] }) {
@@ -95,7 +95,13 @@ export default function PublicationsList({ publications }: { publications: Publi
   url={${pub.link}}
 }`;
     navigator.clipboard.writeText(bib);
-  };
+    };
+  
+  // const copyBibTeX = (pub: Publication) => {
+  //   if (pub.bibtex && pub.bibtex.trim()) {
+  //     navigator.clipboard.writeText(pub.bibtex);
+  //   }
+  // };
 
   /* ------------------------------ render ------------------------------ */
   return (
@@ -165,10 +171,7 @@ export default function PublicationsList({ publications }: { publications: Publi
                             </span>
                             <br />
                             <span className="text-sm">
-                              {new Date(
-                                publication.date,
-                              ).toLocaleDateString()}{" "}
-                              in <em>{publication.venue}</em>
+                              <b><em>{publication.venue}</em></b>
                             </span>
                           </CardDescription>
                         </div>

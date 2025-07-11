@@ -24,7 +24,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="mailto:goal.lab@queensu.ca" className="text-muted-foreground hover:text-primary">
+              <Link href="mailto:goal.cs.queensu@gmail.com" className="text-muted-foreground hover:text-primary">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </Link>
@@ -62,7 +62,7 @@ export function Footer() {
             <div className="text-sm text-muted-foreground space-y-2">
               <p>Queen's University</p>
               <p>Kingston, ON, Canada</p>
-              <p>goal.lab@queensu.ca</p>
+              <p>goal.cs.queensu@gmail.com</p>
             </div>
           </div>
         </div>

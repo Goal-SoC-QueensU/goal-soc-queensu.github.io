@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Hybrid Quantum-Classical Computing for Next-Generation Internet Resource Allocation",
+    "image": "r001.png",                               
+    "shortDesc": "Internet of Everything (IoE) refers to the intelligent connection among people, things, data, and processes, essentially inclining toward the next-generation networks.",
+    "fullDesc": "Internet of Everything (IoE) refers to the intelligent connection among people, things, data, and processes, essentially inclining toward the next-generation networks. To unleash the full potential of the IoE framework, it often requires nearly real-time management decisions regarding deployment and scheduling operations. The IoE service management problems, primarily formulated as traditional mathematical programming models, are NP-hard, hence inappropriate for time-sensitive IoE environments. This research project promotes the need to go beyond the realms and leverage quantum computing-based service management. We also intend to evaluate the feasibility of applying quantum computing for such IoE optimization based on today’s available quantum resources (qubits). Further along this line, we envision determining the advantages of solving NP-hard problems using quantum computing over classical approaches and major trade-offs hindering the applicability. In this regard, three IoE domains have been chosen: Network Function Virtualization, Metaverse, and Autonomous/Electric Vehicles. Based on the research progress so far, hybrid quantum-classical computing is the key to solve futuristic IoE service management optimizations, considering the limited availability of quantum computing resources (qubits). The synergistic research for quantum computing-enabled network optimization and analytics can be regarded as an effort to scale down massive resource fabrication costs and upgrade profit margins for service providers. Designing quantum-compliant optimization modeling and quantum AI models are the two most important technical aspects of this research. Moreover, we strive to increase the scalability of quantum computing by using hybrid classical-quantum approaches, considering the availability of limited/restricted quantum resources (qubits) in today’s world. The research outcomes are expected to portray a clear picture of where we stand in terms of available quantum resources, along with their feasibility and scalability. Hence, we continuously endeavor to learn the prospects of quantum computing in the future.",
+    "tags": [],
+    "featured": false,
+    "relatedPubs": []
+  },
+  {
+    "title": "Matching Algorithms for Operations Based on UN Sustainability Goals",
+    "image": "",
+    "shortDesc": "The United Nations designed the sustainable development goals with the target to integrate the economic, social and environmental developments between the developed and developing countries within 2030.",
+    "fullDesc": "The United Nations designed the sustainable development goals with the target to integrate the economic, social and environmental developments between the developed and developing countries within 2030. The major common goals are accelerating and ensuring support to underprivileged communities who need immediate or long-term help to survive. The related operations involve the real-time matching of two-sided agents, usually the receiver and the provider of the services. This project focuses on the algorithmic aspects of the two-sided matching for those operations and intends to produce fair and balanced matching as the outcome. The established theorems and algorithms designed for the multi-objective-based problem throughout the project can be considered as a solution framework for similar operations in the domain. The project also provides an opportunity to implement the research findings collaboratively with the public and private organizations collectively conducting the operations.",
+    "tags": [],
+    "featured": false,
+    "relatedPubs": []
+  },
+  {
+    "title": "Causal AI for Personalized Data-Driven Decision Making",
+    "image": "",
+    "shortDesc": "Significant progress has been made in machine learning (ML) systems for predictive tasks. However, their utility diminishes considerably when essential conditions are not met, rendering ML not only ineffective but potentially dangerous.",
+    "fullDesc": "Significant progress has been made in machine learning (ML) systems for predictive tasks. However, their utility diminishes considerably when essential conditions are not met, rendering ML not only ineffective but potentially dangerous. One challenge is the presence of unexplained bias within ML predictions. This unexplained bias, often stemming from the complex relationships between variables, can reduce the reliability of predictions, casting doubt on the fairness and equity of the ML system. \n\nFurthermore, the inherent brittleness of ML predictions further exacerbates the problem. ML models require that the training and testing data are drawn from the same distribution, which hinders their capacity for out-of-distribution generalization. This inherent lack of robustness restricts the suitability of conventional ML systems for the critical task of aiding in personalized decision support. To confront these inherent limitations, this project will leverage causal machine learning, which bridges the disciplines of causal inference and ML. Causal inference equips us with the tools to quantify the impact of interventions, thereby providing actionable insights conducive to personalized decision-making. On the other hand, ML excels in harnessing multi-modal, unstructured, and high-dimensional data, which are increasingly prevalent in today’s data landscape. This fusion of methodologies not only overcomes existing limitations but also paves the way for a more comprehensive and effective approach to data-driven decision support. \n\nThis project will include applications across various domains, including healthcare, business and marketing, and engineering, all with the goal of enhancing personalized decision-making. A particular focus will be on modeling temporal causal relationships, which have not been widely explored. The overarching goal is to create AI systems that are not only powerful but also accountable and ethical, ultimately benefiting humanity by providing transparent, understanding, and insightful decision-making support.",
+    "tags": [],
+    "featured": false,
+    "relatedPubs": []
+  },
+  {
+    "title": "Fair Resource Allocation for IoV",
+    "image": "r002.png",
+    "shortDesc": "This research uses Gurobi optimization approaches to achieve fairness and efficiency in resource allocation in the context of edge computing for the Internet of Vehicles (IoV).",
+    "fullDesc": "This research uses Gurobi optimization approaches to achieve fairness and efficiency in resource allocation in the context of edge computing for the Internet of Vehicles (IoV). Our objective is to provide novel strategies and algorithms that ensure fair allocation of resources while optimizing the performance and functionality of IoV systems. This project improves IoV technologies by solving the problem of fair resource allocation with Gurobi optimization tool.",
+    "tags": [],
+    "featured": false,
+    "relatedPubs": []
+  }
+]

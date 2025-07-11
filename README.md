@@ -169,7 +169,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For questions or support, please contact: goal.lab@queensu.ca
+For questions or support, please contact: goal.cs.queensu@gmail.com
 \`\`\`
 
 ```text file="LICENSE"

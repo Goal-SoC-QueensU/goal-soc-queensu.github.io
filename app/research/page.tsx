@@ -1,5 +1,6 @@
-import { ResearchGrid } from "@/components/research/research-grid"
-import { FadeInSection } from "@/components/fade-in-section"
+import projects from "@/data/research.json";              // ← static JSON import
+import ResearchGrid from "@/components/research/research-grid";
+import { FadeInSection } from "@/components/fade-in-section";
 
 export default function ResearchPage() {
   return (
@@ -13,7 +14,9 @@ export default function ResearchPage() {
           </p>
         </div>
       </FadeInSection>
-      <ResearchGrid />
+
+      {/* Pass the JSON data into the grid */}
+      <ResearchGrid projects={projects} />
     </div>
-  )
+  );
 }

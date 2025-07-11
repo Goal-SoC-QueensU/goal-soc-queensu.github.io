@@ -43,20 +43,20 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
-                  pathname === item.href ? "text-primary" : "text-muted-foreground",
-                )}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
+          <nav className="hidden md:flex items-center space-x-8 text-lg md:text-xl">
+  {navigation.map((item) => (
+    <Link
+      key={item.name}
+      href={item.href}
+      className={cn(
+        "font-medium transition-colors hover:text-primary",
+        pathname === item.href ? "text-primary" : "text-muted-foreground",
+      )}
+    >
+      {item.name}
+    </Link>
+  ))}
+</nav>
 
           <div className="flex items-center space-x-4">
             {/* Mobile Navigation */}

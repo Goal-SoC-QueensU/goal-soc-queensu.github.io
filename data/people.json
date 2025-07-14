@@ -140,13 +140,17 @@
     "currentAffiliation": "",
     "pastAffiliation": "Undergraduate Researcher, School of Computing, Queen's University"
   },
-
   {
     "name": "Fozle Rabbi Shaif",
     "position": "Graduate Student (MSc)",
     "role": "Graduate Student",
     "photo": "shafi.jpeg",
-    "researchInterests": [GenAI, DeepLearning, MentalWellBeing, CyberSecurity, SoftwareEngineering
+    "researchInterests": [
+      "GenAI",
+      "Deep Learning",
+      "Mental Well-being",
+      "Cyber Security",
+      "Software Engineering"
     ],
     "website": "https://devshafi.github.io",
     "linkedin": "https://www.linkedin.com/in/fozle-rabbi-shafi-07841511a",

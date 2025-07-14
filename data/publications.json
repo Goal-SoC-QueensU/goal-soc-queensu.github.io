@@ -93,5 +93,23 @@
     "thumbnail": "",
     "tags": [],
     "year": 2025
+  },
+  {
+    "title": "Personalized Mental Health Assistance with Large Language Models",
+    "authors": [
+      "Fozle Rabbi Shafi",
+      "M. Anwar Hossain",
+      "Salimur Choudhury"
+    ],
+    "venue": "IEEE Computers, Software, and Applications Conference (COMPSAC) 2025",
+    "link": "",
+    "abstract": "Mental health challenges continue to rise globally, yet access to effective and personalized support remains insufficient. While Large Language Models (LLMs) have shown its promise in this area, most existing solutions lack personalization, pose privacy risks, and often generate unreliable or generic responses. In this study, we present a novel approach that enhances LLM-based mental health support through fine-tuning on a combination of public and synthetically generated mental health datasets. We further propose a dynamic prompt strategy that extracts relevant mental health entities from patient conversations, such as symptoms and emotions, and retrieves relevant information from diverse data sources. We leverage function calling with Retrieval-Augmented Generation (RAG) to produce context-aware, personalized responses. Empirical comparisons with existing models demonstrate that our approach achieves higher accuracy and generates responses that are better aligned with individual user needs.",
+    "thumbnail": "",
+    "tags": [
+      "mental-wellbeing",
+      "llm",
+      "GenAI"
+    ],
+    "year": 2025
   }
 ]

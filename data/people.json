@@ -142,8 +142,8 @@
   },
   {
     "name": "Fozle Rabbi Shaif",
-    "position": "Graduate Student (MSc)",
-    "role": "Graduate Student",
+    "position": "MSc Student",
+    "role": "MSc Student",
     "photo": "shafi.jpeg",
     "researchInterests": [
       "GenAI",
@@ -158,8 +158,6 @@
     "scholar": "https://scholar.google.ca/citations?user=2YkuKhcAAAAJ&hl=en",
     "bio": "My passion for technology and programming began in my teenage years, which led me to pursue a bachelor's degree in Computer Science and build a career in the software industry. After accumulating five years of valuable industry experience, I have returned to academia to explore deeper into advanced and impactful areas of computer science—particularly Generative AI applications in healthcare, mental health interventions, and mental well-being.",
     "publications": [],
-    "currentPosition": "Graduate Student (MSc)",
-    "currentAffiliation": "Graduate Student (MSc) at Queen’s University",
-    "pastAffiliation": "Software Engineer, Programming Hero, Dhaka, Bangladesh"
+    "currentAffiliation": "School of Computing, Queen's University"
   }
 ]

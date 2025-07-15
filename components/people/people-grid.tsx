@@ -299,7 +299,7 @@ function PersonCard({
             alt={person.name}
             width={150}
             height={150}
-            className="rounded-full aspect-square object-cover mx-auto"
+            className="rounded-full flex-shrink-0 aspect-square object-cover mx-auto"
           />
         </div>
 

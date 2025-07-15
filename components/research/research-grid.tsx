@@ -98,7 +98,7 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
               </CardHeader>
 
               <CardContent>
-                <CardDescription className="mb-4">{p.shortDesc}</CardDescription>
+                <CardDescription className="mb-4 text-justify">{p.shortDesc}</CardDescription>
 
                 <Dialog>
                   <DialogTrigger asChild>
@@ -122,7 +122,7 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
 
                     <DialogHeader>
                       <DialogTitle>{p.title}</DialogTitle>
-                      <DialogDescription className="text-base">
+                      <DialogDescription className="text-base text-justify">
                         {p.fullDesc}
                       </DialogDescription>
                     </DialogHeader>

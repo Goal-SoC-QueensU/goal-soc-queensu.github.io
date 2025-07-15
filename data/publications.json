@@ -1,5 +1,34 @@
 [
   {
+    "title": "SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation",
+    "authors": [
+      "Tasnim Ahmed",
+      "Mirza Mohammad Azwad",
+      "Salimur Choudhury"
+    ],
+    "venue": "The 50th IEEE Conference on Local Computer Networks (LCN)",
+    "link": "",
+    "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in code generation across various domains. However, their effectiveness in generating simulation scripts for domain-specific environments like ns-3 remains underexplored. Despite the growing interest in automating network simulations, existing tools primarily focus on interactive automation over rigorous evaluation. To facilitate systematic evaluation, we introduce SIMCODE, the first benchmark to evaluate LLMs' ability to generate ns-3 simulation code from natural language. SIMCODE includes 400 tasks across introductory, intermediate, and advanced levels, with solutions and test cases. Using SIMCODE, we evaluate three prominent LLMs, Gemini-2.0, GPT-4.1, and Qwen-3, across six prompt techniques. Furthermore, investigating task-specific fine-tuning’s impact reveals that while GPT-4.1 outperforms others, execution accuracy remains modest, with substantial room for improvement. Error analysis identifies missing headers and API mismatches as dominant failures. Nevertheless, SIMCODE provides a foundational step toward evaluating LLMs and research in domain-aware generative systems.",
+    "thumbnail": "",
+    "tags": ["Large Language Models", "Code Generation", "Network Simulation", "ns-3"],
+    "year": 2025
+  },
+
+  {
+    "title": "CHORUS: Zero-shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code",
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "The 19th Learning and Intelligent Optimization Conference (LION 19)",
+    "link": "https://arxiv.org/abs/2505.01485",
+    "abstract": "Linear Programming (LP) problems aim to find the optimal solution to an objective under constraints. These problems typically require domain knowledge, mathematical skills, and programming ability, presenting significant challenges for non-experts. This study explores the efficiency of Large Language Models (LLMs) in generating solver-specific LP code. We propose CHORUS, a retrieval-augmented generation (RAG) framework for synthesizing Gurobi-based LP code from natural language problem statements. CHORUS incorporates a hierarchical tree-like chunking strategy for theoretical contents and generates additional metadata based on code examples from documentation to facilitate self-contained, semantically coherent retrieval. Two-stage retrieval approach of CHORUS followed by cross-encoder reranking further ensures contextual relevance. Finally, expertly crafted prompt and structured parser with reasoning steps improve code generation performance significantly. Experiments on the NL4Opt-Code benchmark show that CHORUS improves the performance of open-source LLMs such as Llama3.1 (8B), Llama3.3 (70B), Phi4 (14B), Deepseek-r1 (32B), and Qwen2.5-coder (32B) by a significant margin compared to baseline and conventional RAG. It also allows these open-source LLMs to outperform or match the performance of much stronger baselines-GPT3.5 and GPT4 while requiring far fewer computational resources. Ablation studies further demonstrate the importance of expert prompting, hierarchical chunking, and structured reasoning.",
+    "thumbnail": "chorus.png",
+    "tags": ["Linear Programming", "Large Language Models", "Code Generation", "Retrieval-Augmented Generation", "Gurobi Solver"],
+    "year": 2025
+  },
+
+  {
     "title": "LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems",
     "authors": [
       "Tasnim Ahmed",
@@ -9,7 +38,7 @@
     "link": "https://doi.org/10.1080/03155986.2024.2388452",
     "abstract": "In the fast-paced domain of natural language processing, converting linguistic descriptions into mathematical optimization problems is a complex task, requiring profound comprehension and processing skills from Large Language Models (LLMs). In this study, various LLMs were evaluated, including GPT-3.5, GPT-4, and smaller variants with seven billion parameters: Llama-2, Falcon, Mistral, and Zephyr. This research investigated their performance in both zero-shot and one-shot settings for this task, revealing that GPT-4 outperformed others, particularly in the one-shot scenario. A core contribution of this study is the development of LM4OPT, a progressive fine-tuning framework specifically designed for smaller LLMs. This framework leverages noisy embeddings and specialized datasets to enhance the performance of the models. Regardless of the inherent limitations of smaller models in processing complex and lengthy input contexts, our experimental results indicate a significant reduction in the performance disparity between smaller and larger models when the former are fine-tuned using LM4OPT. Our empirical study, utilizing the NL4Opt dataset, unveils that GPT-4 surpasses the baseline performance established by previous research, achieving an accuracy of 63.30%, solely based on the problem description in natural language, and without relying on any additional named entity information. GPT-3.5 follows closely, both outperforming the progressively fine-tuned smaller models.",
     "thumbnail": "",
-    "tags": [],
+    "tags": ["Natural Language Processing", "Large Language Models", "Optimization", "Operations Research", "Fine-tuning"],
     "year": 2024
   },
   {
@@ -22,34 +51,22 @@
     "venue": "IEEE Transactions on Artificial Intelligence",
     "link": "https://doi.org/10.1109/TAI.2024.3394797",
     "abstract": "Road infrastructure is essential for transportation safety and efficiency. However, the current methods for assessing road conditions, crucial for effective planning and maintenance, suffer from high costs, time-intensive procedures, infrequent data collection, and limited real-time capabilities. This article presents an efficient lightweight system to analyze road quality from video feeds in real time. The backbone of the system is EdgeFusionViT, a novel vision transformer (ViT)-based architecture that uses an attention-based late fusion mechanism. The proposed architecture outperforms lightweight convolutional neural network (CNN)-based and ViT-based models. Its practicality is demonstrated by its deployment on an edge device, the Nvidia Jetson Orin Nano, enabling real-time road analysis at 12 frames per second. EdgeFusionViT outperforms existing benchmarks, achieving an impressive accuracy of 89.76% on the road surface condition dataset (RSCD). Notably, the model maintains a commendable accuracy of 76.89% even when trained with only 2% of the dataset, demonstrating its robustness and efficiency. These findings highlight the system's potential in road infrastructure management. It aids in creating safer, more efficient transport systems through timely, accurate road condition assessments. The study sets a new benchmark and opens up possibilities for advanced machine learning in infrastructure management.",
-    "thumbnail": "",
-    "tags": [],
+    "thumbnail": "tai_tasnim.jpg",
+    "tags": ["Artificial Intelligence", "Computer vision", "Deep learning", "Intelligent systems", "Vehicle-to-infrastructure"],
     "year": 2024
   },
-  {
-    "title": "CHORUS: Zero-shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code",
-    "authors": [
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
-    ],
-    "venue": "Learning and Intelligent Optimization Conference (LION 19)",
-    "link": "",
-    "abstract": "",
-    "thumbnail": "chorus.png",
-    "tags": [],
-    "year": 2025
-  },
+  
   {
     "title": "An Integrated Approach to AI-Generated Content in e-health",
     "authors": [
       "Tasnim Ahmed",
       "Salimur Choudhury"
     ],
-    "venue": "IEEE International Conference on Communications (ICC 2025)",
-    "link": "",
-    "abstract": "",
-    "thumbnail": "",
-    "tags": [],
+    "venue": "The 2025 IEEE International Conference on Communications (ICC 2025)",
+    "link": "https://arxiv.org/abs/2501.16348",
+    "abstract": "Artificial Intelligence-Generated Content, a subset of Generative Artificial Intelligence, holds significant potential for advancing the e-health sector by generating diverse forms of data. In this paper, we propose an end-to-end class-conditioned framework that addresses the challenge of data scarcity in health applications by generating synthetic medical images and text data, evaluating on practical applications such as retinopathy detection, skin infections and mental health assessments. Our framework integrates Diffusion and Large Language Models (LLMs) to generate data that closely match real-world patterns, which is essential for improving downstream task performance and model robustness in e-health applications. Experimental results demonstrate that the synthetic images produced by the proposed diffusion model outperform traditional GAN architectures. Similarly, in the text modality, data generated by uncensored LLM achieves significantly better alignment with real-world data than censored models in replicating the authentic tone.",
+    "thumbnail": "icc_tasnim.png",
+    "tags": ["Generative Artificial Intelligence", "e-health", "Synthetic Data", "Large Language Models", "Diffusion"],
     "year": 2025
   },
   {
@@ -61,9 +78,9 @@
     ],
     "venue": "ACM International Conference on AI-Powered Software (AIware 2024)",
     "link": "https://doi.org/10.1145/3664646.3665085",
-    "abstract": "",
-    "thumbnail": "",
-    "tags": [],
+    "abstract": "Welcome to the 1st ACM International Conference on AI-Powered Software (AIware), held on 15th and 16th July 2024 in Porto de Galinhas, Brazil co-located with the ACM International Conference on the Foundations of Software Engineering (FSE 2024). AIware aims to be an annual conference that brings the software engineering community together in anticipation of the upcoming changes driven by Foundation Models (FMs) and looks at them from the perspective of AI-powered software and their evolution. AIware 2024 prioritizes fostering discussions about the latest developments in the interdisciplinary field of AIware rather than solely focusing on the presentation of papers. The emphasis is on engaging conversations from diverse backgrounds to identify emerging research challenges and establish a new research agenda for the community in the Foundation Model era. To present papers and for discussions, the two-day conference will have five sessions themed around AIware Vision, SE for AIware, Human - AI Conversation, Security & Safety and AIware for Software Lifecycle Activities. Furthermore, the conference program will include two keynotes and five industry talks. The final session in the conference program will be dedicated to presenting accepted papers of the AIware challenge track.",
+    "thumbnail": "aiware_tasnim.png",
+    "tags": ["Conference Scheduling", "NLP", "CSP", "Language Models"],
     "year": 2024
   },
   {
@@ -76,24 +93,12 @@
     ],
     "venue": "IEEE International Conference on Communications Workshops (ICC Workshops 2024)",
     "link": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615609",
-    "abstract": "",
+    "abstract": "Large Language Models (LLMs) have emerged as a significant advancement in the field of Natural Language Processing (NLP), demonstrating remarkable capabilities in language generation and other language-centric tasks. Despite their evaluation across a multitude of analytical and reasoning tasks in various scientific domains, a comprehensive exploration of their knowledge and understanding within the realm of natural language tasks in the telecommunications domain is still needed. This study, therefore, seeks to evaluate the knowledge and understanding capabilities of LLMs within this domain. To achieve this, we conduct an exhaustive zero-shot evaluation of four prominent LLMs—Llama-2, Falcon, Mistral, and Zephyr. These models require fewer resources than ChatGPT, making them suitable for resource-constrained environments. Their performance is compared with state-of-the-art, fine-tuned models. To the best of our knowledge, this is the first work to extensively evaluate and compare the understanding of LLMs across multiple language-centric tasks in this domain. Our evaluation reveals that zero-shot LLMs can achieve performance levels comparable to the current state-of-the-art fine-tuned models. This indicates that pretraining on extensive text corpora equips LLMs with a degree of specialization, even within the telecommunications domain. We also observe that no single LLM consistently outperforms others, and the performance of different LLMs can fluctuate. Although their performance lags behind fine-tuned models, our findings underscore the potential of LLMs as a valuable resource for understanding various aspects of this field that lack large annotated data.",
     "thumbnail": "",
-    "tags": [],
+    "tags": ["Natural Language Processing", "Large Language Models", "Telecommunications", "Zero-shot"],
     "year": 2024
   },
-  {
-    "title": "OPT2CODE: A Retrieval-Augmented Framework for Solving Linear Programming Problems",
-    "authors": [
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
-    ],
-    "venue": "Artificial Intelligence and Machine Learning in Operations Management Research (AIMOR) Workshop 2025",
-    "link": "",
-    "abstract": "",
-    "thumbnail": "",
-    "tags": [],
-    "year": 2025
-  },
+  
   {
     "title": "Personalized Mental Health Assistance with Large Language Models",
     "authors": [
@@ -110,6 +115,19 @@
       "llm",
       "GenAI"
     ],
+    "year": 2025
+  },
+  {
+    "title": "OPT2CODE: A Retrieval-Augmented Framework for Solving Linear Programming Problems",
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "Artificial Intelligence and Machine Learning in Operations Management Research (AIMOR) Workshop 2025",
+    "link": "",
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
     "year": 2025
   }
 ]

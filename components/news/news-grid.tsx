@@ -51,7 +51,7 @@ export default function NewsGrid({ news }: { news: NewsItem[] }) {
             </CardHeader>
 
             <CardContent>
-              <CardDescription className="mb-4">
+              <CardDescription className="mb-4 text-justify">
                 {item.excerpt}
               </CardDescription>
 
@@ -71,7 +71,7 @@ export default function NewsGrid({ news }: { news: NewsItem[] }) {
                   {openItem && (
                     <>
                       <DialogHeader>
-                        <DialogTitle>{openItem.title}</DialogTitle>
+                        <DialogTitle className="text-justify">{openItem.title}</DialogTitle>
                       </DialogHeader>
 
                       {/* thumbnail — keeps its own flow, no overlap */}
@@ -90,7 +90,7 @@ export default function NewsGrid({ news }: { news: NewsItem[] }) {
                       )}
 
                       {/* full description */}
-                      <DialogDescription className="text-base whitespace-pre-line">
+                      <DialogDescription className="text-base whitespace-pre-line text-justify">
                         {openItem.description}
                       </DialogDescription>
                     </>

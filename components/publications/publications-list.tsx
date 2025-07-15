@@ -187,7 +187,7 @@ export default function PublicationsList({
                                 />
                               )}
 
-                              <DialogDescription className="text-base whitespace-pre-line mb-4">
+                              <DialogDescription className="text-base whitespace-pre-line mb-4 text-justify">
                                 {p.abstract}
                               </DialogDescription>
 

@@ -169,10 +169,16 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
                   <Image
                     src={`${prefix}/images/${selectedPerson.photo ?? "placeholder.svg"}`}
                     alt={selectedPerson.name}
-                    width={80}
-                    height={80}
-                    className="rounded-full aspect-square object-cover mx-auto"
+                    width={120}              // square size (change as you like)
+                    height={120}
+                    className="
+                    aspect-square           /* keep the 1 : 1 ratio              */
+                    object-cover            /* crop to fill                      */
+                    rounded-md              /* ← rectangular corners (no circle) */
+                    flex-shrink-0           /* prevents the image from shrinking */
+                  "
                   />
+
                   <div>
                     <DialogTitle className="text-xl">{selectedPerson.name}</DialogTitle>
                     <DialogDescription className="text-base">{selectedPerson.position}</DialogDescription>

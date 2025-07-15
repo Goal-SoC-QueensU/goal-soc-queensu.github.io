@@ -54,13 +54,13 @@ export function AboutContent() {
             <SectionIcon />
             <div>
               <CardTitle className="text-2xl">Our Mission</CardTitle>
-              <CardDescription>
+              <CardDescription className="text-justify">
                 Advancing optimization, analytics, and learning research
               </CardDescription>
             </div>
           </CardHeader>
           <CardContent>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed text-justify">
               {labInfo.mission}
             </p>
           </CardContent>

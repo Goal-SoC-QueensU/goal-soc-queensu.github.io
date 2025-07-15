@@ -23,7 +23,7 @@ import {
 
 export interface Project {
   title: string;
-  image?: string;          // file name in /public/images
+  image?: string;
   shortDesc: string;
   fullDesc: string;
   tags: string[];
@@ -32,8 +32,8 @@ export interface Project {
 }
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const img = (file?: string) =>
-  `${prefix}/images/${file && file.trim() ? file : "placeholder-research.png"}`;
+const img = (f?: string) =>
+  `${prefix}/images/${f && f.trim() ? f : "placeholder-research.png"}`;
 
 export default function ResearchGrid({ projects }: { projects: Project[] }) {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
@@ -43,15 +43,13 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
     [projects],
   );
 
-  const filteredProjects =
+  const filtered =
     selectedTags.length === 0
       ? projects
       : projects.filter((p) => selectedTags.some((t) => p.tags.includes(t)));
 
-  const toggleTag = (tag: string) =>
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
-    );
+  const toggleTag = (t: string) =>
+    setSelectedTags((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]));
 
   return (
     <div>
@@ -74,35 +72,33 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
         </div>
       </FadeInSection>
 
-      {/* project cards */}
+      {/* cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredProjects.map((project, idx) => (
+        {filtered.map((p, idx) => (
           <FadeInSection key={idx} delay={idx * 0.1}>
             <Card className="h-full hover:shadow-lg transition-shadow duration-300">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <Image
-                  src={img(project.image)}
-                  alt={project.title}
+                  src={img(p.image)}
+                  alt={p.title}
                   fill
                   className="object-cover"
                 />
               </div>
 
               <CardHeader>
-                <CardTitle className="text-lg">{project.title}</CardTitle>
+                <CardTitle className="text-lg">{p.title}</CardTitle>
                 <div className="flex flex-wrap gap-1">
-                  {project.tags.map((tag) => (
-                    <Badge key={tag} variant="secondary" className="text-xs">
-                      {tag}
+                  {p.tags.map((t) => (
+                    <Badge key={t} variant="secondary" className="text-xs">
+                      {t}
                     </Badge>
                   ))}
                 </div>
               </CardHeader>
 
               <CardContent>
-                <CardDescription className="mb-4">
-                  {project.shortDesc}
-                </CardDescription>
+                <CardDescription className="mb-4">{p.shortDesc}</CardDescription>
 
                 <Dialog>
                   <DialogTrigger asChild>
@@ -112,27 +108,31 @@ export default function ResearchGrid({ projects }: { projects: Project[] }) {
                   </DialogTrigger>
 
                   <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
-                    <div className="relative w-full aspect-video rounded-md overflow-hidden mb-4">
-                      <Image
-                        src={img(project.image)}
-                        alt={project.title}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
+                    {/* --- thumbnail (normal flow, no overlap) --- */}
+                    <Image
+                      src={img(p.image)}
+                      alt={p.title}
+                      width={1280}
+                      height={720}
+                      className="w-full h-auto rounded-md object-contain mb-4"
+                      sizes="(max-width:768px) 100vw,
+                             (max-width:1200px) 700px,
+                             900px"
+                    />
+
                     <DialogHeader>
-                      <DialogTitle>{project.title}</DialogTitle>
+                      <DialogTitle>{p.title}</DialogTitle>
                       <DialogDescription className="text-base">
-                        {project.fullDesc}
+                        {p.fullDesc}
                       </DialogDescription>
                     </DialogHeader>
 
                     <div className="mt-4">
                       <h4 className="font-semibold mb-2">Research Areas:</h4>
                       <div className="flex flex-wrap gap-2">
-                        {project.tags.map((tag) => (
-                          <Badge key={tag} variant="secondary">
-                            {tag}
+                        {p.tags.map((t) => (
+                          <Badge key={t} variant="secondary">
+                            {t}
                           </Badge>
                         ))}
                       </div>

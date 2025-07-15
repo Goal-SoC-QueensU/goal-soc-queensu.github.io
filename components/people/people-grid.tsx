@@ -182,7 +182,7 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
               {/* Bio */}
               <SectionTitle>Biography</SectionTitle>
-              <p className="text-sm text-muted-foreground whitespace-pre-line">{selectedPerson.bio}</p>
+              <p className="text-sm text-muted-foreground whitespace-pre-line text-justify">{selectedPerson.bio}</p>
 
               {/* Affiliations */}
               <SectionTitle>Affiliations</SectionTitle>

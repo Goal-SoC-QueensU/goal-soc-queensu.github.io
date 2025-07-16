@@ -496,7 +496,15 @@ export function HeroSection() {
         {/* Headline with letter-by-letter animation */}
         <AnimatedText
           text="Global Optimization, Analytics, and Learning Lab"
-          className="text-7xl md:text-7xl lg:text-7xl font-bold mb-6 font-serif leading-tight"
+          className="
+    break-words         /* never overflows; wrap whole words        */
+    text-balance        /* nicer multi‑line balance (Tailwind v3.4) */
+    leading-tight
+    font-bold font-serif
+    text-[clamp(1.75rem,5vw,3.5rem)]   /*  ~28 px on desktop, ~18 px on mobile  */
+    md:text-5xl lg:text-6xl            /* fallback if clamp unsupported        */
+    mb-6
+  "
           onComplete={handleHeadlineComplete}
         />
 
@@ -509,7 +517,15 @@ export function HeroSection() {
             delay: shouldReduceMotion ? 0 : 1.5,
             ease: "easeOut",
           }}
-          className="text-xl md:text-2xl mb-8 font-light italic text-gray-300 max-w-8xl mx-auto"
+          className="
+    break-words
+    text-balance              /* subtle line‑length balance           */
+    font-light italic text-gray-300
+    text-[clamp(1rem,4vw,1.25rem)]   /* 16 px → 20 px fluid size         */
+    md:text-xl                         /* fallback                        */
+    mb-8
+    max-w-screen-md mx-auto
+  "
         >
           Shaping the future in healthcare, resource allocation, machine intelligence, and quantum algorithms.
         </motion.p>

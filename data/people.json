@@ -174,5 +174,22 @@
     "publications": [],
     "currentPosition": "",
     "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+    "name": "Siana Rizwan",
+    "position": "MSc Student",
+    "role": "MSc Student",
+    "photo": "siana.jpeg",
+    "researchInterests": [
+      "Machine Learning",
+      "Software Engineering"
+    ],
+    "website": "#",
+    "linkedin": "linkedin.com/in/sianarizwan",
+    "github": "https://github.com/SianaRizwan",
+    "scholar": "https://scholar.google.com/citations?user=JS34u3oAAAAJ&hl=en",
+    "bio": "",
+    "currentPosition": "",
+    "currentAffiliation": "School of Computing, Queen's University"
   }
 ]

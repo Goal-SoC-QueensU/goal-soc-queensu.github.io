@@ -86,7 +86,7 @@
   {
     "name": "Peash Saha",
     "position": "PhD Student",
-    "role": "PhD Student",
+    "role": "Alumni",
     "photo": "peash.jpg",
     "researchInterests": [],
     "website": "#",
@@ -100,7 +100,7 @@
   {
     "name": "Tasnim Ahmed",
     "position": "PhD Student",
-    "role": "PhD Student",
+    "role": "Alumni",
     "photo": "tasnim.jpg",
     "researchInterests": [],
     "website": "https://tasnim7ahmed.github.io/",
@@ -162,7 +162,7 @@
   {
     "name": "Fozle Rabbi Shafi",
     "position": "MSc Student",
-    "role": "MSc Student",
+    "role": "Alumni",
     "photo": "shafi.jpeg",
     "researchInterests": [
       "GenAI",
@@ -182,7 +182,7 @@
   {
     "name": "Yifan Zhu",
     "position": "MSc Student",
-    "role": "MSc Student",
+    "role": "Alumni",
     "photo": "yifan.jpg",
     "researchInterests": [],
     "website": "",
@@ -197,7 +197,7 @@
   {
     "name": "Siana Rizwan",
     "position": "MSc Student",
-    "role": "MSc Student",
+    "role": "Alumni",
     "photo": "siana.jpeg",
     "researchInterests": [
       "Machine Learning",

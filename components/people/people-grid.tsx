@@ -318,6 +318,7 @@ function PersonCard({
         </p>
       </CardHeader>
 
+      
       <CardContent>
         <div className="flex flex-wrap gap-1 justify-center">
           {person.researchInterests.slice(0, 3).map((i) => (
@@ -325,6 +326,53 @@ function PersonCard({
               {i}
             </Badge>
           ))}
+        </div>
+      
+        <div
+          className="flex flex-wrap gap-2 justify-center mt-3"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {person.website && person.website !== "#" && (
+            <Button variant="ghost" size="sm" asChild>
+              <Link
+                href={person.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+              >
+                <ExternalLink className="h-4 w-4" />
+                Website
+              </Link>
+            </Button>
+          )}
+      
+          {person.scholar && person.scholar !== "#" && (
+            <Button variant="ghost" size="sm" asChild>
+              <Link
+                href={person.scholar}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+              >
+                <GraduationCap className="h-4 w-4" />
+                Scholar
+              </Link>
+            </Button>
+          )}
+      
+          {person.github && person.github !== "#" && (
+            <Button variant="ghost" size="sm" asChild>
+              <Link
+                href={person.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+              >
+                <Github className="h-4 w-4" />
+                GitHub
+              </Link>
+            </Button>
+          )}
         </div>
       </CardContent>
     </Card>

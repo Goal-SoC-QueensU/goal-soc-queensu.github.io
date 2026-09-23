@@ -329,11 +329,11 @@ function PersonCard({
         </div>
       
         <div
-          className="flex flex-wrap gap-2 justify-center mt-3"
+          className="flex flex-wrap gap-1 justify-center mt-3"
           onClick={(e) => e.stopPropagation()}
         >
           {person.website && person.website !== "#" && (
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" className="h-8 px-2 text-xs" asChild>
               <Link
                 href={person.website}
                 target="_blank"
@@ -347,7 +347,7 @@ function PersonCard({
           )}
       
           {person.scholar && person.scholar !== "#" && (
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" className="h-8 px-2 text-xs" asChild>
               <Link
                 href={person.scholar}
                 target="_blank"
@@ -361,7 +361,7 @@ function PersonCard({
           )}
       
           {person.github && person.github !== "#" && (
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" className="h-8 px-2 text-xs" asChild>
               <Link
                 href={person.github}
                 target="_blank"
@@ -375,7 +375,7 @@ function PersonCard({
           )}
           
           {person.linkedin && person.linkedin !== "#" && (
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" className="h-8 px-2 text-xs" asChild>
               <Link
                 href={person.linkedin}
                 target="_blank"

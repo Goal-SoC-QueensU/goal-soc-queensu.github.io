@@ -373,6 +373,20 @@ function PersonCard({
               </Link>
             </Button>
           )}
+          
+          {person.linkedin && person.linkedin !== "#" && (
+            <Button variant="ghost" size="sm" asChild>
+              <Link
+                href={person.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1"
+              >
+                <Linkedin className="h-4 w-4" />
+                LinkedIn
+              </Link>
+            </Button>
+          )}
         </div>
       </CardContent>
     </Card>

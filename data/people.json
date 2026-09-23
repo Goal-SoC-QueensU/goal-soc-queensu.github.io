@@ -65,6 +65,25 @@
     "pastAffiliation": "PhD Student, School of Computing, Queen's University"
   },
   {
+  "name": "Asif Newaz",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "Asif_Newaz.jpg",
+  "researchInterests": [
+    "Machine Learning",
+    "Quantum Computing",
+    "Optimization",
+    "Computer Vision"
+  ],
+  "website": "https://www.asifnewaz.com/",
+  "linkedin": "https://www.linkedin.com/in/asif-newaz-811416106",
+  "github": "https://github.com/newaz-aa",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=7XXXXdwAAAAJ&view_op=list_works&authuser=2&sortby=pubdate",
+  "bio": "Mr. Asif Newaz is currently pursuing a PhD in Computing at Queen’s University. He holds an M.Sc. in Computer Science, specializing in Data Science, and a B.Sc. in Electrical and Electronic Engineering, specializing in Signal and Image Processing. He is an Assistant Professor (on study leave) at the Islamic University of Technology (IUT), Bangladesh.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+}
+  {
     "name": "Peash Saha",
     "position": "PhD Student",
     "role": "PhD Student",

@@ -35,20 +35,6 @@
     "pastAffiliation": "Postdoctoral Fellow, School of Computing, Queen's University"
   },
   {
-    "name": "Brandon Mossop",
-    "position": "PhD Student",
-    "role": "PhD Student",
-    "photo": "brandon.png",
-    "researchInterests": [],
-    "website": "#",
-    "linkedin": "#",
-    "github": "#",
-    "scholar": "#",
-    "bio": "",
-    "publications": [],
-    "currentAffiliation": "School of Computing, Queen's University"
-  },
-  {
     "name": "Mahzabeen Emu",
     "position": "PhD Student",
     "role": "Alumni",
@@ -210,5 +196,80 @@
     "bio": "",
     "currentPosition": "",
     "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+  "name": "Brandon Mossop",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "profile-photo - Brandon Mossop.jpg",
+  "researchInterests": [
+    "Causal Inference",
+    "Artificial Intelligence",
+    "Forecasting"
+  ],
+  "website": "https://brandonmossop.com",
+  "linkedin": "https://www.linkedin.com/in/brandon-mossop-1a27b799/",
+  "github": "https://github.com/bdmossop",
+  "scholar": "https://scholar.google.com/citations?user=MAJ99A8AAAAJ&hl=en&oi=ao",
+  "bio": "I am a Ph.D. Candidate in Computing at Queen’s University, working at the intersection of causal inference, machine learning, Bayesian modelling, and simulation.\n\nMy research focuses on how causal structure can be learned from data and used to build artificial intelligence systems that are more robust, interpretable, and capable of reasoning about interventions. A recurring question across my work is how we can move beyond predicting what is likely to happen toward understanding why it happens and what may happen if we actively change the system.\n\nThis motivates my work on causal discovery, causal forecasting, uncertainty quantification, and agent-based modelling, with a broader interest in developing AI systems that can reason about the consequences of actions rather than only recognize statistical patterns.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+  "name": "Tasnimah Haque Chowdhury",
+  "position": "MSc Student",
+  "role": "MSc Student",
+  "researchInterests": [
+    "Algorithms and Data Structures",
+    "Genetic Algorithms",
+    "Theory of Computation",
+    "Reinforcement Learning"
+  ],
+  "website": "",
+  "linkedin": "https://www.linkedin.com/in/tasnimahhc",
+  "github": "https://github.com/namira-coder",
+  "scholar": "",
+  "bio": "I am a thesis-based masters student in the School of Computing at Queen's. I finished my undergraduate studies at Memorial University of Newfoundland in December 2025. Besides having an obsession with coding, I also enjoy baking and painting.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+  "name": "Elnaz Azizi",
+  "position": "Researcher",
+  "role": "Researcher",
+  "photo": "Elnaz - Elnaz Azizi.jpg",
+  "researchInterests": [
+    "Operations Research",
+    "Robust Optimization",
+    "Network Interdiction",
+    "Decomposition Algorithms",
+    "Data Analytics",
+    "Cyber Security"
+  ],
+  "website": "",
+  "linkedin": "https://www.linkedin.com/in/eazizi",
+  "github": "",
+  "scholar": "https://scholar.google.com/citations?user=UwkvY8kAAAAJ&hl=en",
+  "bio": "",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+  "name": "Mohamed Hatem Gaber",
+  "position": "MSc Student",
+  "role": "MSc Student",
+  "researchInterests": [
+    "Cybersecurity",
+    "Red Team",
+    "Agentic AI",
+    "LLM"
+  ],
+  "website": "https://xtromera.github.io/",
+  "linkedin": "",
+  "github": "",
+  "scholar": "https://scholar.google.com/citations?hl=en&tzom=240&user=CYWVbLUAAAAJ",
+  "bio": "Offensive cybersecurity professional with multiple CVEs, currently pursuing a MSc in Computing at Queen’s University.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
   }
 ]

@@ -25,6 +25,7 @@ const NAV = [
 export function Navigation() {
   const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
+  const [mobileOpen, setMobileOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10)
@@ -66,8 +67,11 @@ export function Navigation() {
 
     return (
       <Link
-        href={href}
-        className={cn(
+          href={href}
+          onClick={() => {
+            if (mobile) setMobileOpen(false)
+          }}
+          className={cn(
           base,
           glow,
           mobile && "text-sm",
@@ -130,7 +134,7 @@ export function Navigation() {
 
           {/* ---------- Mobile burger ---------- */}
           <div className="flex md:hidden">
-            <Sheet>
+            <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
                   <Menu className="h-5 w-5" />

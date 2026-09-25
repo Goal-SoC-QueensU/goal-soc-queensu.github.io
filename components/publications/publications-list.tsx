@@ -13,7 +13,12 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { FadeInSection } from "@/components/fade-in-section";
-import { Search, ExternalLink, Copy } from "lucide-react";
+import {
+  Search,
+  ExternalLink,
+  Copy,
+  GraduationCap,
+} from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -39,6 +44,12 @@ export interface Publication {
   tags: string[];
   year: number;
   bibtex?: string;
+
+  /* Added by the automatic Google Scholar sync */
+  scholarLink?: string;
+  citationId?: string;
+  citedBy?: number;
+  autoSynced?: boolean;
 }
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -79,7 +90,9 @@ export default function PublicationsList({
 
   /* helpers */
   const toggleTag = (t: string) =>
-    setSelectedTags((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]));
+    setSelectedTags((prev) =>
+      prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t],
+    );
 
   const copyBibTeX = (p: Publication) => {
     const id = p.title.toLowerCase().replace(/\s+/g, "_");
@@ -88,7 +101,7 @@ export default function PublicationsList({
   author  = {${p.authors.join(" and ")}},
   journal = {${p.venue}},
   year    = {${p.year}},
-  url     = {${p.link}}
+  url     = {${p.link || p.scholarLink || ""}}
 }`;
     navigator.clipboard.writeText(bib).then(() =>
       toast.success("BibTeX copied to clipboard"),
@@ -111,21 +124,23 @@ export default function PublicationsList({
             />
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Filter by Topic:</h3>
-            <div className="flex flex-wrap gap-2">
-              {allTags.map((tag) => (
-                <Badge
-                  key={tag}
-                  variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className="cursor-pointer hover:bg-primary/80"
-                  onClick={() => toggleTag(tag)}
-                >
-                  {tag}
-                </Badge>
-              ))}
+          {allTags.length > 0 && (
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Filter by Topic:</h3>
+              <div className="flex flex-wrap gap-2">
+                {allTags.map((tag) => (
+                  <Badge
+                    key={tag}
+                    variant={selectedTags.includes(tag) ? "default" : "outline"}
+                    className="cursor-pointer hover:bg-primary/80"
+                    onClick={() => toggleTag(tag)}
+                  >
+                    {tag}
+                  </Badge>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </FadeInSection>
 
@@ -135,105 +150,188 @@ export default function PublicationsList({
           <FadeInSection key={group.year} delay={yIdx * 0.1}>
             <Collapsible defaultOpen>
               <CollapsibleTrigger asChild>
-                <Button variant="ghost" className="w-full justify-start text-2xl font-bold p-0 h-auto">
+                <Button
+                  variant="ghost"
+                  className="w-full justify-start text-2xl font-bold p-0 h-auto"
+                >
                   {group.year} ({group.list.length})
                 </Button>
               </CollapsibleTrigger>
 
               <CollapsibleContent className="space-y-4 mt-4">
-                {group.list.map((p, idx) => (
-                  <Card key={idx} className="hover:shadow-md transition-shadow">
-                    <CardHeader>
-                      <div className="flex justify-between gap-4">
-                        <div className="flex-1">
-                          <CardTitle className="text-lg mb-2">{p.title}</CardTitle>
-                          <CardDescription className="text-base">
-                            by <span className="font-medium">{p.authors.join(", ")}</span>
-                            <br />
-                            <span className="text-sm"><b><em>{p.venue}</em></b></span>
-                          </CardDescription>
-                        </div>
+                {group.list.map((p, idx) => {
+                  const hasDetails = Boolean(
+                    p.abstract?.trim() ||
+                    p.thumbnail?.trim() ||
+                    p.tags.length > 0,
+                  );
 
-                        <div className="flex gap-2">
-                          <Button variant="outline" size="sm" asChild>
-                            <a href={p.link} target="_blank" rel="noopener noreferrer">
-                              <ExternalLink className="w-4 h-4 mr-1" />
-                              PDF
-                            </a>
-                          </Button>
-
-                          {/* modal */}
-                          <Dialog>
-                            <DialogTrigger asChild>
-                              <Button variant="outline" size="sm">Details</Button>
-                            </DialogTrigger>
-
-                            <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
-                              <DialogHeader>
-                                <DialogTitle>{p.title}</DialogTitle>
-                              </DialogHeader>
-
-                              {/* thumbnail – now inline, no overlap */}
-                              {p.thumbnail && (
-                                <Image
-                                  src={img(p.thumbnail)}
-                                  alt={`${p.title} thumbnail`}
-                                  width={1280}
-                                  height={720}
-                                  className="w-full h-auto my-4 rounded-md object-contain"
-                                  sizes="(max-width:768px) 100vw,
-                                         (max-width:1200px) 700px,
-                                         900px"
-                                />
+                  return (
+                    <Card key={idx} className="hover:shadow-md transition-shadow">
+                      <CardHeader>
+                        <div className="flex justify-between gap-4">
+                          <div className="flex-1">
+                            <CardTitle className="text-lg mb-2">{p.title}</CardTitle>
+                            <CardDescription className="text-base">
+                              by{" "}
+                              <span className="font-medium">
+                                {p.authors.join(", ")}
+                              </span>
+                              <br />
+                              <span className="text-sm">
+                                <b>
+                                  <em>{p.venue}</em>
+                                </b>
+                              </span>
+                              {typeof p.citedBy === "number" && p.citedBy > 0 && (
+                                <>
+                                  <br />
+                                  <span className="text-xs">
+                                    Cited by {p.citedBy}
+                                  </span>
+                                </>
                               )}
+                            </CardDescription>
+                          </div>
 
-                              <DialogDescription className="text-base whitespace-pre-line mb-4 text-justify">
-                                {p.abstract}
-                              </DialogDescription>
+                          <div className="flex flex-wrap gap-2 justify-end">
+                            {p.link && (
+                              <Button variant="outline" size="sm" asChild>
+                                <a
+                                  href={p.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <ExternalLink className="w-4 h-4 mr-1" />
+                                  View Paper
+                                </a>
+                              </Button>
+                            )}
 
-                              <Meta label="Authors" value={p.authors.join(", ")} />
-                              <Meta label="Published in" value={`${p.venue} (${p.year})`} />
-                              <Meta
-                                label="Topics"
-                                value={
-                                  <div className="flex flex-wrap gap-2">
-                                    {p.tags.map((t) => (
-                                      <Badge key={t} variant="secondary">
-                                        {t}
-                                      </Badge>
-                                    ))}
+                            {p.scholarLink && (
+                              <Button variant="outline" size="sm" asChild>
+                                <a
+                                  href={p.scholarLink}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <GraduationCap className="w-4 h-4 mr-1" />
+                                  Scholar
+                                </a>
+                              </Button>
+                            )}
+
+                            {hasDetails && (
+                              <Dialog>
+                                <DialogTrigger asChild>
+                                  <Button variant="outline" size="sm">
+                                    Details
+                                  </Button>
+                                </DialogTrigger>
+
+                                <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+                                  <DialogHeader>
+                                    <DialogTitle>{p.title}</DialogTitle>
+                                  </DialogHeader>
+
+                                  {p.thumbnail && (
+                                    <Image
+                                      src={img(p.thumbnail)}
+                                      alt={`${p.title} thumbnail`}
+                                      width={1280}
+                                      height={720}
+                                      className="w-full h-auto my-4 rounded-md object-contain"
+                                      sizes="(max-width:768px) 100vw,
+                                             (max-width:1200px) 700px,
+                                             900px"
+                                    />
+                                  )}
+
+                                  {p.abstract && (
+                                    <DialogDescription className="text-base whitespace-pre-line mb-4 text-justify">
+                                      {p.abstract}
+                                    </DialogDescription>
+                                  )}
+
+                                  <Meta
+                                    label="Authors"
+                                    value={p.authors.join(", ")}
+                                  />
+                                  <Meta
+                                    label="Published in"
+                                    value={`${p.venue} (${p.year})`}
+                                  />
+
+                                  {p.tags.length > 0 && (
+                                    <Meta
+                                      label="Topics"
+                                      value={
+                                        <div className="flex flex-wrap gap-2">
+                                          {p.tags.map((t) => (
+                                            <Badge key={t} variant="secondary">
+                                              {t}
+                                            </Badge>
+                                          ))}
+                                        </div>
+                                      }
+                                    />
+                                  )}
+
+                                  <div className="flex flex-wrap gap-2 mt-4">
+                                    <Button
+                                      variant="outline"
+                                      size="sm"
+                                      onClick={() => copyBibTeX(p)}
+                                    >
+                                      <Copy className="w-4 h-4 mr-1" />
+                                      Copy BibTeX
+                                    </Button>
+
+                                    {p.link && (
+                                      <Button variant="outline" size="sm" asChild>
+                                        <a
+                                          href={p.link}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <ExternalLink className="w-4 h-4 mr-1" />
+                                          View Paper
+                                        </a>
+                                      </Button>
+                                    )}
+
+                                    {p.scholarLink && (
+                                      <Button variant="outline" size="sm" asChild>
+                                        <a
+                                          href={p.scholarLink}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                        >
+                                          <GraduationCap className="w-4 h-4 mr-1" />
+                                          Scholar
+                                        </a>
+                                      </Button>
+                                    )}
                                   </div>
-                                }
-                              />
-
-                              <div className="flex gap-2 mt-4">
-                                <Button variant="outline" size="sm" onClick={() => copyBibTeX(p)}>
-                                  <Copy className="w-4 h-4 mr-1" />
-                                  Copy BibTeX
-                                </Button>
-                                <Button variant="outline" size="sm" asChild>
-                                  <a href={p.link} target="_blank" rel="noopener noreferrer">
-                                    <ExternalLink className="w-4 h-4 mr-1" />
-                                    View Paper
-                                  </a>
-                                </Button>
-                              </div>
-                            </DialogContent>
-                          </Dialog>
+                                </DialogContent>
+                              </Dialog>
+                            )}
+                          </div>
                         </div>
-                      </div>
 
-                      {/* tags */}
-                      <div className="flex flex-wrap gap-2 mt-2">
-                        {p.tags.map((t) => (
-                          <Badge key={t} variant="secondary" className="text-xs">
-                            {t}
-                          </Badge>
-                        ))}
-                      </div>
-                    </CardHeader>
-                  </Card>
-                ))}
+                        {p.tags.length > 0 && (
+                          <div className="flex flex-wrap gap-2 mt-2">
+                            {p.tags.map((t) => (
+                              <Badge key={t} variant="secondary" className="text-xs">
+                                {t}
+                              </Badge>
+                            ))}
+                          </div>
+                        )}
+                      </CardHeader>
+                    </Card>
+                  );
+                })}
               </CollapsibleContent>
             </Collapsible>
           </FadeInSection>

@@ -1,5 +1,380 @@
 [
   {
+    "title": "Detecting Argument-Swap Bugs Using Context-Enhanced Code Representations",
+    "authors": [
+      "S Das",
+      "A Aman",
+      "M Asaduzzaman",
+      "KW Nafi",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2609.17844",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:4MWp96NkSFoC",
+    "citationId": "EzCD7v0AAAAJ:4MWp96NkSFoC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Lightweight Hierarchical Multimodal AI for Satellite-Edge Earth Observation: A Wildfire Detection Use Case",
+    "authors": [
+      "S Sakib",
+      "S Choudhury"
+    ],
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ML0RJ9NH7IQC",
+    "citationId": "EzCD7v0AAAAJ:ML0RJ9NH7IQC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Regime-aware causal Bayesian forecasting for non-stationary time series",
+    "authors": [
+      "B Mossop",
+      "S Choudhury"
+    ],
+    "venue": "PLoS One 21 (8), e0356474",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Z5m8FVwuT1cC",
+    "citationId": "EzCD7v0AAAAJ:Z5m8FVwuT1cC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Improving machine learning forecasting explainability and performance with causal feature selection for infectious disease spread",
+    "authors": [
+      "B Mossop",
+      "S Choudhury"
+    ],
+    "venue": "INFOR: Information Systems and Operational Research, 1-23",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:BUYA1_V_uYcC",
+    "citationId": "EzCD7v0AAAAJ:BUYA1_V_uYcC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "CHORUS++: An agentic RAG framework with iterative refinement for linear programming code generation",
+    "authors": [
+      "T Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "Annals of Mathematics and Artificial Intelligence, 1-29",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:epqYDVWIO7EC",
+    "citationId": "EzCD7v0AAAAJ:epqYDVWIO7EC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Development and Validation of Machine Learning Models to Optimize Imaging and Referrals for Dizziness in the Emergency Department",
+    "authors": [
+      "DC Roy",
+      "D Savage",
+      "S Deb",
+      "S Choudhury",
+      "R Ohle"
+    ],
+    "venue": "Academic Emergency Medicine 33 (7), e70369",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ipzZ9siozwsC",
+    "citationId": "EzCD7v0AAAAJ:ipzZ9siozwsC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "PM2.5 performance analysis under varying imputation strategies for incomplete sensor data",
+    "authors": [
+      "R Chowdhury",
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "Scientific Reports",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:uc_IGeMz5qoC",
+    "citationId": "EzCD7v0AAAAJ:uc_IGeMz5qoC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Classification-Oriented Compressed Transmissions: A Semantic Communication Approach",
+    "authors": [
+      "M Elrashidy",
+      "S Choudhury",
+      "H ElSawy"
+    ],
+    "venue": "ICC 2026-IEEE International Conference on Communications, 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:zLWjf1WUPmwC",
+    "citationId": "EzCD7v0AAAAJ:zLWjf1WUPmwC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Sustainable and Adaptive Resource Allocation for IoT Applications at the Extreme Edge",
+    "authors": [
+      "M Al-Jarah",
+      "S Choudhury",
+      "HS Hassanein"
+    ],
+    "venue": "ICC 2026-IEEE International Conference on Communications, 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:EkHepimYqZsC",
+    "citationId": "EzCD7v0AAAAJ:EkHepimYqZsC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Vision Language Models for Optimization-Driven Intent Processing in Autonomous Networks",
+    "authors": [
+      "T Ahmed",
+      "Y Zhu",
+      "S Choudhury"
+    ],
+    "venue": "ICC 2026-IEEE International Conference on Communications, 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:9Nmd_mFXekcC",
+    "citationId": "EzCD7v0AAAAJ:9Nmd_mFXekcC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Majority Stability of Coalition Structures Under Decentralized Preferences of Autonomous Agents",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "Group Decision and Negotiation 35 (1), 2",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:uJ-U7cs_P_0C",
+    "citationId": "EzCD7v0AAAAJ:uJ-U7cs_P_0C",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "mind_call: A Dataset for Mental Health Function Calling with Large Language Models",
+    "authors": [
+      "FR Shafi",
+      "MA Hossain",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2601.06937",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:z_wVstp3MssC",
+    "citationId": "EzCD7v0AAAAJ:z_wVstp3MssC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "From Design to Development: Engineering a Multi-LLM Agentic AI System",
+    "authors": [
+      "FR Shafi",
+      "MA Hossain",
+      "S Choudhury"
+    ],
+    "venue": "TechRxiv 2026 (0110)",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:t7zJ5fGR-2UC",
+    "citationId": "EzCD7v0AAAAJ:t7zJ5fGR-2UC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "mind_call: A Dataset for Mental Health Function Calling with Large Language Models",
+    "authors": [
+      "F Rabbi Shafi",
+      "MA Hossain",
+      "S Choudhury"
+    ],
+    "venue": "arXiv e-prints, arXiv: 2601.06937",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:URolC5Kub84C",
+    "citationId": "EzCD7v0AAAAJ:URolC5Kub84C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Generalized Welfare-Aware Matching with Multimodal Preferences and Criteria Strategizing of Autonomous Agents.",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "ICAART (1), 362-373",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:0KyAp5RtaNEC",
+    "citationId": "EzCD7v0AAAAJ:0KyAp5RtaNEC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "for Generating Linear Programming Code",
+    "authors": [
+      "T Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "Learning and Intelligent Optimization: 19th International Conference, LION …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:VLnqNzywnoUC",
+    "citationId": "EzCD7v0AAAAJ:VLnqNzywnoUC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "Agent-guided Causal Discovery with a Small Language Model",
+    "authors": [
+      "B Mossop",
+      "S Choudhury"
+    ],
+    "venue": "2025 3rd International Conference on Foundation and Large Language Models …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:yB1At4FlUx8C",
+    "citationId": "EzCD7v0AAAAJ:yB1At4FlUx8C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "LLM-QUBO: An End-to-End Framework for Automated QUBO Transformation from Natural Language Problem Descriptions",
+    "authors": [
+      "H Zhang",
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "Proceedings of the AAAI Symposium Series 7 (1), 411-418",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:35r97b3x0nAC",
+    "citationId": "EzCD7v0AAAAJ:35r97b3x0nAC",
+    "citedBy": 8,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "LM4Opt-RA: A Multi-Candidate LLM Framework with Structured Ranking for Automating Network Resource Allocation",
+    "authors": [
+      "T Ahmed",
+      "S Rizwan",
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2512.00039",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:j8SEvjWlNXcC",
+    "citationId": "EzCD7v0AAAAJ:j8SEvjWlNXcC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "Fair and efficient resource allocation optimization for internet of vehicles (IoV) in edge computing environments",
+    "authors": [
+      "SW Al-Mhameed",
+      "L Karimi",
+      "SC Choudhury"
+    ],
+    "venue": "International Journal of Parallel, Emergent and Distributed Systems 40 (6 …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:-_dYPAW6P2MC",
+    "citationId": "EzCD7v0AAAAJ:-_dYPAW6P2MC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "OPT2CODE: A Retrieval-Augmented Framework for Solving Linear Programming Problems",
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "Artificial Intelligence and Machine Learning in Operations Management Research (AIMOR) Workshop 2025",
+    "link": "",
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:fEOibwPWpKIC",
+    "citationId": "EzCD7v0AAAAJ:fEOibwPWpKIC",
+    "citedBy": 5
+  },
+  {
     "title": "SIMCODE: A Benchmark for Natural Language to ns-3 Network Simulation Code Generation",
     "authors": [
       "Tasnim Ahmed",
@@ -10,95 +385,70 @@
     "link": "",
     "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in code generation across various domains. However, their effectiveness in generating simulation scripts for domain-specific environments like ns-3 remains underexplored. Despite the growing interest in automating network simulations, existing tools primarily focus on interactive automation over rigorous evaluation. To facilitate systematic evaluation, we introduce SIMCODE, the first benchmark to evaluate LLMs' ability to generate ns-3 simulation code from natural language. SIMCODE includes 400 tasks across introductory, intermediate, and advanced levels, with solutions and test cases. Using SIMCODE, we evaluate three prominent LLMs, Gemini-2.0, GPT-4.1, and Qwen-3, across six prompt techniques. Furthermore, investigating task-specific fine-tuning’s impact reveals that while GPT-4.1 outperforms others, execution accuracy remains modest, with substantial room for improvement. Error analysis identifies missing headers and API mismatches as dominant failures. Nevertheless, SIMCODE provides a foundational step toward evaluating LLMs and research in domain-aware generative systems.",
     "thumbnail": "",
-    "tags": ["Large Language Models", "Code Generation", "Network Simulation", "ns-3"],
-    "year": 2025
-  },
-
-  {
-    "title": "CHORUS: Zero-shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code",
-    "authors": [
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
+    "tags": [
+      "Large Language Models",
+      "Code Generation",
+      "Network Simulation",
+      "ns-3"
     ],
-    "venue": "The 19th Learning and Intelligent Optimization Conference (LION 19)",
-    "link": "https://arxiv.org/abs/2505.01485",
-    "abstract": "Linear Programming (LP) problems aim to find the optimal solution to an objective under constraints. These problems typically require domain knowledge, mathematical skills, and programming ability, presenting significant challenges for non-experts. This study explores the efficiency of Large Language Models (LLMs) in generating solver-specific LP code. We propose CHORUS, a retrieval-augmented generation (RAG) framework for synthesizing Gurobi-based LP code from natural language problem statements. CHORUS incorporates a hierarchical tree-like chunking strategy for theoretical contents and generates additional metadata based on code examples from documentation to facilitate self-contained, semantically coherent retrieval. Two-stage retrieval approach of CHORUS followed by cross-encoder reranking further ensures contextual relevance. Finally, expertly crafted prompt and structured parser with reasoning steps improve code generation performance significantly. Experiments on the NL4Opt-Code benchmark show that CHORUS improves the performance of open-source LLMs such as Llama3.1 (8B), Llama3.3 (70B), Phi4 (14B), Deepseek-r1 (32B), and Qwen2.5-coder (32B) by a significant margin compared to baseline and conventional RAG. It also allows these open-source LLMs to outperform or match the performance of much stronger baselines-GPT3.5 and GPT4 while requiring far fewer computational resources. Ablation studies further demonstrate the importance of expert prompting, hierarchical chunking, and structured reasoning.",
-    "thumbnail": "chorus.png",
-    "tags": ["Linear Programming", "Large Language Models", "Code Generation", "Retrieval-Augmented Generation", "Gurobi Solver"],
-    "year": 2025
+    "year": 2025,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ZfRJV9d4-WMC",
+    "citationId": "EzCD7v0AAAAJ:ZfRJV9d4-WMC",
+    "citedBy": 6
   },
-
   {
-    "title": "LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems",
+    "title": "Sla-centric automated algorithm selection framework for cloud environments",
     "authors": [
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
+      "S Rizwan",
+      "T Ahmed",
+      "S Choudhury"
     ],
-    "venue": "INFOR: Information Systems and Operational Research",
-    "link": "https://doi.org/10.1080/03155986.2024.2388452",
-    "abstract": "In the fast-paced domain of natural language processing, converting linguistic descriptions into mathematical optimization problems is a complex task, requiring profound comprehension and processing skills from Large Language Models (LLMs). In this study, various LLMs were evaluated, including GPT-3.5, GPT-4, and smaller variants with seven billion parameters: Llama-2, Falcon, Mistral, and Zephyr. This research investigated their performance in both zero-shot and one-shot settings for this task, revealing that GPT-4 outperformed others, particularly in the one-shot scenario. A core contribution of this study is the development of LM4OPT, a progressive fine-tuning framework specifically designed for smaller LLMs. This framework leverages noisy embeddings and specialized datasets to enhance the performance of the models. Regardless of the inherent limitations of smaller models in processing complex and lengthy input contexts, our experimental results indicate a significant reduction in the performance disparity between smaller and larger models when the former are fine-tuned using LM4OPT. Our empirical study, utilizing the NL4Opt dataset, unveils that GPT-4 surpasses the baseline performance established by previous research, achieving an accuracy of 63.30%, solely based on the problem description in natural language, and without relying on any additional named entity information. GPT-3.5 follows closely, both outperforming the progressively fine-tuned smaller models.",
+    "venue": "2025 16th International Conference on Network of the Future (NoF), 106-110",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:tzM49s52ZIMC",
+    "citationId": "EzCD7v0AAAAJ:tzM49s52ZIMC",
+    "citedBy": 1,
+    "abstract": "",
     "thumbnail": "",
-    "tags": ["Natural Language Processing", "Large Language Models", "Optimization", "Operations Research", "Fine-tuning"],
-    "year": 2024
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
   },
   {
-    "title": "Redefining Real-time Road Quality Analysis with Vision Transformers on Edge Devices",
+    "title": "Generative AI-driven edge-cloud system for intelligent road infrastructure inspection",
     "authors": [
-      "Tasnim Ahmed",
-      "Naveed Ejaz",
-      "Salimur Choudhury"
+      "N Ejaz",
+      "ABMB Alam",
+      "S Choudhury"
     ],
-    "venue": "IEEE Transactions on Artificial Intelligence",
-    "link": "https://doi.org/10.1109/TAI.2024.3394797",
-    "abstract": "Road infrastructure is essential for transportation safety and efficiency. However, the current methods for assessing road conditions, crucial for effective planning and maintenance, suffer from high costs, time-intensive procedures, infrequent data collection, and limited real-time capabilities. This article presents an efficient lightweight system to analyze road quality from video feeds in real time. The backbone of the system is EdgeFusionViT, a novel vision transformer (ViT)-based architecture that uses an attention-based late fusion mechanism. The proposed architecture outperforms lightweight convolutional neural network (CNN)-based and ViT-based models. Its practicality is demonstrated by its deployment on an edge device, the Nvidia Jetson Orin Nano, enabling real-time road analysis at 12 frames per second. EdgeFusionViT outperforms existing benchmarks, achieving an impressive accuracy of 89.76% on the road surface condition dataset (RSCD). Notably, the model maintains a commendable accuracy of 76.89% even when trained with only 2% of the dataset, demonstrating its robustness and efficiency. These findings highlight the system's potential in road infrastructure management. It aids in creating safer, more efficient transport systems through timely, accurate road condition assessments. The study sets a new benchmark and opens up possibilities for advanced machine learning in infrastructure management.",
-    "thumbnail": "tai_tasnim.jpg",
-    "tags": ["Artificial Intelligence", "Computer vision", "Deep learning", "Intelligent systems", "Vehicle-to-infrastructure"],
-    "year": 2024
-  },
-  
-  {
-    "title": "An Integrated Approach to AI-Generated Content in e-health",
-    "authors": [
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
-    ],
-    "venue": "The 2025 IEEE International Conference on Communications (ICC 2025)",
-    "link": "https://arxiv.org/abs/2501.16348",
-    "abstract": "Artificial Intelligence-Generated Content, a subset of Generative Artificial Intelligence, holds significant potential for advancing the e-health sector by generating diverse forms of data. In this paper, we propose an end-to-end class-conditioned framework that addresses the challenge of data scarcity in health applications by generating synthetic medical images and text data, evaluating on practical applications such as retinopathy detection, skin infections and mental health assessments. Our framework integrates Diffusion and Large Language Models (LLMs) to generate data that closely match real-world patterns, which is essential for improving downstream task performance and model robustness in e-health applications. Experimental results demonstrate that the synthetic images produced by the proposed diffusion model outperform traditional GAN architectures. Similarly, in the text modality, data generated by uncensored LLM achieves significantly better alignment with real-world data than censored models in replicating the authentic tone.",
-    "thumbnail": "icc_tasnim.png",
-    "tags": ["Generative Artificial Intelligence", "e-health", "Synthetic Data", "Large Language Models", "Diffusion"],
-    "year": 2025
-  },
-  {
-    "title": "Automated Scheduling for Thematic Coherence in Conferences",
-    "authors": [
-      "Mahzabeen Emu",
-      "Tasnim Ahmed",
-      "Salimur Choudhury"
-    ],
-    "venue": "ACM International Conference on AI-Powered Software (AIware 2024)",
-    "link": "https://doi.org/10.1145/3664646.3665085",
-    "abstract": "Welcome to the 1st ACM International Conference on AI-Powered Software (AIware), held on 15th and 16th July 2024 in Porto de Galinhas, Brazil co-located with the ACM International Conference on the Foundations of Software Engineering (FSE 2024). AIware aims to be an annual conference that brings the software engineering community together in anticipation of the upcoming changes driven by Foundation Models (FMs) and looks at them from the perspective of AI-powered software and their evolution. AIware 2024 prioritizes fostering discussions about the latest developments in the interdisciplinary field of AIware rather than solely focusing on the presentation of papers. The emphasis is on engaging conversations from diverse backgrounds to identify emerging research challenges and establish a new research agenda for the community in the Foundation Model era. To present papers and for discussions, the two-day conference will have five sessions themed around AIware Vision, SE for AIware, Human - AI Conversation, Security & Safety and AIware for Software Lifecycle Activities. Furthermore, the conference program will include two keynotes and five industry talks. The final session in the conference program will be dedicated to presenting accepted papers of the AIware challenge track.",
-    "thumbnail": "aiware_tasnim.png",
-    "tags": ["Conference Scheduling", "NLP", "CSP", "Language Models"],
-    "year": 2024
-  },
-  {
-    "title": "Linguistic Intelligence in Large Language Models for Telecommunications",
-    "authors": [
-      "Tasnim Ahmed",
-      "Nicola Piovesan",
-      "Antonio De Domenico",
-      "Salimur Choudhury"
-    ],
-    "venue": "IEEE International Conference on Communications Workshops (ICC Workshops 2024)",
-    "link": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615609",
-    "abstract": "Large Language Models (LLMs) have emerged as a significant advancement in the field of Natural Language Processing (NLP), demonstrating remarkable capabilities in language generation and other language-centric tasks. Despite their evaluation across a multitude of analytical and reasoning tasks in various scientific domains, a comprehensive exploration of their knowledge and understanding within the realm of natural language tasks in the telecommunications domain is still needed. This study, therefore, seeks to evaluate the knowledge and understanding capabilities of LLMs within this domain. To achieve this, we conduct an exhaustive zero-shot evaluation of four prominent LLMs—Llama-2, Falcon, Mistral, and Zephyr. These models require fewer resources than ChatGPT, making them suitable for resource-constrained environments. Their performance is compared with state-of-the-art, fine-tuned models. To the best of our knowledge, this is the first work to extensively evaluate and compare the understanding of LLMs across multiple language-centric tasks in this domain. Our evaluation reveals that zero-shot LLMs can achieve performance levels comparable to the current state-of-the-art fine-tuned models. This indicates that pretraining on extensive text corpora equips LLMs with a degree of specialization, even within the telecommunications domain. We also observe that no single LLM consistently outperforms others, and the performance of different LLMs can fluctuate. Although their performance lags behind fine-tuned models, our findings underscore the potential of LLMs as a valuable resource for understanding various aspects of this field that lack large annotated data.",
+    "venue": "Results in Engineering 27, 105844",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:7T2F9Uy0os0C",
+    "citationId": "EzCD7v0AAAAJ:7T2F9Uy0os0C",
+    "citedBy": 16,
+    "abstract": "",
     "thumbnail": "",
-    "tags": ["Natural Language Processing", "Large Language Models", "Telecommunications", "Zero-shot"],
-    "year": 2024
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
   },
-  
+  {
+    "title": "A comprehensive survey of the machine learning pipeline for wildfire risk prediction and assessment",
+    "authors": [
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "Ecological Informatics, 103325",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_Re3VWB3Y0AC",
+    "citationId": "EzCD7v0AAAAJ:_Re3VWB3Y0AC",
+    "citedBy": 47,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
   {
     "title": "Personalized Mental Health Assistance with Large Language Models",
     "authors": [
@@ -115,19 +465,2661 @@
       "llm",
       "GenAI"
     ],
-    "year": 2025
+    "year": 2025,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:evX43VCCuoAC",
+    "citationId": "EzCD7v0AAAAJ:evX43VCCuoAC",
+    "citedBy": 3
   },
   {
-    "title": "OPT2CODE: A Retrieval-Augmented Framework for Solving Linear Programming Problems",
+    "title": "CHORUS: Zero-shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code",
     "authors": [
       "Tasnim Ahmed",
       "Salimur Choudhury"
     ],
-    "venue": "Artificial Intelligence and Machine Learning in Operations Management Research (AIMOR) Workshop 2025",
+    "venue": "The 19th Learning and Intelligent Optimization Conference (LION 19)",
+    "link": "https://arxiv.org/abs/2505.01485",
+    "abstract": "Linear Programming (LP) problems aim to find the optimal solution to an objective under constraints. These problems typically require domain knowledge, mathematical skills, and programming ability, presenting significant challenges for non-experts. This study explores the efficiency of Large Language Models (LLMs) in generating solver-specific LP code. We propose CHORUS, a retrieval-augmented generation (RAG) framework for synthesizing Gurobi-based LP code from natural language problem statements. CHORUS incorporates a hierarchical tree-like chunking strategy for theoretical contents and generates additional metadata based on code examples from documentation to facilitate self-contained, semantically coherent retrieval. Two-stage retrieval approach of CHORUS followed by cross-encoder reranking further ensures contextual relevance. Finally, expertly crafted prompt and structured parser with reasoning steps improve code generation performance significantly. Experiments on the NL4Opt-Code benchmark show that CHORUS improves the performance of open-source LLMs such as Llama3.1 (8B), Llama3.3 (70B), Phi4 (14B), Deepseek-r1 (32B), and Qwen2.5-coder (32B) by a significant margin compared to baseline and conventional RAG. It also allows these open-source LLMs to outperform or match the performance of much stronger baselines-GPT3.5 and GPT4 while requiring far fewer computational resources. Ablation studies further demonstrate the importance of expert prompting, hierarchical chunking, and structured reasoning.",
+    "thumbnail": "chorus.png",
+    "tags": [
+      "Linear Programming",
+      "Large Language Models",
+      "Code Generation",
+      "Retrieval-Augmented Generation",
+      "Gurobi Solver"
+    ],
+    "year": 2025,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:kzcrU_BdoSEC",
+    "citationId": "EzCD7v0AAAAJ:kzcrU_BdoSEC",
+    "citedBy": 7
+  },
+  {
+    "title": "An Integrated Approach to AI-Generated Content in e-health",
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "The 2025 IEEE International Conference on Communications (ICC 2025)",
+    "link": "https://arxiv.org/abs/2501.16348",
+    "abstract": "Artificial Intelligence-Generated Content, a subset of Generative Artificial Intelligence, holds significant potential for advancing the e-health sector by generating diverse forms of data. In this paper, we propose an end-to-end class-conditioned framework that addresses the challenge of data scarcity in health applications by generating synthetic medical images and text data, evaluating on practical applications such as retinopathy detection, skin infections and mental health assessments. Our framework integrates Diffusion and Large Language Models (LLMs) to generate data that closely match real-world patterns, which is essential for improving downstream task performance and model robustness in e-health applications. Experimental results demonstrate that the synthetic images produced by the proposed diffusion model outperform traditional GAN architectures. Similarly, in the text modality, data generated by uncensored LLM achieves significantly better alignment with real-world data than censored models in replicating the authentic tone.",
+    "thumbnail": "icc_tasnim.png",
+    "tags": [
+      "Generative Artificial Intelligence",
+      "e-health",
+      "Synthetic Data",
+      "Large Language Models",
+      "Diffusion"
+    ],
+    "year": 2025,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:JQOojiI6XY0C",
+    "citationId": "EzCD7v0AAAAJ:JQOojiI6XY0C",
+    "citedBy": 2
+  },
+  {
+    "title": "Algorithmic approach of majority voting with agents’ inclusiveness for facility resource matching",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "IEEE Access 13, 94570-94584",
     "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:NJ774b8OgUMC",
+    "citationId": "EzCD7v0AAAAJ:NJ774b8OgUMC",
+    "citedBy": 1,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
-    "year": 2025
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "AI and Semantic Communication for Infrastructure Monitoring in 6G-Driven Drone Swarms",
+    "authors": [
+      "T Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2503.00053",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_Ybze24A_UAC",
+    "citationId": "EzCD7v0AAAAJ:_Ybze24A_UAC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "A comprehensive survey of linear, integer, and mixed-integer programming approaches for optimizing resource allocation in 5g and beyond networks",
+    "authors": [
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2502.15585",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:uLbwQdceFCQC",
+    "citationId": "EzCD7v0AAAAJ:uLbwQdceFCQC",
+    "citedBy": 25,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "Characterizing the services provided by family physicians in Ontario, Canada: A retrospective study using administrative billing data",
+    "authors": [
+      "DW Savage",
+      "A Garg",
+      "S Choudhury",
+      "R Strasser",
+      "R Ohle",
+      "V Mago"
+    ],
+    "venue": "Plos one 20 (1), e0316554",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:PR6Y55bgFSsC",
+    "citationId": "EzCD7v0AAAAJ:PR6Y55bgFSsC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "Adaptive 5g Resource Allocation for Emergency Scenarios in Iov: Leveraging Extreme Edge Computing",
+    "authors": [
+      "S ALMHAMEED",
+      "S Choudhury"
+    ],
+    "venue": "Available at SSRN 5117099",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:UHK10RUVsp4C",
+    "citationId": "EzCD7v0AAAAJ:UHK10RUVsp4C",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2025,
+    "autoSynced": true
+  },
+  {
+    "title": "Quantum long short-term memory-assisted optimization for efficient vehicle platooning in connected and autonomous systems",
+    "authors": [
+      "M Emu",
+      "T Rahman",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "IEEE Open Journal of the Computer Society 6, 119-128",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:1yQoGdGgb4wC",
+    "citationId": "EzCD7v0AAAAJ:1yQoGdGgb4wC",
+    "citedBy": 8,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Reliable Federated Learning with Auction-Based Incentives at the Extreme Edge",
+    "authors": [
+      "MS Allahham",
+      "S Choudhury",
+      "HS Hassanein"
+    ],
+    "venue": "GLOBECOM 2024-2024 IEEE Global Communications Conference, 3134-3139",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Fu2w8maKXqMC",
+    "citationId": "EzCD7v0AAAAJ:Fu2w8maKXqMC",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Latency aware optimal vnf deployment on edge devices for iot services",
+    "authors": [
+      "V Adoni",
+      "L Karimi",
+      "PR Saha",
+      "S Choudhury",
+      "DR Gaur"
+    ],
+    "venue": "GLOBECOM 2024-2024 IEEE Global Communications Conference, 1034-1040",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:W5xh706n7nkC",
+    "citationId": "EzCD7v0AAAAJ:W5xh706n7nkC",
+    "citedBy": 2,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems",
+    "authors": [
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "INFOR: Information Systems and Operational Research",
+    "link": "https://doi.org/10.1080/03155986.2024.2388452",
+    "abstract": "In the fast-paced domain of natural language processing, converting linguistic descriptions into mathematical optimization problems is a complex task, requiring profound comprehension and processing skills from Large Language Models (LLMs). In this study, various LLMs were evaluated, including GPT-3.5, GPT-4, and smaller variants with seven billion parameters: Llama-2, Falcon, Mistral, and Zephyr. This research investigated their performance in both zero-shot and one-shot settings for this task, revealing that GPT-4 outperformed others, particularly in the one-shot scenario. A core contribution of this study is the development of LM4OPT, a progressive fine-tuning framework specifically designed for smaller LLMs. This framework leverages noisy embeddings and specialized datasets to enhance the performance of the models. Regardless of the inherent limitations of smaller models in processing complex and lengthy input contexts, our experimental results indicate a significant reduction in the performance disparity between smaller and larger models when the former are fine-tuned using LM4OPT. Our empirical study, utilizing the NL4Opt dataset, unveils that GPT-4 surpasses the baseline performance established by previous research, achieving an accuracy of 63.30%, solely based on the problem description in natural language, and without relying on any additional named entity information. GPT-3.5 follows closely, both outperforming the progressively fine-tuned smaller models.",
+    "thumbnail": "",
+    "tags": [
+      "Natural Language Processing",
+      "Large Language Models",
+      "Optimization",
+      "Operations Research",
+      "Fine-tuning"
+    ],
+    "year": 2024,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:JoZmwDi-zQgC",
+    "citationId": "EzCD7v0AAAAJ:JoZmwDi-zQgC",
+    "citedBy": 65
+  },
+  {
+    "title": "Next-Generation Vehicle Platooning: Leveraging Quantum Long Short-Term Memory Networks",
+    "authors": [
+      "M Emu",
+      "T Rahman",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2024 IEEE International Conference on Quantum Computing and Engineering (QCE …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:hkOj_22Ku90C",
+    "citationId": "EzCD7v0AAAAJ:hkOj_22Ku90C",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Altruistic bandit learning for one-to-many matching markets",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "Proceedings of the 2024 International Conference on Information Technology …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:VL0QpB8kHFEC",
+    "citationId": "EzCD7v0AAAAJ:VL0QpB8kHFEC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "A comparison of point cloud segmentation models for road unevenness detection and smooth autonomous driving",
+    "authors": [
+      "M Sharpe",
+      "L Fleck",
+      "A Mun-Shimoda",
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "2024 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:N5tVd3kTz84C",
+    "citationId": "EzCD7v0AAAAJ:N5tVd3kTz84C",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Automated Scheduling for Thematic Coherence in Conferences",
+    "authors": [
+      "Mahzabeen Emu",
+      "Tasnim Ahmed",
+      "Salimur Choudhury"
+    ],
+    "venue": "ACM International Conference on AI-Powered Software (AIware 2024)",
+    "link": "https://doi.org/10.1145/3664646.3665085",
+    "abstract": "Welcome to the 1st ACM International Conference on AI-Powered Software (AIware), held on 15th and 16th July 2024 in Porto de Galinhas, Brazil co-located with the ACM International Conference on the Foundations of Software Engineering (FSE 2024). AIware aims to be an annual conference that brings the software engineering community together in anticipation of the upcoming changes driven by Foundation Models (FMs) and looks at them from the perspective of AI-powered software and their evolution. AIware 2024 prioritizes fostering discussions about the latest developments in the interdisciplinary field of AIware rather than solely focusing on the presentation of papers. The emphasis is on engaging conversations from diverse backgrounds to identify emerging research challenges and establish a new research agenda for the community in the Foundation Model era. To present papers and for discussions, the two-day conference will have five sessions themed around AIware Vision, SE for AIware, Human - AI Conversation, Security & Safety and AIware for Software Lifecycle Activities. Furthermore, the conference program will include two keynotes and five industry talks. The final session in the conference program will be dedicated to presenting accepted papers of the AIware challenge track.",
+    "thumbnail": "aiware_tasnim.png",
+    "tags": [
+      "Conference Scheduling",
+      "NLP",
+      "CSP",
+      "Language Models"
+    ],
+    "year": 2024,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:LjlpjdlvIbIC",
+    "citationId": "EzCD7v0AAAAJ:LjlpjdlvIbIC",
+    "citedBy": 0
+  },
+  {
+    "title": "Computer vision in drone imagery for infrastructure management",
+    "authors": [
+      "N Ejaz",
+      "S Choudhury"
+    ],
+    "venue": "Automation in Construction 163, 105418",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:SdhP9T11ey4C",
+    "citationId": "EzCD7v0AAAAJ:SdhP9T11ey4C",
+    "citedBy": 38,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Linguistic Intelligence in Large Language Models for Telecommunications",
+    "authors": [
+      "Tasnim Ahmed",
+      "Nicola Piovesan",
+      "Antonio De Domenico",
+      "Salimur Choudhury"
+    ],
+    "venue": "IEEE International Conference on Communications Workshops (ICC Workshops 2024)",
+    "link": "https://doi.org/10.1109/ICCWorkshops59551.2024.10615609",
+    "abstract": "Large Language Models (LLMs) have emerged as a significant advancement in the field of Natural Language Processing (NLP), demonstrating remarkable capabilities in language generation and other language-centric tasks. Despite their evaluation across a multitude of analytical and reasoning tasks in various scientific domains, a comprehensive exploration of their knowledge and understanding within the realm of natural language tasks in the telecommunications domain is still needed. This study, therefore, seeks to evaluate the knowledge and understanding capabilities of LLMs within this domain. To achieve this, we conduct an exhaustive zero-shot evaluation of four prominent LLMs—Llama-2, Falcon, Mistral, and Zephyr. These models require fewer resources than ChatGPT, making them suitable for resource-constrained environments. Their performance is compared with state-of-the-art, fine-tuned models. To the best of our knowledge, this is the first work to extensively evaluate and compare the understanding of LLMs across multiple language-centric tasks in this domain. Our evaluation reveals that zero-shot LLMs can achieve performance levels comparable to the current state-of-the-art fine-tuned models. This indicates that pretraining on extensive text corpora equips LLMs with a degree of specialization, even within the telecommunications domain. We also observe that no single LLM consistently outperforms others, and the performance of different LLMs can fluctuate. Although their performance lags behind fine-tuned models, our findings underscore the potential of LLMs as a valuable resource for understanding various aspects of this field that lack large annotated data.",
+    "thumbnail": "",
+    "tags": [
+      "Natural Language Processing",
+      "Large Language Models",
+      "Telecommunications",
+      "Zero-shot"
+    ],
+    "year": 2024,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_B80troHkn4C",
+    "citationId": "EzCD7v0AAAAJ:_B80troHkn4C",
+    "citedBy": 31
+  },
+  {
+    "title": "Robust virtual network function optimization under post-failure uncertainty: Classical & quantum computing",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2024 20th International Conference on the Design of Reliable Communication …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:tkaPQYYpVKoC",
+    "citationId": "EzCD7v0AAAAJ:tkaPQYYpVKoC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Redefining Real-time Road Quality Analysis with Vision Transformers on Edge Devices",
+    "authors": [
+      "Tasnim Ahmed",
+      "Naveed Ejaz",
+      "Salimur Choudhury"
+    ],
+    "venue": "IEEE Transactions on Artificial Intelligence",
+    "link": "https://doi.org/10.1109/TAI.2024.3394797",
+    "abstract": "Road infrastructure is essential for transportation safety and efficiency. However, the current methods for assessing road conditions, crucial for effective planning and maintenance, suffer from high costs, time-intensive procedures, infrequent data collection, and limited real-time capabilities. This article presents an efficient lightweight system to analyze road quality from video feeds in real time. The backbone of the system is EdgeFusionViT, a novel vision transformer (ViT)-based architecture that uses an attention-based late fusion mechanism. The proposed architecture outperforms lightweight convolutional neural network (CNN)-based and ViT-based models. Its practicality is demonstrated by its deployment on an edge device, the Nvidia Jetson Orin Nano, enabling real-time road analysis at 12 frames per second. EdgeFusionViT outperforms existing benchmarks, achieving an impressive accuracy of 89.76% on the road surface condition dataset (RSCD). Notably, the model maintains a commendable accuracy of 76.89% even when trained with only 2% of the dataset, demonstrating its robustness and efficiency. These findings highlight the system's potential in road infrastructure management. It aids in creating safer, more efficient transport systems through timely, accurate road condition assessments. The study sets a new benchmark and opens up possibilities for advanced machine learning in infrastructure management.",
+    "thumbnail": "tai_tasnim.jpg",
+    "tags": [
+      "Artificial Intelligence",
+      "Computer vision",
+      "Deep learning",
+      "Intelligent systems",
+      "Vehicle-to-infrastructure"
+    ],
+    "year": 2024,
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:5awf1xo2G04C",
+    "citationId": "EzCD7v0AAAAJ:5awf1xo2G04C",
+    "citedBy": 20
+  },
+  {
+    "title": "Stochastic resource optimization for metaverse data marketplace by leveraging quantum neural networks",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "IEEE Transactions on Network and Service Management 21 (3), 2613-2623",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:eq2jaN3J8jMC",
+    "citationId": "EzCD7v0AAAAJ:eq2jaN3J8jMC",
+    "citedBy": 10,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Towards comprehensive cyberbullying detection: A dataset incorporating aggressive texts, repetition, peerness, and intent to harm",
+    "authors": [
+      "N Ejaz",
+      "F Razi",
+      "S Choudhury"
+    ],
+    "venue": "Computers in Human Behavior 153, 108123",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:t6usbXjVLHcC",
+    "citationId": "EzCD7v0AAAAJ:t6usbXjVLHcC",
+    "citedBy": 72,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Artificial intelligence for family medicine research in Canada: current state and future directions: Report of the CFPC AI Working Group",
+    "authors": [
+      "JK Kueper",
+      "M Emu",
+      "M Banbury",
+      "LM Bjerre",
+      "S Choudhury",
+      "M Green",
+      "..."
+    ],
+    "venue": "Canadian Family Physician 70 (3), 161-168",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:dTyEYWd-f8wC",
+    "citationId": "EzCD7v0AAAAJ:dTyEYWd-f8wC",
+    "citedBy": 22,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "A multi-faceted semi-synthetic dataset for automated cyberbullying detection",
+    "authors": [
+      "N Ejaz",
+      "F Kashif",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2402.10231",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Y5dfb0dijaUC",
+    "citationId": "EzCD7v0AAAAJ:Y5dfb0dijaUC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Warm and cold start quantum annealing for Metaverse resource optimization",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "IEEE Open Journal of the Communications Society 5, 1057-1071",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:AXPGKjj_ei8C",
+    "citationId": "EzCD7v0AAAAJ:AXPGKjj_ei8C",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Artificial neural networks for demand forecasting of the Canadian forest products industry",
+    "authors": [
+      "SK Shahi",
+      "P Yan",
+      "S Choudhury",
+      "B Maheshwari"
+    ],
+    "venue": "International Journal of Business Information Systems 47 (3), 295-323",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:uWiczbcajpAC",
+    "citationId": "EzCD7v0AAAAJ:uWiczbcajpAC",
+    "citedBy": 2,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2024,
+    "autoSynced": true
+  },
+  {
+    "title": "Balancing matching of two-sided agents with adaptive and fair instability",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2023 IEEE Symposium Series on Computational Intelligence (SSCI), 1682-1689",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:WA5NYHcadZ8C",
+    "citationId": "EzCD7v0AAAAJ:WA5NYHcadZ8C",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Algorithm package of AI-driven SDN controller-switch load balancing strategies",
+    "authors": [
+      "M Emu",
+      "MY Hassan",
+      "ZM Fadlullah",
+      "S Choudhury"
+    ],
+    "venue": "2023 IEEE Symposium Series on Computational Intelligence (SSCI), 347-354",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:HE397vMXCloC",
+    "citationId": "EzCD7v0AAAAJ:HE397vMXCloC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Pattern Mining Local Search Heuristics for Dynamic Pickup Delivery Problems",
+    "authors": [
+      "C Little",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "International Conference on Genetic and Evolutionary Computing, 253-264",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:eMMeJKvmdy0C",
+    "citationId": "EzCD7v0AAAAJ:eMMeJKvmdy0C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "A Pattern Mining Heuristic for the Extension of Multi-trip Vehicle Routing",
+    "authors": [
+      "L Karimi",
+      "C Little",
+      "S Choudhury"
+    ],
+    "venue": "International Conference on Optimization, Learning Algorithms and …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Mojj43d5GZwC",
+    "citationId": "EzCD7v0AAAAJ:Mojj43d5GZwC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Semi-supervised Learning Approach to Efficient Cut Selection in the Branch-and-Cut Framework",
+    "authors": [
+      "JH Sun",
+      "S Choudhury"
+    ],
+    "venue": "International Conference on Computational Science, 528-535",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:5ugPr518TE4C",
+    "citationId": "EzCD7v0AAAAJ:5ugPr518TE4C",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Quantum neural networks driven stochastic resource optimization for metaverse data marketplace",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2023 IEEE 9th International Conference on Network Softwarization (NetSoft …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:XiVPGOgt02cC",
+    "citationId": "EzCD7v0AAAAJ:XiVPGOgt02cC",
+    "citedBy": 8,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Quantum computing empowered metaverse: An approach for resource optimization",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "ICC 2023-IEEE International Conference on Communications, 2412-2418",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:olpn-zPbct0C",
+    "citationId": "EzCD7v0AAAAJ:olpn-zPbct0C",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Staffing rural emergency departments in Ontario: The who, what and where",
+    "authors": [
+      "T Randle",
+      "A Garg",
+      "V Mago",
+      "S Choudhury",
+      "R Ohle",
+      "R Strasser",
+      "SW Moore",
+      "..."
+    ],
+    "venue": "Canadian Journal of Rural Medicine 28 (2), 73-81",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:V3AGJWp-ZtQC",
+    "citationId": "EzCD7v0AAAAJ:V3AGJWp-ZtQC",
+    "citedBy": 7,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "Multi-Objective Task Assignment Solution for Parked Vehicular Computing.",
+    "authors": [
+      "JH Sun",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "ICORES, 193-202",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:1qzjygNMrQYC",
+    "citationId": "EzCD7v0AAAAJ:1qzjygNMrQYC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2023,
+    "autoSynced": true
+  },
+  {
+    "title": "A two-stage based strategy to optimize homeless placement in shelters",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2022 IEEE International Humanitarian Technology Conference (IHTC), 49-55",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:mvPsJ3kp5DgC",
+    "citationId": "EzCD7v0AAAAJ:mvPsJ3kp5DgC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Task Offloading in Mobile Edge Computing: Intractability and Proposed Approaches",
+    "authors": [
+      "X Tan",
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "2022 IEEE/WIC/ACM International Joint Conference on Web Intelligence and …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:J-pR_7NvFogC",
+    "citationId": "EzCD7v0AAAAJ:J-pR_7NvFogC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Comparison of genetic operators for the multiobjective pickup and delivery problem",
+    "authors": [
+      "C Little",
+      "S Choudhury",
+      "T Hu",
+      "K Salomaa"
+    ],
+    "venue": "Mathematics 10 (22), 4308",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:BrmTIyaxlBUC",
+    "citationId": "EzCD7v0AAAAJ:BrmTIyaxlBUC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "A review of the scheduling problem within Canadian healthcare centres",
+    "authors": [
+      "C Little",
+      "S Choudhury"
+    ],
+    "venue": "Applied Sciences 12 (21), 11146",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:eflP2zaiRacC",
+    "citationId": "EzCD7v0AAAAJ:eflP2zaiRacC",
+    "citedBy": 20,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Resource optimization of SFC embedding for IoT networks using quantum computing",
+    "authors": [
+      "M Emu",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2022 IEEE 27th International Workshop on Computer Aided Modeling and Design …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:q3oQSFYPqjQC",
+    "citationId": "EzCD7v0AAAAJ:q3oQSFYPqjQC",
+    "citedBy": 11,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Designing a deep Q-learning model with edge-level training for multi-level task offloading in edge computing networks",
+    "authors": [
+      "A Zendebudi",
+      "S Choudhury"
+    ],
+    "venue": "Applied Sciences 12 (20), 10664",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:D_sINldO8mEC",
+    "citationId": "EzCD7v0AAAAJ:D_sINldO8mEC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "An online fair resource allocation solution for fog computing",
+    "authors": [
+      "JH Sun",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "International Journal of Parallel, Emergent and Distributed Systems 37 (4 …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:LPZeul_q3PIC",
+    "citationId": "EzCD7v0AAAAJ:LPZeul_q3PIC",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Optimal restoration of wildlife habitat in landscapes fragmented by resource extraction: a network flow modeling approach",
+    "authors": [
+      "D Yemshanov",
+      "M Simpson",
+      "FH Koch",
+      "MA Parisien",
+      "QE Barber",
+      "..."
+    ],
+    "venue": "Restoration Ecology 30 (5), e13580",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:4fKUyHm3Qg0C",
+    "citationId": "EzCD7v0AAAAJ:4fKUyHm3Qg0C",
+    "citedBy": 6,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Multi-UAV wireless networks: Jointly trajectory optimization and resource allocation",
+    "authors": [
+      "HY Alsheyab",
+      "E Bedeer",
+      "S Choudhury",
+      "S Ikki"
+    ],
+    "venue": "2022 IEEE International Conference on Communications Workshops (ICC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:fQNAKQ3IYiAC",
+    "citationId": "EzCD7v0AAAAJ:fQNAKQ3IYiAC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Developing and training artificial neural networks using bootstrap data envelopment analysis for best performance modeling of sawmills in Ontario",
+    "authors": [
+      "SK Shahi",
+      "M Dia",
+      "P Yan",
+      "S Choudhury"
+    ],
+    "venue": "Journal of Modelling in Management 17 (2), 788-811",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:p2g8aNsByqUC",
+    "citationId": "EzCD7v0AAAAJ:p2g8aNsByqUC",
+    "citedBy": 14,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Cognitive Radio Oriented Wireless Networks and Wireless Internet: 16th EAI International Conference, CROWNCOM 2021, Virtual Event, December 11, 2021, and 14th EAI International …",
+    "authors": [
+      "H Jin",
+      "C Liu",
+      "ASK Pathan",
+      "ZM Fadlullah",
+      "S Choudhury"
+    ],
+    "venue": "Springer Nature",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:wbdj-CoPYUoC",
+    "citationId": "EzCD7v0AAAAJ:wbdj-CoPYUoC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Fatality prediction for motor vehicle collisions: Mining big data using deep learning and ensemble methods",
+    "authors": [
+      "M Emu",
+      "FB Kamal",
+      "S Choudhury",
+      "QA Rahman"
+    ],
+    "venue": "IEEE Open Journal of Intelligent Transportation Systems 3, 199-209",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:5Ul4iDaHHb8C",
+    "citationId": "EzCD7v0AAAAJ:5Ul4iDaHHb8C",
+    "citedBy": 27,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Optimal Models for Distributing Vaccines in a Pandemic.",
+    "authors": [
+      "MY Hassan",
+      "M Emu",
+      "ZM Fadlullah",
+      "S Choudhury"
+    ],
+    "venue": "ICORES, 337-344",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:eJXPG6dFmWUC",
+    "citationId": "EzCD7v0AAAAJ:eJXPG6dFmWUC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2022,
+    "autoSynced": true
+  },
+  {
+    "title": "Double-sided auction mechanism for peer-to-peer energy trading markets",
+    "authors": [
+      "JS Pankiraj",
+      "A Yassine",
+      "S Choudhury"
+    ],
+    "venue": "2021 IEEE International Conference on Progress in Informatics and Computing …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:geHnlv5EZngC",
+    "citationId": "EzCD7v0AAAAJ:geHnlv5EZngC",
+    "citedBy": 12,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Predicting family physicians based on their practice using machine learning",
+    "authors": [
+      "A Garg",
+      "DW Savage",
+      "S Choudhury",
+      "V Mago"
+    ],
+    "venue": "2021 IEEE International Conference on Big Data (Big Data), 4069-4077",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:sSrBHYA8nusC",
+    "citationId": "EzCD7v0AAAAJ:sSrBHYA8nusC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Deep Q-learning enabled joint optimization of mobile edge computing multi-level task offloading",
+    "authors": [
+      "P Yan",
+      "S Choudhury"
+    ],
+    "venue": "Computer Communications 180, 271-283",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:tS2w5q8j5-wC",
+    "citationId": "EzCD7v0AAAAJ:tS2w5q8j5-wC",
+    "citedBy": 31,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "On Exploiting Blockchain Technology to Approach toward Secured, Sliced and Edge Deployed Virtual Network Functions for Improvised IoT Services",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "Secure Edge Computing: Applications, Techniques and Challenges, 245",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:WbkHhVStYXYC",
+    "citationId": "EzCD7v0AAAAJ:WbkHhVStYXYC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Internet of Things for smart living",
+    "authors": [
+      "ASK Pathan",
+      "ZM Fadlullah",
+      "S Choudhury",
+      "M Guerroumi"
+    ],
+    "venue": "Wireless Networks 27 (6), 4293-4295",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:M3NEmzRMIkIC",
+    "citationId": "EzCD7v0AAAAJ:M3NEmzRMIkIC",
+    "citedBy": 12,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "A resource allocation model based on trust evaluation in multi-cloud environments",
+    "authors": [
+      "ABMB Alam",
+      "ZMD Fadlullah",
+      "S Choudhury"
+    ],
+    "venue": "IEEE Access 9, 105577-105587",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:tOudhMTPpwUC",
+    "citationId": "EzCD7v0AAAAJ:tOudhMTPpwUC",
+    "citedBy": 22,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Ensemble deep learning assisted VNF deployment strategy for next-generation IoT services",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "IEEE Open Journal of the Computer Society 2, 260-275",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:l7t_Zn2s7bgC",
+    "citationId": "EzCD7v0AAAAJ:l7t_Zn2s7bgC",
+    "citedBy": 13,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "On optimal scheduling of OTA software updates for smart vehicles leveraging fog computing",
+    "authors": [
+      "MY Hassan",
+      "S Choudhury",
+      "ZM Fadlullah"
+    ],
+    "venue": "2021 International Wireless Communications and Mobile Computing (IWCMC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:vRqMK49ujn8C",
+    "citationId": "EzCD7v0AAAAJ:vRqMK49ujn8C",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "DSO: An intelligent SFC orchestrator for time and resource intensive ultra dense IoT networks",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "ICC 2021-IEEE International Conference on Communications, 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:08ZZubdj9fEC",
+    "citationId": "EzCD7v0AAAAJ:08ZZubdj9fEC",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Validating optimal COVID-19 vaccine distribution models",
+    "authors": [
+      "M Emu",
+      "D Chandrasekaran",
+      "V Mago",
+      "S Choudhury"
+    ],
+    "venue": "International Conference on Computational Science, 352-366",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:UxriW0iASnsC",
+    "citationId": "EzCD7v0AAAAJ:UxriW0iASnsC",
+    "citedBy": 20,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Iot ecosystem on exploiting dynamic vnf orchestration and service chaining: Ai to the rescue?",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "IEEE Internet of Things Magazine 3 (4), 30-35",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:KxtntwgDAa4C",
+    "citationId": "EzCD7v0AAAAJ:KxtntwgDAa4C",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Towards 6G networks: ensemble deep learning empowered VNF deployment for IoT services",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "2021 IEEE 18th annual consumer communications & networking conference (CCNC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:SP6oXDckpogC",
+    "citationId": "EzCD7v0AAAAJ:SP6oXDckpogC",
+    "citedBy": 11,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2021,
+    "autoSynced": true
+  },
+  {
+    "title": "Utilizing deep learning and graph mining to identify drug use on Twitter data",
+    "authors": [
+      "J Tassone",
+      "P Yan",
+      "M Simpson",
+      "C Mendhe",
+      "V Mago",
+      "S Choudhury"
+    ],
+    "venue": "BMC Medical Informatics and Decision Making 20 (Suppl 11), 304",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:nb7KW1ujOQ8C",
+    "citationId": "EzCD7v0AAAAJ:nb7KW1ujOQ8C",
+    "citedBy": 31,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "SURF: identifying and allocating resources during out-of-hospital cardiac arrest",
+    "authors": [
+      "G Rao",
+      "S Choudhury",
+      "P Lingras",
+      "D Savage",
+      "V Mago"
+    ],
+    "venue": "BMC Medical Informatics and Decision Making 20 (Suppl 11), 313",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:P5F9QuxV20EC",
+    "citationId": "EzCD7v0AAAAJ:P5F9QuxV20EC",
+    "citedBy": 7,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Tabu search-based fleet scheduling of air ambulances for disaster response",
+    "authors": [
+      "J Tassone",
+      "S Choudhury"
+    ],
+    "venue": "Array 8, 100047",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:b0M2c_1WBrUC",
+    "citationId": "EzCD7v0AAAAJ:b0M2c_1WBrUC",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Performance Modeling of Sawmills using Artificial Intelligence",
+    "authors": [
+      "SK Shahi",
+      "M Dia",
+      "S Choudhury"
+    ],
+    "venue": "2020 International Conference on Decision Aid Sciences and Application (DASA …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:dshw04ExmUIC",
+    "citationId": "EzCD7v0AAAAJ:dshw04ExmUIC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Ensemble deep learning aided vnf deployment for iot services",
+    "authors": [
+      "M Emu",
+      "S Choudhury"
+    ],
+    "venue": "2020 16th International Conference on Network and Service Management (CNSM), 1-7",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:EUQCXRtRnyEC",
+    "citationId": "EzCD7v0AAAAJ:EUQCXRtRnyEC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "A Fair VNF Assignment Algorithm for Network Functions Virtualization",
+    "authors": [
+      "KS Ghai",
+      "A Yassine",
+      "S Choudhury"
+    ],
+    "venue": "2020 International Symposium on Networks, Computers and Communications …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:1sJd4Hv_s6UC",
+    "citationId": "EzCD7v0AAAAJ:1sJd4Hv_s6UC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Incentive-based peer-to-peer distributed energy trading in smart grid systems",
+    "authors": [
+      "JS Pankiraj",
+      "A Yassine",
+      "S Choudhury"
+    ],
+    "venue": "2020 International Symposium on Networks, Computers and Communications …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:CHSYGLWDkRkC",
+    "citationId": "EzCD7v0AAAAJ:CHSYGLWDkRkC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Efficient algorithms to minimize the end-to-end latency of edge network function virtualization: KS Ghai et al.",
+    "authors": [
+      "KS Ghai",
+      "S Choudhury",
+      "A Yassine"
+    ],
+    "venue": "Journal of Ambient Intelligence and Humanized Computing 11 (10), 3963-3974",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:M05iB0D1s5AC",
+    "citationId": "EzCD7v0AAAAJ:M05iB0D1s5AC",
+    "citedBy": 18,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Investigating the implications of COVID-19 for the rural and remote population of Northern Ontario using a mathematical model",
+    "authors": [
+      "DW Savage",
+      "A Fisher",
+      "S Choudhury",
+      "R Ohle",
+      "RP Strasser",
+      "A Orkin",
+      "..."
+    ],
+    "venue": "MedRxiv, 2020.09. 17.20196949",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:bFI3QPDXJZMC",
+    "citationId": "EzCD7v0AAAAJ:bFI3QPDXJZMC",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Algorithms for optimizing fleet staging of air ambulances",
+    "authors": [
+      "J Tassone",
+      "G Pond",
+      "S Choudhury"
+    ],
+    "venue": "Array 7, 100031",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:2P1L_qKh6hAC",
+    "citationId": "EzCD7v0AAAAJ:2P1L_qKh6hAC",
+    "citedBy": 8,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Assisting the non-invasive diagnosis of liver fibrosis stages using machine learning methods",
+    "authors": [
+      "M Emu",
+      "FB Kamal",
+      "S Choudhury",
+      "TEA de Oliveira"
+    ],
+    "venue": "2020 42nd Annual International Conference of the IEEE Engineering in …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:f2IySw72cVMC",
+    "citationId": "EzCD7v0AAAAJ:f2IySw72cVMC",
+    "citedBy": 24,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Optimizing mobile edge computing multi-level task offloading via deep reinforcement learning",
+    "authors": [
+      "P Yan",
+      "S Choudhury"
+    ],
+    "venue": "ICC 2020-2020 IEEE International Conference on Communications (ICC), 1-7",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:pyW8ca7W8N0C",
+    "citationId": "EzCD7v0AAAAJ:pyW8ca7W8N0C",
+    "citedBy": 10,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Latency aware VNF deployment at edge devices for IoT services: An artificial neural network based approach",
+    "authors": [
+      "M Emu",
+      "P Yan",
+      "S Choudhury"
+    ],
+    "venue": "2020 IEEE International conference on communications workshops (ICC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:D03iK_w7-QYC",
+    "citationId": "EzCD7v0AAAAJ:D03iK_w7-QYC",
+    "citedBy": 29,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Recruitment algorithms for vehicular sensor networks",
+    "authors": [
+      "F Campioni",
+      "S Choudhury",
+      "U Tariq",
+      "AK Bashir"
+    ],
+    "venue": "Computer Communications 159, 9-14",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:bnK-pcrLprsC",
+    "citationId": "EzCD7v0AAAAJ:bnK-pcrLprsC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "An energy-efficient topology control algorithm for optimizing the lifetime of wireless ad-hoc IoT networks in 5G and B5G",
+    "authors": [
+      "P Yan",
+      "S Choudhury",
+      "F Al-Turjman",
+      "I Al-Oqily"
+    ],
+    "venue": "Computer Communications 159, 83-96",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:zA6iFVUQeVQC",
+    "citationId": "EzCD7v0AAAAJ:zA6iFVUQeVQC",
+    "citedBy": 33,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Interference minimization algorithms for fifth generation and beyond systems",
+    "authors": [
+      "HY AlSheyab",
+      "S Choudhury",
+      "E Bedeer",
+      "SS Ikki"
+    ],
+    "venue": "Computer Communications 156, 145-158",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:rO6llkc54NcC",
+    "citationId": "EzCD7v0AAAAJ:rO6llkc54NcC",
+    "citedBy": 15,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Utilizing deep learning to identify drug use on twitter data",
+    "authors": [
+      "J Tassone",
+      "P Yan",
+      "M Simpson",
+      "C Mendhe",
+      "V Mago",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2003.11522",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:kRWSkSYxWN8C",
+    "citationId": "EzCD7v0AAAAJ:kRWSkSYxWN8C",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "A machine learning auxiliary approach for the distributed dense RFID readers arrangement algorithm",
+    "authors": [
+      "P Yan",
+      "S Choudhury",
+      "R Wei"
+    ],
+    "venue": "IEEE access 8, 42270-42284",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:HoB7MX3m0LUC",
+    "citationId": "EzCD7v0AAAAJ:HoB7MX3m0LUC",
+    "citedBy": 13,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Algorithms for Optimizing Fleet Scheduling of Air Ambulances",
+    "authors": [
+      "J Tassone",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2002.11710",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:tKAzc9rXhukC",
+    "citationId": "EzCD7v0AAAAJ:tKAzc9rXhukC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Smart city response to homelessness",
+    "authors": [
+      "P Khayyatkhoshnevis",
+      "S Choudhury",
+      "E Latimer",
+      "V Mago"
+    ],
+    "venue": "IEEE Access 8, 11380-11392",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ldfaerwXgEUC",
+    "citationId": "EzCD7v0AAAAJ:ldfaerwXgEUC",
+    "citedBy": 22,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "A comprehensive survey on the ambulance routing and location problems",
+    "authors": [
+      "J Tassone",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2001.05288",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:70eg2SAEIzsC",
+    "citationId": "EzCD7v0AAAAJ:70eg2SAEIzsC",
+    "citedBy": 30,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "Assessing the trade-offs between timber supply and wildlife protection goals in boreal landscapes",
+    "authors": [
+      "D Yemshanov",
+      "RG Haight",
+      "N Liu",
+      "MA Parisien",
+      "Q Barber",
+      "FH Koch",
+      "..."
+    ],
+    "venue": "Canadian Journal of Forest Research 50 (3), 243-258",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:lSLTfruPkqcC",
+    "citationId": "EzCD7v0AAAAJ:lSLTfruPkqcC",
+    "citedBy": 19,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2020,
+    "autoSynced": true
+  },
+  {
+    "title": "A localized fault tolerant load balancing algorithm for RFID systems",
+    "authors": [
+      "A Munir",
+      "MTR Laskar",
+      "MS Hossen",
+      "S Choudhury"
+    ],
+    "venue": "Journal of Ambient Intelligence and Humanized Computing 10 (11), 4305-4317",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:iH-uZ7U-co4C",
+    "citationId": "EzCD7v0AAAAJ:iH-uZ7U-co4C",
+    "citedBy": 15,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Scheduling RFID networks in the IoT and smart health era: F. Campioni et al.",
+    "authors": [
+      "F Campioni",
+      "S Choudhury",
+      "F Al-Turjman"
+    ],
+    "venue": "Journal of Ambient Intelligence and Humanized Computing 10 (10), 4043-4057",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:isC4tDSrTZIC",
+    "citationId": "EzCD7v0AAAAJ:isC4tDSrTZIC",
+    "citedBy": 32,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "An online resource allocation algorithm to minimize system interference for inband underlay D2D communications",
+    "authors": [
+      "MY Hassan",
+      "F Hussain",
+      "MS Hossen",
+      "S Choudhury"
+    ],
+    "venue": "International Journal of Communication Systems 32 (13), e4011",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:BqipwSGYUEgC",
+    "citationId": "EzCD7v0AAAAJ:BqipwSGYUEgC",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Message from the iThings 2019 Special Session Chairs",
+    "authors": [
+      "S Choudhury",
+      "M Wang",
+      "G Ahmed",
+      "S Jabbar",
+      "M Raza"
+    ],
+    "venue": "2019 International Conference on Internet of Things (iThings) and IEEE Green …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_xSYboBqXhAC",
+    "citationId": "EzCD7v0AAAAJ:_xSYboBqXhAC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "A distributed graph-based dense RFID readers arrangement algorithm",
+    "authors": [
+      "P Yan",
+      "S Choudhury",
+      "R Wei"
+    ],
+    "venue": "ICC 2019-2019 IEEE International Conference on Communications (ICC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:GnPB-g6toBAC",
+    "citationId": "EzCD7v0AAAAJ:GnPB-g6toBAC",
+    "citedBy": 2,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Connectivity preserving obstacle avoidance localized motion planning algorithms for mobile wireless sensor networks",
+    "authors": [
+      "MY Hassan",
+      "F Hussain",
+      "S Choudhury"
+    ],
+    "venue": "Peer-to-Peer Networking and Applications 12 (3), 647-659",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_Qo2XoVZTnwC",
+    "citationId": "EzCD7v0AAAAJ:_Qo2XoVZTnwC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Localized algorithms for redundant readers elimination in RFID networks",
+    "authors": [
+      "N Rashid",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "International Journal of Parallel, Emergent and Distributed Systems 34 (3 …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:HDshCWvjkbEC",
+    "citationId": "EzCD7v0AAAAJ:HDshCWvjkbEC",
+    "citedBy": 8,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Near-optimal resource allocation algorithms for 5G+ cellular networks",
+    "authors": [
+      "HY Alsheyab",
+      "S Choudhury",
+      "E Bedeer",
+      "SS Ikki"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology 68 (7), 6578-6592",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:hMod-77fHWUC",
+    "citationId": "EzCD7v0AAAAJ:hMod-77fHWUC",
+    "citedBy": 17,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Interference minimization for device-to-device communications: A combinatorial approach",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "DR Gaur"
+    ],
+    "venue": "2019 IEEE Wireless Communications and Networking Conference (WCNC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:J_g5lzvAfSwC",
+    "citationId": "EzCD7v0AAAAJ:J_g5lzvAfSwC",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Degree-based balanced clustering for large-scale software defined networks",
+    "authors": [
+      "TI Aziz",
+      "S Protik",
+      "MS Hossen",
+      "S Choudhury",
+      "MM Alam"
+    ],
+    "venue": "2019 IEEE Wireless Communications and Networking Conference (WCNC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:NaGl4SEjCO4C",
+    "citationId": "EzCD7v0AAAAJ:NaGl4SEjCO4C",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Prioritizing restoration of fragmented landscapes for wildlife conservation: A graph-theoretic approach",
+    "authors": [
+      "D Yemshanov",
+      "RG Haight",
+      "FH Koch",
+      "MA Parisien",
+      "T Swystun",
+      "Q Barber",
+      "..."
+    ],
+    "venue": "Biological conservation 232, 173-186",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:JV2RwH3_ST0C",
+    "citationId": "EzCD7v0AAAAJ:JV2RwH3_ST0C",
+    "citedBy": 25,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Big data analytics for intelligent internet of things",
+    "authors": [
+      "M Ahmed",
+      "S Choudhury",
+      "F Al-Turjman"
+    ],
+    "venue": "Artificial intelligence in IoT, 107-127",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:maZDTaKrznsC",
+    "citationId": "EzCD7v0AAAAJ:maZDTaKrznsC",
+    "citedBy": 33,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "IoT big data analytics",
+    "authors": [
+      "S Choudhury",
+      "Q Ye",
+      "M Dong",
+      "Q Zhang"
+    ],
+    "venue": "Wireless Communications & Mobile Computing (Online) 2019",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:vV6vV6tmYwMC",
+    "citationId": "EzCD7v0AAAAJ:vV6vV6tmYwMC",
+    "citedBy": 15,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "A stable matching based algorithm to minimize the end-to-end latency of edge nfv",
+    "authors": [
+      "KS Ghai",
+      "S Choudhury",
+      "A Yassine"
+    ],
+    "venue": "Procedia Computer Science 151, 377-384",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:YFjsv_pBGBYC",
+    "citationId": "EzCD7v0AAAAJ:YFjsv_pBGBYC",
+    "citedBy": 19,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "An auction mechanism for profit maximization of peer-to-peer energy trading in smart grids",
+    "authors": [
+      "JS PankiRaj",
+      "A Yassine",
+      "S Choudhury"
+    ],
+    "venue": "Procedia Computer Science 151, 361-368",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:NMxIlDl6LWMC",
+    "citationId": "EzCD7v0AAAAJ:NMxIlDl6LWMC",
+    "citedBy": 56,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2019,
+    "autoSynced": true
+  },
+  {
+    "title": "Improved recruitment algorithms for vehicular crowdsensing networks",
+    "authors": [
+      "F Campioni",
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology 68 (2), 1198-1207",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:TFP_iSt0sucC",
+    "citationId": "EzCD7v0AAAAJ:TFP_iSt0sucC",
+    "citedBy": 46,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "False data injection attacks in internet of things",
+    "authors": [
+      "B Bostami",
+      "M Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "Performability in internet of things, 47-58",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:r0BpntZqJG4C",
+    "citationId": "EzCD7v0AAAAJ:r0BpntZqJG4C",
+    "citedBy": 54,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "Relax online resource allocation algorithms for D2D communication",
+    "authors": [
+      "MS Hossen",
+      "MY Hassan",
+      "F Hussain",
+      "S Choudhury",
+      "MM Alam"
+    ],
+    "venue": "International Journal of Communication Systems 31 (10), e3555",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:e5wmG9Sq2KIC",
+    "citationId": "EzCD7v0AAAAJ:e5wmG9Sq2KIC",
+    "citedBy": 10,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "System capacity maximization with efficient resource allocation algorithms in D2D communication",
+    "authors": [
+      "F Hussain",
+      "MY Hassan",
+      "MS Hossen",
+      "S Choudhury"
+    ],
+    "venue": "IEEE Access 6, 32409-32424",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:4JMBOYKVnBMC",
+    "citationId": "EzCD7v0AAAAJ:4JMBOYKVnBMC",
+    "citedBy": 48,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "Readers scheduling for RFID networks in the IoT era",
+    "authors": [
+      "F Campioni",
+      "S Choudhury",
+      "F Al-Turjman"
+    ],
+    "venue": "2018 IEEE international conference on communications workshops (ICC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:j3f4tGmQtD8C",
+    "citationId": "EzCD7v0AAAAJ:j3f4tGmQtD8C",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "Dominating set algorithms for wireless sensor networks survivability",
+    "authors": [
+      "T Pino",
+      "S Choudhury",
+      "F Al-Turjman"
+    ],
+    "venue": "IEEE access 6, 17527-17532",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:R3hNpaxXUhUC",
+    "citationId": "EzCD7v0AAAAJ:R3hNpaxXUhUC",
+    "citedBy": 88,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "Big Data Analytics for Internet of Things",
+    "authors": [
+      "M Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:k_IJM867U9cC",
+    "citationId": "EzCD7v0AAAAJ:k_IJM867U9cC",
+    "citedBy": 2,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2018,
+    "autoSynced": true
+  },
+  {
+    "title": "A parallel local search algorithm for clustering large biological networks",
+    "authors": [
+      "G Coccimiglio",
+      "S Choudhury"
+    ],
+    "venue": "Parallel Processing Letters 27 (03n04), 1750007",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:qUcmZB5y_30C",
+    "citationId": "EzCD7v0AAAAJ:qUcmZB5y_30C",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2017,
+    "autoSynced": true
+  },
+  {
+    "title": "Interference minimization in D2D communication underlaying cellular networks",
+    "authors": [
+      "Y Hassan",
+      "F Hussain",
+      "S Hossen",
+      "S Choudhury",
+      "MM Alam"
+    ],
+    "venue": "IEEE Access 5, 22471-22484",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:IWHjjKOFINEC",
+    "citationId": "EzCD7v0AAAAJ:IWHjjKOFINEC",
+    "citedBy": 70,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2017,
+    "autoSynced": true
+  },
+  {
+    "title": "A near optimal interference minimization resource allocation algorithm for D2D communication",
+    "authors": [
+      "MY Hassan",
+      "F Hussain",
+      "MS Hossen",
+      "S Choudhury",
+      "MM Alam"
+    ],
+    "venue": "2017 IEEE International Conference on Communications (ICC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ZeXyd9-uunAC",
+    "citationId": "EzCD7v0AAAAJ:ZeXyd9-uunAC",
+    "citedBy": 18,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2017,
+    "autoSynced": true
+  },
+  {
+    "title": "An optimal resource allocation algorithm for D2D communication underlaying cellular networks",
+    "authors": [
+      "F Hussain",
+      "MY Hassan",
+      "MS Hossen",
+      "S Choudhury"
+    ],
+    "venue": "2017 14th IEEE Annual Consumer Communications & Networking Conference (CCNC …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:L8Ckcad2t8MC",
+    "citationId": "EzCD7v0AAAAJ:L8Ckcad2t8MC",
+    "citedBy": 34,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2017,
+    "autoSynced": true
+  },
+  {
+    "title": "Localized Motion Planning Algorithm for Mobile Wireless Sensor Networks.",
+    "authors": [
+      "A Munir",
+      "S Uzzaman",
+      "MS Hossen",
+      "S Choudhury",
+      "MM Alam"
+    ],
+    "venue": "Int. J. Unconv. Comput. 12 (5-6), 363-391",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:7PzlFSSx8tAC",
+    "citationId": "EzCD7v0AAAAJ:7PzlFSSx8tAC",
+    "citedBy": 2,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2016,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automata and wireless sensor networks",
+    "authors": [
+      "S Choudhury"
+    ],
+    "venue": "Emergent Computation: A Festschrift for Selim G. Akl, 321-335",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:9ZlFYXVOiuMC",
+    "citationId": "EzCD7v0AAAAJ:9ZlFYXVOiuMC",
+    "citedBy": 12,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2016,
+    "autoSynced": true
+  },
+  {
+    "title": "Localized load balancing in RFID systems",
+    "authors": [
+      "A Munir",
+      "MS Hossen",
+      "S Choudhury"
+    ],
+    "venue": "International Conference on Theory and Practice of Natural Computing, 34-45",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:QIV2ME_5wuYC",
+    "citationId": "EzCD7v0AAAAJ:QIV2ME_5wuYC",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2016,
+    "autoSynced": true
+  },
+  {
+    "title": "A two-phase auction-based fair resource allocation for underlaying D2D communications",
+    "authors": [
+      "MT Islam",
+      "AEM Taha",
+      "S Akl",
+      "S Choudhury"
+    ],
+    "venue": "2016 IEEE International Conference on Communications (ICC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:mVmsd5A6BfQC",
+    "citationId": "EzCD7v0AAAAJ:mVmsd5A6BfQC",
+    "citedBy": 33,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2016,
+    "autoSynced": true
+  },
+  {
+    "title": "CARRE: cellular automaton based redundant readers elimination in RFID networks",
+    "authors": [
+      "N Rashid",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "2016 IEEE international conference on communications (ICC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:qxL8FJ1GzNcC",
+    "citationId": "EzCD7v0AAAAJ:qxL8FJ1GzNcC",
+    "citedBy": 10,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2016,
+    "autoSynced": true
+  },
+  {
+    "title": "A local search algorithm for resource allocation for underlaying device-to-device communications",
+    "authors": [
+      "MT Islam",
+      "AEM Taha",
+      "S Akl",
+      "S Choudhury"
+    ],
+    "venue": "2015 IEEE Global Communications Conference (GLOBECOM), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Se3iqnhoufwC",
+    "citationId": "EzCD7v0AAAAJ:Se3iqnhoufwC",
+    "citedBy": 29,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2015,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular Automaton Based Localized Algorithms for Mobile Sensor Networks.",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "International Journal of Unconventional Computing 11 (5/6), 417",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:4DMP91E08xMC",
+    "citationId": "EzCD7v0AAAAJ:4DMP91E08xMC",
+    "citedBy": 6,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2015,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automata and object monitoring in mobile wireless sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "2015 IEEE Wireless Communications and Networking Conference (WCNC), 1344-1349",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:roLk4NBRz8UC",
+    "citationId": "EzCD7v0AAAAJ:roLk4NBRz8UC",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2015,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automata and mobile wireless sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "2014 IEEE 27th Canadian Conference on Electrical and Computer Engineering …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:hqOjcs7Dif8C",
+    "citationId": "EzCD7v0AAAAJ:hqOjcs7Dif8C",
+    "citedBy": 4,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2014,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automaton-based algorithms for the dispersion of mobile wireless sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "International Journal of Parallel, Emergent and Distributed Systems 29 (2 …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:WF5omc3nYNoC",
+    "citationId": "EzCD7v0AAAAJ:WF5omc3nYNoC",
+    "citedBy": 16,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2014,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automaton based algorithms for depth adjustment in underwater mobile sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "2012 IEEE 9th International Conference on Mobile Ad-Hoc and Sensor Systems …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:5nxA0vEk-isC",
+    "citationId": "EzCD7v0AAAAJ:5nxA0vEk-isC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automaton based motion planning algorithms for mobile sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "International Conference on Theory and Practice of Natural Computing, 108-120",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:IjCSPb-OGe4C",
+    "citationId": "EzCD7v0AAAAJ:IjCSPb-OGe4C",
+    "citedBy": 15,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "A Cellular Automaton Model for Wireless Sensor Networks.",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "Journal of Cellular Automata 7 (3), 223",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:UeHWp8X0CEIC",
+    "citationId": "EzCD7v0AAAAJ:UeHWp8X0CEIC",
+    "citedBy": 23,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "A cellular automaton model for connectivity preserving deployment of mobile wireless sensors",
+    "authors": [
+      "S Choudhury",
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "2012 IEEE International Conference on Communications (ICC), 6545-6549",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Tyk-4Ss8FVUC",
+    "citationId": "EzCD7v0AAAAJ:Tyk-4Ss8FVUC",
+    "citedBy": 15,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "Energy efficient cellular automaton based algorithms for mobile wireless sensor networks",
+    "authors": [
+      "S Choudhury",
+      "SG Akl",
+      "K Salomaa"
+    ],
+    "venue": "2012 IEEE Wireless Communications and Networking Conference (WCNC), 2341-2346",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:9yKSN-GCB0IC",
+    "citationId": "EzCD7v0AAAAJ:9yKSN-GCB0IC",
+    "citedBy": 19,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "An approximation algorithm for max k-uncut with capacity constraints",
+    "authors": [
+      "S Choudhury",
+      "DR Gaur",
+      "R Krishnamurti"
+    ],
+    "venue": "Optimization 61 (2), 143-150",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:zYLM7Y9cAGgC",
+    "citationId": "EzCD7v0AAAAJ:zYLM7Y9cAGgC",
+    "citedBy": 14,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "Cellular automaton based algorithms for wireless sensor networks",
+    "authors": [
+      "S Choudhury"
+    ],
+    "venue": "Queen's University (Canada)",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:YsMSGLbcyi4C",
+    "citationId": "EzCD7v0AAAAJ:YsMSGLbcyi4C",
+    "citedBy": 9,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2012,
+    "autoSynced": true
+  },
+  {
+    "title": "A primal-dual approximation algorithm for the Minimum Cost Stashing problem in wireless sensor networks",
+    "authors": [
+      "S Choudhury",
+      "K Islam",
+      "SG Akl"
+    ],
+    "venue": "International Performance Computing and Communications Conference, 146-152",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:W7OEmFMy1HYC",
+    "citationId": "EzCD7v0AAAAJ:W7OEmFMy1HYC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2010,
+    "autoSynced": true
+  },
+  {
+    "title": "Bachelor of Science, Islamic University of Technology, 2004",
+    "authors": [
+      "SR Choudhury"
+    ],
+    "venue": "University of Lethbridge",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:abG-DnoFyZgC",
+    "citationId": "EzCD7v0AAAAJ:abG-DnoFyZgC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2008,
+    "autoSynced": true
+  },
+  {
+    "title": "Approximation algorithms for a graph-cut problem with applications to a clustering problem in bioinformatics",
+    "authors": [
+      "SR Choudhury"
+    ],
+    "venue": "Lethbridge, Alta.: University of Lethbridge, Deptartment of Mathematics and …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_FxGoFyzp5QC",
+    "citationId": "EzCD7v0AAAAJ:_FxGoFyzp5QC",
+    "citedBy": 3,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2008,
+    "autoSynced": true
+  },
+  {
+    "title": "Design of an interactive bangla mobile keypad based on phonetics",
+    "authors": [
+      "AM Khan",
+      "S Rashid",
+      "AKMN Islam",
+      "A Azfar"
+    ],
+    "venue": "International Conference on Computer and Information Technology”(ICCIT'05 …",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:UebtZRa9Y70C",
+    "citationId": "EzCD7v0AAAAJ:UebtZRa9Y70C",
+    "citedBy": 5,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2004,
+    "autoSynced": true
+  },
+  {
+    "title": "LastDance: a Diagnostic-Driven Autoresearch Framework for Retrieval-Augmented Generation with Compact Language Models",
+    "authors": [
+      "T Ahmed",
+      "S Choudhury"
+    ],
+    "venue": "Available at SSRN 7181277, 0",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:vDijr-p_gm4C",
+    "citationId": "EzCD7v0AAAAJ:vDijr-p_gm4C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Generalized Welfare-Aware Matching with Multimodal Preferences and Criteria Strategizing",
+    "authors": [
+      "PR Saha",
+      "S Choudhury",
+      "K Salomaa"
+    ],
+    "venue": "Available at SSRN 5102571, 0",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:dQ2og3OwTAUC",
+    "citationId": "EzCD7v0AAAAJ:dQ2og3OwTAUC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Increasing Resilience of SD-WAN by Distributing the Control Plane [Extension of a paper from the 2023 International Conference on Network of the Future (NOF 2023 …",
+    "authors": [
+      "M Sosnowski",
+      "J Zirngibl",
+      "P Sattler",
+      "G Carle",
+      "C Grohnfeldt",
+      "M Russo",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:ye4kPcJQO24C",
+    "citationId": "EzCD7v0AAAAJ:ye4kPcJQO24C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Validating Optimal COVID-19 Vaccine Distribution Models",
+    "authors": [
+      "S Choudhury"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:8AbLer7MMksC",
+    "citationId": "EzCD7v0AAAAJ:8AbLer7MMksC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "ICDH 2021",
+    "authors": [
+      "M Adda",
+      "S Ahamed",
+      "N Al-Yateem",
+      "M Burns",
+      "A Chernich",
+      "WJ Cjhang",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:B3FOqHPlNUQC",
+    "citationId": "EzCD7v0AAAAJ:B3FOqHPlNUQC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "ICAACI 2020",
+    "authors": [
+      "S Choudhury",
+      "R Damaševičius",
+      "PP Rebouças Filho",
+      "R Munoz",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:K3LRdlH-MEoC",
+    "citationId": "EzCD7v0AAAAJ:K3LRdlH-MEoC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "CIPAE 2020",
+    "authors": [
+      "LM López",
+      "F Wang",
+      "F Kamoun",
+      "X Xu",
+      "NZ Jhanjhi",
+      "AAA Alkhatib",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:738O_yMBCRsC",
+    "citationId": "EzCD7v0AAAAJ:738O_yMBCRsC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "DependSys 2020",
+    "authors": [
+      "S Choudhury",
+      "J Feng"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:Tiz5es2fbqcC",
+    "citationId": "EzCD7v0AAAAJ:Tiz5es2fbqcC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "ICAACI 2020",
+    "authors": [
+      "VHC de Albuquerque",
+      "AVL Neto",
+      "AS Costa",
+      "RF de Oliveira",
+      "Z Liu",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:XiSMed-E-HIC",
+    "citationId": "EzCD7v0AAAAJ:XiSMed-E-HIC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Communication and Networking Track Committee",
+    "authors": [
+      "P Fan",
+      "AE Taha",
+      "YK Lim",
+      "S Choudhury",
+      "D Turgut",
+      "A Refaey",
+      "N Khan",
+      "..."
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:NhqRSupF_l8C",
+    "citationId": "EzCD7v0AAAAJ:NhqRSupF_l8C",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Message from the iThings-2018 Program Chairs",
+    "authors": [
+      "Q Zhang",
+      "S Choudhury"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:cFHS6HbyZ2cC",
+    "citationId": "EzCD7v0AAAAJ:cFHS6HbyZ2cC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Improving Homeless-to-Shelter Assignment Using Offline Greedy and Local Search Heuristics",
+    "authors": [
+      "P Khayyatkhoshnevis",
+      "S Choudhury",
+      "V Mago",
+      "EA Latimer"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:g5m5HwL7SMYC",
+    "citationId": "EzCD7v0AAAAJ:g5m5HwL7SMYC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "Design and Development of a Bangla SQL System for DBMS",
+    "authors": [
+      "AM Khan",
+      "AKMN Islam",
+      "S Rashid",
+      "S Amin"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:8k81kl-MbHgC",
+    "citationId": "EzCD7v0AAAAJ:8k81kl-MbHgC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
+  },
+  {
+    "title": "A CELLULAR AUTOMATON MODEL FOR WIRELESS SENSOR NETWORKS Salimur Choudhury School of Computing Queen’s University",
+    "authors": [
+      "K Salomaa",
+      "SG Akl"
+    ],
+    "venue": "",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:0EnyYjriUFMC",
+    "citationId": "EzCD7v0AAAAJ:0EnyYjriUFMC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 0,
+    "autoSynced": true
   }
 ]

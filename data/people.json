@@ -271,5 +271,80 @@
   "bio": "Offensive cybersecurity professional with multiple CVEs, currently pursuing a MSc in Computing at Queen’s University.",
   "publications": [],
   "currentAffiliation": "School of Computing, Queen's University"
-  }
+  },
+  {
+  "name": "Md Yeakub Hassan",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "Yeakub Hassan.jpg",
+  "researchInterests": [
+    "Network Optimization",
+    "Computational Geometry",
+    "Algorithm Design and Analysis"
+  ],
+  "website": "",
+  "linkedin": "https://www.linkedin.com/in/yeakubhassan",
+  "github": "",
+  "scholar": "https://scholar.google.com/citations?user=NtXxrCwAAAAJ&hl=en",
+  "bio": "",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+{
+  "name": "Nahian Ibn Asad",
+  "position": "MSc Student",
+  "role": "MSc Student",
+  "photo": "Nahian Ibn Asad.jpg",
+  "researchInterests": [
+    "Automated Code Generation",
+    "Multimodal Artificial Intelligence",
+    "Network Simulation and Modeling",
+    "Few-Shot Learning",
+    "Computer Vision",
+    "Large Language Models"
+  ],
+  "website": "https://nahian-ibn-asad-official.vercel.app",
+  "linkedin": "https://www.linkedin.com/in/nahian-ibn-asad-85314b218",
+  "github": "https://github.com/Nahian36",
+  "scholar": "https://scholar.google.com/citations?user=HyKNeNgAAAAJ&hl=en",
+  "bio": "I like to keep things simple and find my own way of doing things. I believe there is always something new to learn and a better way to get things done. When I am not working, you will probably find me playing sports.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+{
+  "name": "Tahsin Wahid",
+  "position": "MSc Student",
+  "role": "MSc Student",
+  "researchInterests": [
+    "Computer Security",
+    "Reinforcement Learning",
+    "Simulation & Modeling",
+    "Data Analytics"
+  ],
+  "website": "",
+  "linkedin": "https://www.linkedin.com/in/tahsin-wahid",
+  "github": "https://github.com/PrisonMike115",
+  "scholar": "https://scholar.google.com/citations?user=9U0LAvoAAAAJ&hl=en",
+  "bio": "I am a driven MSc student specializing in Computing at Queen's University. Currently, my graduate work centers around V2X (vehicle-to-everything) security—building sensor-spoofing and CPM ghost-object attacks on high-fidelity digital-twin frameworks to expose gaps in how autonomous-vehicle communication is defended. I thrive at the intersection of systems and security, and I love turning complex simulation data into clear, actionable insight. Outside of the lab, you can find me following football, playing video games like Valorant and CS2, and exploring the city.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+{
+  "name": "Noshin Nawal",
+  "position": "MSc Student",
+  "role": "MSc Student",
+  "photo": "Noshin Nawal.jpeg",
+  "researchInterests": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Optimization"
+  ],
+  "website": "",
+  "linkedin": "https://www.linkedin.com/in/nawal03",
+  "github": "https://github.com/nawal03",
+  "scholar": "https://scholar.google.com/citations?user=3Jmbt4oAAAAJ&hl=en",
+  "bio": "",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+}
 ]

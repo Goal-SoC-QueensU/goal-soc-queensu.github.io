@@ -557,7 +557,7 @@ export function HeroSection() {
               size="lg"
               className="text-lg px-8 bg-blue-600 hover:bg-blue-700 border border-blue-500/50 relative overflow-hidden transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]"
             >
-              <Link href="mailto:goal.lab@queensu.ca">
+              <Link href="/about#opportunities">
                 <span className="relative z-10">Join Us</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Link>

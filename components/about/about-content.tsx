@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Briefcase } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
 /*  Data (would normally live in data/labInfo.yaml)                   */
@@ -132,8 +132,34 @@ export function AboutContent() {
         </Card>
       </FadeInSection>
 
+      {/* ---------- Opportunities ---------- */}
+      <div id="opportunities" className="scroll-mt-24">
+        <FadeInSection delay={0.6}>
+          <Card>
+            <CardHeader>
+              <div className="flex items-center gap-4">
+                <Briefcase className="w-6 h-6 text-primary" />
+                <div>
+                  <CardTitle className="text-2xl">Opportunities</CardTitle>
+                  <CardDescription>
+                    Graduate and research opportunities at GOAL Lab
+                  </CardDescription>
+                </div>
+              </div>
+            </CardHeader>
+      
+            <CardContent>
+              <p className="text-muted-foreground leading-relaxed">
+                We are currently not accepting new students. Please check this page
+                periodically for future opportunities at GOAL Lab.
+              </p>
+            </CardContent>
+          </Card>
+        </FadeInSection>
+      </div>
+      
       {/* ----------  Contact  ---------- */}
-      <FadeInSection delay={0.6}>
+      <FadeInSection delay={0.8}>
         <Card>
           <CardHeader>
             <div className="flex items-center gap-4">

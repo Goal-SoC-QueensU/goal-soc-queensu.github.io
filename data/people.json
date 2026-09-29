@@ -51,6 +51,41 @@
     "pastAffiliation": "PhD Student, School of Computing, Queen's University"
   },
   {
+  "name": "Brandon Mossop",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "profile-photo - Brandon Mossop.jpg",
+  "researchInterests": [
+    "Causal Inference",
+    "Artificial Intelligence",
+    "Forecasting"
+  ],
+  "website": "https://brandonmossop.com",
+  "linkedin": "https://www.linkedin.com/in/brandon-mossop-1a27b799/",
+  "github": "https://github.com/bdmossop",
+  "scholar": "https://scholar.google.com/citations?user=MAJ99A8AAAAJ&hl=en&oi=ao",
+  "bio": "I am a Ph.D. Candidate in Computing at Queen’s University, working at the intersection of causal inference, machine learning, Bayesian modelling, and simulation.\n\nMy research focuses on how causal structure can be learned from data and used to build artificial intelligence systems that are more robust, interpretable, and capable of reasoning about interventions. A recurring question across my work is how we can move beyond predicting what is likely to happen toward understanding why it happens and what may happen if we actively change the system.\n\nThis motivates my work on causal discovery, causal forecasting, uncertainty quantification, and agent-based modelling, with a broader interest in developing AI systems that can reason about the consequences of actions rather than only recognize statistical patterns.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+  },
+  {
+  "name": "Sabbir Ahmed",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "Sabbir Ahmed.jpg",
+  "researchInterests": [
+    "Network Resource Optimization",
+    "Large Language Models"
+  ],
+  "website": "https://ggck43.github.io",
+  "linkedin": "https://www.linkedin.com/in/sabbirahmediut",
+  "github": "https://github.com/ggck43",
+  "scholar": "https://scholar.google.com/citations?user=l_Dk4ZoAAAAJ&hl=en&oi=ao",
+  "bio": "",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+  {
   "name": "Asif Newaz",
   "position": "PhD Student",
   "role": "PhD Student",
@@ -66,6 +101,25 @@
   "github": "https://github.com/newaz-aa",
   "scholar": "https://scholar.google.com/citations?hl=en&user=7XXXXdwAAAAJ&view_op=list_works&authuser=2&sortby=pubdate",
   "bio": "Mr. Asif Newaz is currently pursuing a PhD in Computing at Queen’s University. He holds an M.Sc. in Computer Science, specializing in Data Science, and a B.Sc. in Electrical and Electronic Engineering, specializing in Signal and Image Processing. He is an Assistant Professor (on study leave) at the Islamic University of Technology (IUT), Bangladesh.",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+  {
+  "name": "Sadman Sakib",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "researchInterests": [
+    "Machine Learning",
+    "Deep Learning",
+    "Edge AI",
+    "Satellite-edge Intelligence",
+    "Earth Observation"
+  ],
+  "website": "",
+  "linkedin": "",
+  "github": "",
+  "scholar": "https://scholar.google.com/citations?user=TbyCIx4AAAAJ&hl=en",
+  "bio": "Sadman Sakib is a PhD student in the School of Computing at Queen's University. He earned an M.Sc. in Computer Science from Lakehead University, Ontario, Canada, in 2021. His research interests include Machine Learning, Deep Learning, Edge AI, Satellite-edge intelligence, and Earth observation. He was awarded the NSERC PGS D scholarship in 2024. He also received the Best Student Poster Award in the Canadian Institutes of Health Research (CIHR) category at the Graduate Student Conference held at Lakehead University in 2020. He was also a recipient of a Mitacs Accelerate research grant in 2020.",
   "publications": [],
   "currentAffiliation": "School of Computing, Queen's University"
 },
@@ -196,24 +250,6 @@
     "bio": "",
     "currentPosition": "",
     "currentAffiliation": "School of Computing, Queen's University"
-  },
-  {
-  "name": "Brandon Mossop",
-  "position": "PhD Student",
-  "role": "PhD Student",
-  "photo": "profile-photo - Brandon Mossop.jpg",
-  "researchInterests": [
-    "Causal Inference",
-    "Artificial Intelligence",
-    "Forecasting"
-  ],
-  "website": "https://brandonmossop.com",
-  "linkedin": "https://www.linkedin.com/in/brandon-mossop-1a27b799/",
-  "github": "https://github.com/bdmossop",
-  "scholar": "https://scholar.google.com/citations?user=MAJ99A8AAAAJ&hl=en&oi=ao",
-  "bio": "I am a Ph.D. Candidate in Computing at Queen’s University, working at the intersection of causal inference, machine learning, Bayesian modelling, and simulation.\n\nMy research focuses on how causal structure can be learned from data and used to build artificial intelligence systems that are more robust, interpretable, and capable of reasoning about interventions. A recurring question across my work is how we can move beyond predicting what is likely to happen toward understanding why it happens and what may happen if we actively change the system.\n\nThis motivates my work on causal discovery, causal forecasting, uncertainty quantification, and agent-based modelling, with a broader interest in developing AI systems that can reason about the consequences of actions rather than only recognize statistical patterns.",
-  "publications": [],
-  "currentAffiliation": "School of Computing, Queen's University"
   },
   {
   "name": "Tasnimah Haque Chowdhury",
@@ -347,4 +383,5 @@
   "publications": [],
   "currentAffiliation": "School of Computing, Queen's University"
 }
+  
 ]

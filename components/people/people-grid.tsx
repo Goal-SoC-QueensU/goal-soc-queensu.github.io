@@ -226,16 +226,16 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
               {/* links */}
               <div className="flex gap-2">
-                {selectedPerson.website && (
+                {selectedPerson.website && selectedPerson.website !== "#" && (
                   <LinkButton href={selectedPerson.website} icon={<ExternalLink />} label="Website" />
                 )}
-                {selectedPerson.scholar && (
+                {selectedPerson.scholar && selectedPerson.scholar !== "#" && (
                   <LinkButton href={selectedPerson.scholar} icon={<GraduationCap />} label="Scholar" />
                 )}
-                {selectedPerson.github && (
+                {selectedPerson.github && selectedPerson.github !== "#" && (
                   <LinkButton href={selectedPerson.github} icon={<Github />} label="GitHub" />
                 )}
-                {selectedPerson.linkedin && (
+                {selectedPerson.linkedin && selectedPerson.linkedin !== "#" && (
                   <LinkButton href={selectedPerson.linkedin} icon={<Linkedin />} label="LinkedIn" />
                 )}
               </div>

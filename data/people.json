@@ -294,6 +294,7 @@
   "name": "Mohamed Hatem Gaber",
   "position": "MSc Student",
   "role": "MSc Student",
+  "photo": "hatem.jpg",
   "researchInterests": [
     "Cybersecurity",
     "Red Team",
@@ -351,6 +352,7 @@
   "name": "Tahsin Wahid",
   "position": "MSc Student",
   "role": "MSc Student",
+  "photo": "tasnim.jpeg",
   "researchInterests": [
     "Computer Security",
     "Reinforcement Learning",
@@ -380,6 +382,26 @@
   "github": "https://github.com/nawal03",
   "scholar": "https://scholar.google.com/citations?user=3Jmbt4oAAAAJ&hl=en",
   "bio": "",
+  "publications": [],
+  "currentAffiliation": "School of Computing, Queen's University"
+},
+  {
+  "name": "Mohamed Elrashidy",
+  "position": "PhD Student",
+  "role": "PhD Student",
+  "photo": "Mohamed Elrashidy.jpg",
+  "researchInterests": [
+    "Semantic Communications",
+    "Internet of Things",
+    "Information Theory",
+    "Deep Learning",
+    "Queuing Theory"
+  ],
+  "website": "",
+  "linkedin": "",
+  "github": "https://github.com/Z-MohamedElrashidy",
+  "scholar": "https://scholar.google.com/citations?user=xPwliHwAAAAJ&hl=en",
+  "bio": "Mohamed Elrashidy received the B.Sc. and M.S. degrees in Electrical Engineering from King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia in 2021 and 2024, respectively. His work focused on deep learning for resource allocation and beamforming in wireless information and power transfer (WIPT) and integrated sensing and communication (ISAC). He is currently a Ph.D. student at Queen's University working on semantic communications in IoT networks.",
   "publications": [],
   "currentAffiliation": "School of Computing, Queen's University"
 }

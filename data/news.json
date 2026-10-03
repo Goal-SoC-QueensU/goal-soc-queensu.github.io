@@ -1,5 +1,12 @@
 [
   {
+  "title": "GOAL Lab Welcomes New Members for Fall 2026",
+  "date": "2026-09-08",
+  "excerpt": "GOAL Lab is pleased to welcome Sabbir Ahmed, Asif Newaz, Mohamed Hatem Gaber, Tasnimah Haque Chowdhury, Tahsin Wahid, and Noshin Nawal to the lab.",
+  "description": "GOAL Lab is delighted to welcome a new group of researchers joining the lab in Fall 2026: Asif Newaz and Sabbir Ahmed joined as PhD students, while Mohamed Hatem Gaber, Tasnimah Haque Chowdhury, Tahsin Wahid, and Noshin Nawal began their Master’s studies.\n\nOur new members bring diverse research interests spanning machine learning, optimization, cybersecurity, large language models, reinforcement learning, quantum computing, and other emerging areas of computing.\n\nWe look forward to their contributions to GOAL Lab's research community and wish them success in their studies and research at Queen's University.",
+  "featured": true
+},
+  {
   "title": "Dr. Salimur Choudhury Leads AI Revolution in Healthcare Resource Planning Across Rural Canada",
   "date": "2025-07-14",
   "excerpt": "Dr. Salimur Choudhury is using AI and decision intelligence to help prevent ER closures, optimize healthcare resources, and build a more resilient and equitable system for rural and northern communities.",
@@ -20,7 +27,7 @@
     "date": "2025-07-04",
     "excerpt": "Dr. Naveed Ejaz, a postdoctoral researcher in the GOAL Lab, has been honored with the 2025 Research Award from the School of Computing at Queen’s University, Kingston, Canada.",
     "description": "Dr. Naveed Ejaz, an esteemed postdoctoral researcher in the GOAL Lab and AI Researcher specializing in Deep Learning, has been awarded the prestigious 2025 Research Award by the School of Computing at Queen’s University, Kingston, Canada. This recognition highlights his outstanding contributions to the field of Artificial Intelligence and his dedication to advancing impactful research.\n\nDr. Ejaz expressed heartfelt gratitude to his supervisor, Dr. Salimur Choudhury, and his colleagues for their unwavering support and encouragement throughout his research journey. He emphasized that this award is a shared achievement, reflecting the collaborative spirit of the GOAL Lab. The recognition serves as a powerful motivator for Dr. Ejaz to continue pushing the boundaries of innovation in AI and Deep Learning.\n\nAs an experienced educator and industry-academia collaborator, Dr. Ejaz remains committed to fostering cutting-edge research and mentoring the next generation of scholars in the field of Artificial Intelligence.",
-    "featured": true,
+    "featured": false,
     "thumbnail": "n002.jpg"
   }
 ]

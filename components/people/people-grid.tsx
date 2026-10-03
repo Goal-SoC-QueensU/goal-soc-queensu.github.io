@@ -124,17 +124,31 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
       {/* Director */}
       {grouped["Director & Founder"].length > 0 && (
-        <Section title="Director & Founder">
-          {grouped["Director & Founder"].map((p, i) => (
-            <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
-          ))}
-        </Section>
+        <FadeInSection>
+          <div>
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold">Director & Founder</h2>
+              <div className="w-16 h-1 bg-primary mx-auto mt-3 rounded-full" />
+            </div>
+      
+            <div className="flex justify-center">
+              {grouped["Director & Founder"].map((p, i) => (
+                <div key={i} className="w-full max-w-sm">
+                  <PersonCard person={p} onSelect={setSelectedPerson} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </FadeInSection>
       )}
 
       {/* Current members */}
       <FadeInSection>
         <div>
-          <h2 className="text-2xl font-bold mb-6">Current Members</h2>
+          <div className="text-center mb-10 mt-6">
+            <h2 className="text-3xl font-bold">Current Members</h2>
+            <div className="w-16 h-1 bg-primary mx-auto mt-3 rounded-full" />
+          </div>
           <div className="space-y-8">
             {Object.entries(grouped["Current Members"]).map(
               ([category, list]) =>
@@ -152,11 +166,20 @@ export default function PeopleGrid({ people }: { people: Person[] }) {
 
       {/* Alumni */}
       {grouped["Alumni"].length > 0 && (
-        <Section title="Alumni">
-          {grouped["Alumni"].map((p, i) => (
-            <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
-          ))}
-        </Section>
+        <FadeInSection>
+          <div className="mt-16">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold">Alumni</h2>
+              <div className="w-16 h-1 bg-primary mx-auto mt-3 rounded-full" />
+            </div>
+      
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {grouped["Alumni"].map((p, i) => (
+                <PersonCard key={i} person={p} onSelect={setSelectedPerson} />
+              ))}
+            </div>
+          </div>
+        </FadeInSection>
       )}
 
       {/* modal */}

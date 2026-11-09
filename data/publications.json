@@ -1,5 +1,23 @@
 [
   {
+    "title": "How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?",
+    "authors": [
+      "S Ahmed",
+      "H Abbas",
+      "S Choudhury"
+    ],
+    "venue": "arXiv preprint arXiv:2611.07982",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:p__nRnzSRKYC",
+    "citationId": "EzCD7v0AAAAJ:p__nRnzSRKYC",
+    "citedBy": 0,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
     "title": "Detecting Argument-Swap Bugs Using Context-Enhanced Code Representations",
     "authors": [
       "S Das",
@@ -118,6 +136,23 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:uc_IGeMz5qoC",
     "citationId": "EzCD7v0AAAAJ:uc_IGeMz5qoC",
+    "citedBy": 1,
+    "abstract": "",
+    "thumbnail": "",
+    "tags": [],
+    "year": 2026,
+    "autoSynced": true
+  },
+  {
+    "title": "LWHM-AI: An adaptive lightweight multimodal framework for energy-efficient on-board inference in satellite edge networks",
+    "authors": [
+      "S Sakib",
+      "S Choudhury"
+    ],
+    "venue": "2026 IEEE Symposium on Computers and Communications (ISCC), 1-6",
+    "link": "",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:BwyfMAYsbu0C",
+    "citationId": "EzCD7v0AAAAJ:BwyfMAYsbu0C",
     "citedBy": 1,
     "abstract": "",
     "thumbnail": "",
@@ -425,7 +460,7 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:7T2F9Uy0os0C",
     "citationId": "EzCD7v0AAAAJ:7T2F9Uy0os0C",
-    "citedBy": 18,
+    "citedBy": 19,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
@@ -442,7 +477,7 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_Re3VWB3Y0AC",
     "citationId": "EzCD7v0AAAAJ:_Re3VWB3Y0AC",
-    "citedBy": 53,
+    "citedBy": 56,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
@@ -681,7 +716,7 @@
     "year": 2024,
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:JoZmwDi-zQgC",
     "citationId": "EzCD7v0AAAAJ:JoZmwDi-zQgC",
-    "citedBy": 70
+    "citedBy": 71
   },
   {
     "title": "Next-Generation Vehicle Platooning: Leveraging Quantum Long Short-Term Memory Networks",
@@ -800,7 +835,7 @@
     "year": 2024,
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:_B80troHkn4C",
     "citationId": "EzCD7v0AAAAJ:_B80troHkn4C",
-    "citedBy": 31
+    "citedBy": 32
   },
   {
     "title": "Robust virtual network function optimization under post-failure uncertainty: Classical & quantum computing",
@@ -1188,7 +1223,7 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:eflP2zaiRacC",
     "citationId": "EzCD7v0AAAAJ:eflP2zaiRacC",
-    "citedBy": 22,
+    "citedBy": 23,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
@@ -1829,7 +1864,7 @@
     ],
     "venue": "Computer Communications 159, 9-14",
     "link": "",
-    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:bnK-pcrLprsC",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:bnK-pcrLprsC",
     "citationId": "EzCD7v0AAAAJ:bnK-pcrLprsC",
     "citedBy": 5,
     "abstract": "",
@@ -1848,7 +1883,7 @@
     ],
     "venue": "Computer Communications 159, 83-96",
     "link": "",
-    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:zA6iFVUQeVQC",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:zA6iFVUQeVQC",
     "citationId": "EzCD7v0AAAAJ:zA6iFVUQeVQC",
     "citedBy": 34,
     "abstract": "",
@@ -1961,7 +1996,7 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:70eg2SAEIzsC",
     "citationId": "EzCD7v0AAAAJ:70eg2SAEIzsC",
-    "citedBy": 30,
+    "citedBy": 31,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
@@ -2302,7 +2337,7 @@
     "link": "",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EzCD7v0AAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=EzCD7v0AAAAJ:r0BpntZqJG4C",
     "citationId": "EzCD7v0AAAAJ:r0BpntZqJG4C",
-    "citedBy": 55,
+    "citedBy": 56,
     "abstract": "",
     "thumbnail": "",
     "tags": [],
